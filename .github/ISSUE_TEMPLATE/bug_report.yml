@@ -1,0 +1,86 @@
+name: Bug report
+description: Create a report to help us improve
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please read before proceeding:**
+        1. Issue may be deleted if it is not following the template.
+        2. Only post one issue per bug report.
+        3. Try not to make duplicate issues — search before posting.
+        4. Add a title that clearly describes the issue.
+        5. Check the wiki to see if your question is already answered:
+           https://github.com/rocksdanister/lively/wiki/Common-Problems
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug here
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step instructions to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots/Video
+      description: If applicable, add screenshots or video to help explain the problem.
+      placeholder: Paste links or drag-and-drop files here
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: Example — Windows 10 1909
+      placeholder: Windows 11 22H2
+    validations:
+      required: true
+
+  - type: input
+    id: wallpaper
+    attributes:
+      label: Wallpaper running at the time (if any)
+      placeholder: Name of the wallpaper
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other details about the problem.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log file
+      description: |
+        Share the diagnostic files by:
+        - Open Lively settings (Gear icon) → System → Log File → Save
+        - Or navigate to `C:\Users\<UserName>\AppData\Local\Lively Wallpaper\logs`
+      placeholder: Attach logs or paste the contents here
+    validations:
+      required: true
