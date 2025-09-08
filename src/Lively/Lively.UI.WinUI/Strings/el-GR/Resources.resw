@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Αναπαραγωγή ήχου μόνο όταν η επιφάνεια εργασίας είναι εστιασμένη</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Επίπεδο έντασης όλων των ταπετσαριών.</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Ένταση</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Ήχος</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Online φόρουμ συζήτησης</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>Οδηγίες και βοήθεια API</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Η Lively αντιμετώπισε ένα μοιραίο σφάλμα.
+
+Η Εξερεύνηση των Windows επανεκκινήθηκε δύο φορές τα τελευταία 30 δευτερόλεπτα! Αυτό μπορεί να είναι μια διένεξη μεταξύ του Lively και άλλου λογισμικού προσαρμογής επιφάνειας εργασίας ή των Windows. Για την αποφυγή περαιτέρω προβλημάτων, όλες οι ταπετσαρίες τερματίζονται.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Βρέθηκε ασύμβατο πρόγραμμα, απενεργοποιήθηκε το θέμα της γραμμής εργασιών</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Επίσημη ιστοσελίδα της Lively ταπετσαρίας</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Οι περισσότερες σύγχρονες οθόνες LCD και LED δεν υποφέρουν από πρόβλημα burn-in και επομένως οποιαδήποτε ταπετσαρία μπορεί να χρησιμοποιηθεί ως προφύλαξη οθόνης.
+
+Για οθόνες OLED, Plasma ή CRT που είναι ευαίσθητες στο burn-in, συνιστάται να χρησιμοποιείτε ταπετσαρία με κανονική κίνηση και ένα συνολικό σκοτεινό θέμα που υποτίθεται ότι μετριάζει το burn-in, αλλά αυτή η δυνατότητα δεν έχει δοκιμαστεί και η αποτελεσματικότητά της δεν είναι εγγυημένη.
+
+Ο κύριος σκοπός της προφύλαξης οθόνης του Lively είναι να προσθέσετε ένα άλλο επίπεδο προσαρμογής στον υπολογιστή σας, χρησιμοποιήσετε την προφύλαξη οθόνης ως προστασία από burn-in με δική σας ευθύνη!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Αναφέρετε ένα πρόβλημα με το λογισμικό</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Επιλέξτε ένα αρχείο</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Συμπεριφορά αναπαραγωγής ταπετσαρίας με βάση την εφαρμογή που εκτελείται.</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να ακυρώσετε;</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να διαγράψετε οριστικά αυτήν την ταπετσαρία από το δίσκο;</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ταπετσαρία από τη Βιβλιοθήκη;</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Απλώς σύρετε και αποθέστε αρχεία στη Βιβλιοθήκη</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Ανοίγετε μια εξωτερική εφαρμογή ως ταπετσαρία.
+Κακόβουλες εφαρμογές μπορούν να φιλοξενήσουν κακόβουλο λογισμικό, ιούς.. Και μπορεί να βλάψει το σύστημά σας.
+Συνεχίστε μόνο εάν αυτή η εφαρμογή προέρχεται από αξιόπιστη πηγή.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Το Lively ελαχιστοποιείται στον δίσκο συστήματος, κάντε δεξί κλικ στο Lively εικονίδιο για να συνεχίσετε.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Επανεκκινήστε το Lively για να εφαρμοστούν οι ρυθμίσεις</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Παρακαλούμε να σταματήσετε πριν συνεχίσετε παρακάτω</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Πατήστε για να ξεκινήσει η εγγραφή</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Γίνεται επαναφορά των προηγούμενων ταπετσαριών, παρακαλώ περιμένετε...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Επιλέξτε Οθόνη</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Μια νέα έκδοση λογισμικού είναι διαθέσιμη!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Εισαγάγετε σύνδεσμο ιστότοπου για φόρτωση, υποστηρίζονται επίσης shadertoy.com συνδέσεις</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Αυτός ο οδηγός θα σας κάνει να ξεκινήσετε τη ρύθμιση του Lively</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>Η έκδοση των Windows N/KN θα απαιτήσει τη λήψη πρόσθετων Κωδικών για την υποστήριξη της αναπαραγωγής βίντεο σε ταπετσαρίες</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Δείξτε υποστήριξη αγοράζοντας ένα καφέ για τους προγραμματιστές</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Πρόκειται να αλλάξετε σε έκδοση δοκιμαστική (προγραμματιστή) του Lively.
+Οι ενημερώσεις θα είναι συχνές και ενδέχεται να περιέχουν σφάλματα!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Η ορατότητα του εικονιδίου του δίσκου συστήματος, η ζωντανή θα συνεχίσει να εκτελείται με το εικονίδιο κρυφό</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Εικονίδιο Δίσκου Συστήματος</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Το Lively θα κάνει επανεκκίνηση για να εφαρμόσει τη νέα γλώσσα.</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Αποτυχία ενημέρωσης, δοκιμάστε να κατεβάσετε το πρόγραμμα εγκατάστασης από:
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>Κατεστραμμένο αρχείο ταπετσαρίας, δοκιμάστε να το κατεβάσετε ξανά.</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>Ωχ... Φαίνεται ότι κάτι πήγε στραβά :(
+Για να κατανοήσουμε καλύτερα αυτό το σφάλμα και να διορθώσουμε αυτό το πρόβλημα, κοινοποιήστε το αρχείο καταγραφής στον προγραμματιστή.
+Οδηγίες για κοινή χρήση αρχείου καταγραφής:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>Το Lively δεν μπορεί να λειτουργήσει σωστά με ενεργοποιημένη τη λειτουργία Υψηλής Αντίθεσης των Windows!
+Απενεργοποιήστε τη λειτουργία Υψηλής Αντίθεσης και δοκιμάστε ξανά.</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Η αναπαραγωγή πολυμέσων απέτυχε :(
+Δοκιμάστε να αλλάξετε την εφαρμογή της αναπαραγωγής βίντεου από τις Lively ρυθμίσεις.
+
+Για να κατανοήσετε καλύτερα αυτό το σφάλμα και να διορθώσετε το πρόβλημα, κοινοποιήστε το αρχείο καταγραφής στον προγραμματιστή.
+Οδηγίες για κοινή χρήση αρχείου καταγραφής:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Κανένα Lively αρχείο ταπετσαρίας.</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>Το Lively δεν έκλεισε σωστά, γίνεται εκκίνηση σε ασφαλής λειτουργία.
+Θέλετε να επαναφέρετε ταπετσαρίες που λειτουργούσαν προηγουμένως;</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Φαίνεται ότι πρέπει να οριστούν ορισμένες ρυθμίσεις για να λειτουργήσει το Lively:
+1. Πατήστε τα πλήκτρα Win + R για να ανοίξετε την Εκτέλεση,
+2. Πληκτρολογήστε SystemPropertiesPerformance.exe στην Εκτέλεση, κάντε κλικ στο "OK" για να ανοίξετε τις Επιλογές Απόδοσης.
+3. Ενεργοποίηση/Επιλογή "Ανώτερος έλεγχος και στοιχεία μέσα στα παράθυρα" (Εάν έχει ήδη επιλεγεί, καταργήστε την επιλογή και επιλέξτε την ξανά) &amp; Εφαρμογή
+4. Κάντε κλικ στο "Εφαρμογή" και μετά πατήστε "OK" για να κλείσετε το παράθυρο.
+
+Εάν τα Windows 7 έχουν μόλις οριστεί - Προσαρμόστε για καλύτερη εμφάνιση &amp; Εφαρμογή.
+Εάν εξακολουθεί να μην λειτουργεί, κλείστε και ξεκινήστε ξανά το Lively ή κάντε μια επανεκκίνηση των Windows.
+(Δεν λειτουργεί σε μερικά Windows 10 insider builds)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Το Lively πρέπει να εκτελείται στο παρασκήνιο για αναπαραγωγή ταπετσαρίας.</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Εκκίνηση με τα Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Όλα τα Αρχεία</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Εφαρμογή</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Απόδοση</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Συντάκτης</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Αλλαγή Ταπετσαριών</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Κλείσιμο Ταπετσαριών</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Ολοκληρώθηκε!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Κάντε κλικ εδώ για να διαχειριστείτε τις ταπετσαρίες.</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Μετατροπή σε Βίντεο</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Δημιουργία Προεπισκόπησης</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Προσαρμογή</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Προσαρμογή Ταπετσαρίας</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Διαγραφή Ταπετσαρίας</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Περιγραφή</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Όλες οι Οθόνες</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>Ανά Οθόνη</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Έξοδος</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Αποθήκευση σε αρχείο</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Ορισμένες δυνατότητες δεν είναι διαθέσιμες σε αυτήν την έκδοση του Lively.</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Το αρχείο δε βρέθηκε</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>Κινούμενη GIF</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Δείξτε λίγη αγάπη ρίχνοντας ένα αστέρι</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Βοήθεια μετάφρασης του Lively.</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>ώρες</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Εγκατάσταση</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Πληκτρολόγιο</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Τελευταίος έλεγχος</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Μάθετε περισσότερα</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Άδεια</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>λεπτό</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Περισσότερες Ταπετσαρίες</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Ποντίκι</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Αλληλεπίδραση ποντικιού όταν εστιάζεται η εφαρμογή</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Επόμενο</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>Απενεργοποιημένο</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>Εντάξει</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Ενεργοποιημένο</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>Σε σύνδεση</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Άνοιγμα Lively</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Όλες οι Διαδικασίες</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Διεργασία προσκηνίου</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Παύση Ταπετσαριών</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Τερματισμός</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Τίποτα</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Πάυση</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Είκονα</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Προεπισκόπηση</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Πολιτική προστασίας προσωπικών δεδομένων</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Γίνεται Επεξεργασία</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Κατάργηση</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Κανόνας</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Οθόνη</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Αναζήτηση</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Ορισμός ως ταπετσαρία</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Άνοιγμα τοποθεσίας αρχείου</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Πηγή</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Εκκίνησή</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Διακοπή</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>Σας αρέσει που χρησιμοποιείτε το Lively; Αφήστε μας μια κριτική :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Υποστίριξη</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Μετάβαση σε δοκιμαστικό (Προγραμματιστών κανάλι)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Μετάβαση σε σταθερό (Προεπιλεγμένο κανάλι)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Ετικέτες</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Θόλωμα</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Καθαρή</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Χρώμα</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Ευφραδής</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Ταπετσαρία</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Ρευστή Ταπετσαρία</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Μεγάλο</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Κανονικό</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Μικρό</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Ακέφαλο</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Ελαφρύ</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Κανονικό</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Η μορφή αρχείου δεν υποστηρίζεται </value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>Διαθέσιμη ενημέρωση!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Αποτυχία ελέγχου για ενημερώσεις</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Έλεγχος για ενημέρωση</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>Το λογισμικό είναι ενημερωμένο!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Επιλογές Έναρξης</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Γέμισμα</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Κανένα</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Ομοειδής</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Ομοειδής Συμπλήρωση</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Αντίγραφο</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Οθόνη</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Έκταση</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Τύπος</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Ροή Ιστού</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Καλως ήρθατε</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής βίντεο</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Ορίστε όλους τους υποστηριζόμενους τύπους αρχείων ως ταπετσαρία.</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Ορίστε την ιστοσελίδα της διεύθυνσης URL που εισαγάγατε ως ταπετσαρία.</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Ορίστε τι πρέπει να κάνετε όταν οποιαδήποτε εφαρμογή είναι στο επίκεντρο.</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Ορίστε τι πρέπει να κάνετε όταν εκτελούνται παιχνίδια/εφαρμογές πλήρους οθόνης.</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Παύση ταπετσαρίας κατά την εκτέλεση αυτών των εφαρμογών</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Το Lively προσαρμόζεται στις ρυθμίσεις θέματος του συστήματος, για να αλλάξετε εμφάνιση πηγαίνετε</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>(Μόνο για συστήματα με μπαταρία) Αλλάξτε την αναπαραγωγή όταν αποσυνδέεται η τροφοδοσία AC.</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Εισάγετε τη θύρα για τον εντοπισμό σφαλμάτων των ταπετσαριών της ιστοσελίδας. Όταν είστε έτοιμοι να μεταβείτε στο http://localhost:portnumber για να αποκτήσετε πρόσβαση στην κονσόλα προγραμματιστή</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Εμφάνιση μενού προγραμματιστή</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Ορίστε μια κινούμενη εικόνα ταπετσαρίας ως ταπετσαρία επιφάνειας εργασίας.</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Παύση ταπετσαρίας σε όλες τις οθόνες ή μόνο στην οθόνη στην οποία εστιάζεται η εφαρμογή</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Δημιουργία αρχείου αναφοράς καταγραφής.</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>Επιλέξτε το πρόγραμμα αναπαραγωγής που χρησιμοποιείται για την ταπετσαρία gif.</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Ολοκληρώστε τη ρύθμιση για να συνεχίσετε.</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Ορίστε μια κινούμενη εικόνα ταπετσαρίας ως ταπετσαρία οθόνης κλειδώματος.</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Προσκήνιο: Ελαφρότερη, ελέγχει μόνο τη μεμονωμένη διαδικασία που βρίσκεται στο προσκήνιο για να προσδιορίσει τη συμπεριφορά αναπαραγωγής ταπετσαρίας.
+Όλες οι Διαδικασίες: Βαρύτερη, Σαρώνει όλη τη διαδικασία για να προσδιορίσει τη συμπεριφορά αναπαραγωγής.</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Αλλαγή αναπαραγωγής όταν είναι ενεργοποιημένη η λειτουργία εξοικονόμησης ενέργειας των Windows</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Αλλαγή αναπαραγωγής όταν εκτελείται μια συνεδρία απομακρυσμένης επιφάνειας εργασίας</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Μετά την επιλεγμένη περίοδο αδράνειας χρησιμοποιήστε την τρέχουσα ταπετσαρία ως προφύλαξη οθόνης.</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Εάν εντοπιστεί υποστηριζόμενος σύνδεσμος ροής βίντεο, χρησιμοποιήστε το πρόγραμμα αναπαραγωγής βίντεο αντί να φορτώσετε την ιστοσελίδα.</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Επιλέξτε την επιθυμητή ποιότητα βίντεο για διαδικτυακές ροές.</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Αλλάξτε την έκδοση λογισμικού από δοκιμαστική σε σταθερή ή αντίστροφα.</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Αλλαγή εμφάνισης γραμμής εργασιών συστήματος.</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Μέγεθος των πλακιδίων ταπετσαρίας στη Βιβλιοθήκη.</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>Για συστήματα χαμηλού επιπέδου επιλέξτε Ελαφρύ Λειτουργία.</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Χρησιμοποιήστε την επιτάχυνση υλικού όταν είναι δυνατόν.</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Επιλέξτε το πρόγραμμα αναπαραγωγής που χρησιμοποιείται για ταπετσαρία βίντεο.</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>Διαδρομή που χρησιμοποιείται για την αποθήκευση αρχείων ταπετσαρίας.</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Αλγόριθμος κλιμάκωσης ταπετσαρίας.</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Επιλέξτε τρόπους αλληλεπίδρασης με ταπετσαρία.</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Πώς εφαρμόζεται η ταπετσαρία σε συνδεδεμένες συσκευές προβολής.</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Παύση της αναπαραγωγής ταπετσαρίας όταν η επιφάνεια εργασίας δεν είναι εστιασμένη.</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Αποθηκεύστε προσωρινά αρχεία στον δίσκο αντί στην μνήμη, οι ρυθμίσεις επανέρχονται κατά την επανεκκίνηση του προγράμματος περιήγησης.</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Το CEF (Chromium Embedded Framework) είναι μια ελαφριά έκδοση της μηχανής chromium.
+Το Edge είναι το ενσωματωμένο webview των Windows 10.</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Περί</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Προσθήκη Ταπετσαρίας</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Εφαρμογές Εστιασμένες</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Εφαρμογές σε Πλήρη Οθόνη</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Lively Ταπετσαρία</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Κανόνες Εφαρμογής</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Θέμα</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Αναπαραγωγή ήχου στην οθόνη</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>Όταν λειτουργείτε με μπαταρία</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Περιηγηθείτε για βίντεο, gif, ιστοσελίδα ... αρχείο για να ορίσετε ως ταπετσαρία</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Θύρα Εντοπισμού Σφαλμάτων</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Αρχείο Αλλαγών</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Κοινότητα</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Καταγραφή</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Επιβεβαίωση Διαγραφής</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Εικόνα Επιφάνειας Εργασίας</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Εμφάνιση Κανόνα Παύσης</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Έγγραφο</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>Εισαγάγετε τη διεύθυνση URL</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Αρχείο καταγραφής</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>Αναπαραγωγή Gif</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Αλληλεπίδραση</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Βιβλιοθήκη</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Διαμόρφοση Lively</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Τοποθεσία</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Εικόνα Οθόνης Κλειδώματος</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Διάφορα</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Σίγαση</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Παύση Αλγορίθμου</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Επίδοση</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Λίστα αναπαραγωγής</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Παρακαλώ Περιμένετε</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>Όταν είναι σε Εξοικονόμηση μπαταρίας</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>Όταν βρίσκεστε σε απομακρυσμένη επιφάνεια εργασίας</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Αναφορά προβλήματος</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Κλίμακωση/Προσαρμογή</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Πίνακας Ελέγχου</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Προφύλαξη Οθόνης</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Επιλογή Αρχείου</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Παράλειψη Επιβεβαίωσης</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Πηγαίος Κώδικας</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Κατάστημα</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Ροή</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Εντοπισμός Ροών</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Ποιότητα Βίντεο</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Σύστημα</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Θέμα Γραμμής Εργασιών</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Μέγεθος Πλακιδίων</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Περιβάλλον Χρήστη</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Ενημερώσεις</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Βίντεο</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>Αποκωδικοποίηση GPU</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Ταπετσαρία</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Προσαρμογή</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Κατάλογος Ταπετσαριών</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Μετακινήστε τις υπάρχουσες ταπετσαρίες σε νέο φάκελο</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Επιλέξτε μια κλίμακα</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Είσοδος Ταπετσαρίας</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Μέθοδος Τοποθέτησης</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Αναπαραγωγή Ταπετσαρίας</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Πρόγραμμα Περιήγησης</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>Προσωρινή Μνήμη Δίσκου</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Μηχανή</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Φόρτωση Ιστοσελίδας</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Διατηρήστε τη διεπαφή χρήστη σε λειτουργία για ταχύτερη εκκίνηση</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Γρήγορη εκκίνηση</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Αρχείο</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Σκούρο</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Ανοιχτό</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Σύστημα</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>Ρυθμίσεις χρώματος των Windows</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Φορητός υπολογιστής</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Προγραμματιστής</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Εμφάνιση &amp; συμπεριφορά</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Ενεργή Ταπετσαρία(ίες)</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Γκαλερί</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Γεια σας, είμαι ο Dani John επίσης γνωστός ως rocksdanister. Ανέπτυξα μια εφαρμογή ταπετσαρίας Δωρεάν και ανοιχτού κώδικα (FOSS) Ευχαριστώ για τη λήψη του χρόνου για να εξετάσουμε το έργο μου.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Άδεια χρήσης λογισμικού</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Σημείωση λογισμικού τρίτων</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Πολιτική συλλογής δεδομένων</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Προσθήκη ταπετσαρίας</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Ερχομαι συντομα</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Άνοιγμα</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Εφέ διεπαφής χρήστη και κινούμενα σχέδια</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Διεπαφή χρήστη</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Ελαφρύ</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Κανονικό</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Πώς εφαρμόζεται η προφύλαξη οθόνης στις συνδεδεμένες συσκευές προβολής</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Τύπος προφύλαξης οθόνης</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Προσαρμοσμένη</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Ταπετσαρία Καθρεφτών</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Απαιτείται πρόσθετο</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Απαιτείται μία φορά εγκατάσταση για την εκτέλεση της προφύλαξης οθόνης</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Να επιλέγετε πάντα την οθόνη όταν επιλέγετε ταπετσαρία</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>λογαριασμός</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Διαγραφή λογαριασμού</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Εξαγωγή δεδομένων</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Συνδεθείτε</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Αποσύνδεση</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Συλλογή</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Αρχική</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Διαχείριση</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Παρακαλούμε συνδεθείτε για να συνεχίσετε</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Γεια σας</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>Βρήκαμε αυτές τις ταπετσαρίες στο λογαριασμό σας</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Λήψη τώρα</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Ίσως αργότερα</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Επιλογή όλων</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Επιλογή κανενός</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Καλωσορίσατε και πάλι!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Αιτιολογία</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Παραβίαση πνευματικών δικαιωμάτων</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Παραπλανητικές πληροφορίες</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Άλλο</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Ανεπιθύμητο</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Γυμνό ή βία</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Συμπληρωματικές σημειώσεις</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Αναφορά</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Αναφορά Ταπετσαρίας</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Αποστολή</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Παρακαλώ επιβεβαιώστε αυτή την ενέργεια καθώς ΔΕΝ μπορεί να αναιρεθεί</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Αποτυχία διαγραφής λογαριασμού, παρακαλώ προσπαθήστε ξανά αργότερα
+</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>Θέλετε να το ακυρώσετε;</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Αναμονή</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Λήψη σε εξέλιξη</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Συνεισφέροντες</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Κοινοποίηση</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Κοινοποίηση Ταπετσαρίας</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Ανέβασμα συλλογής</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Αντιγραφή συνδέσμου</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Προσαρμογή Ταπετσαρίας</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Κλείσιμο Ταπετσαριών</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Επιλέξτε εφαρμογή</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Μέγεθος</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Παρακαλώ εγκαταστήστε το απαιτούμενο plugin</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Το plugin δε βρέθηκε</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Η ενημέρωση ολοκληρώθηκε</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Δείτε τι νέο υπάρχει</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Χρώμα</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Χρήση προεπιλογής συστήματος</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Προσαρμογή στην ταπετσαρία</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Προεπιλογή</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Δυναμικό</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Θέμα</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Για την αποφυγή τυχαίας επιλογής τα εικονίδια της επιφάνειας εργασίας είναι κρυμμένα</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Εικονίδια επιφάνειας εργασίας</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>Αυτά προς το παρόν..</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>Αυτή η ανάπτυξη λειτουργιών είναι σε αναμονή</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Πρόσθετα</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Δημιουργία μιας δυναμικής ταπετσαρίας</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Για Προχωρημένους</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Βάθος κατά προσέγγιση..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Η χρήση τεχνητής νοημοσύνης μεταμορφώνει τις φωτογραφίες σε 3D</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Συνέχεια</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Δημιουργία μιας απλής ταπετσαρίας</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>Ταπετσαρία βάθους AI</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Ταπετσαρία βάθους</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>Ταπετσαρία βάθους τεχνητής νοημοσύνης</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Δημιουργία Ταπετσαρίας</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Ορισμένες λειτουργίες μπορεί να μην είναι διαθέσιμες όταν εκτελείται ως διαχειριστής</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Επιπλέον, αρχεία πρέπει να κατέβουν για αυτή τη δυνατότητα</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Απαιτείται Λήψη</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Γίνετε υποστηρικτής Patreon</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Ευχαριστούμε όλα τα μέλη που υποστηρίζουν αυτό το έργο.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Υποστηρικτές Patreon</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Επιλογή προφύλαξης οθόνης</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Το Microsoft WebView2 είναι απαραίτητο για την προβολή αυτού του περιεχομένου</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>Απαιτείται πρόσθετο</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Επιλογή εφαρμογών για αποκλεισμό από την εμφάνιση λεπτομερειών μουσικής</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>Αποκλεισμός εφαρμογών</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Επανεκκίνηση</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Μουσική</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Απαιτείται επανεκκίνηση της ταπετσαρίας για να εφαρμοστούν οι ρυθμίσεις</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Ίδιο με το Σύστημα</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Παρακαλώ επανεκκινήστε την εφαρμογή για να τεθούν σε ισχύ οι ρυθμίσεις.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Κατά την συνέχιση, εμφανίστε την οθόνη σύνδεσης</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Ξεθώριασμα σε μαύρο πριν από την έναρξη</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Να επιτρέπεται στα Windows να διαχειρίζονται τα χρώματα</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Ρυθμίσεις Windows</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Επιβεβαίωση δομής έργου;</value>
+  </data>
+</root>

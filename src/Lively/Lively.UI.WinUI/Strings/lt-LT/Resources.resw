@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Leisti garsą tik tada, kai darbalaukis yra pasirinktas</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Visų ekrano užsklandų garsumo lygis</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Garsas</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Garsas</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Diskusijų forumas internete</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>API dokumentacija ir pagalba</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Lively susidūrė su mirtina klaida.
+
+„Windows Explorer“ buvo paleista iš naujo du kartus per paskutines 30 sekundžių! Tai gali būti „Lively“ ir kitos darbalaukio tinkinimo programinės įrangos arba „Windows“ konfliktas. Siekiant išvengti tolesnių problemų, visos ekrano užsklandos nutraukiamos.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Rasta nesuderinama programa, užduočių juostos temos išjungtos</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Oficialus Lively Wallpaper tinklalapis</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Dauguma šiuolaikinių LCD ir LED ekranų neturi perdegimo, todėl bet kokią ekrano užsklandą galima naudoti kaip ekrano užsklandą.
+
+OLED, plazminiams arba kineskopiniams ekranams, kurie yra linkę įdegti, patartina naudoti ekrano užsklandą su reguliariais judesiais ir bendrą tamsią temą, kuri turėtų sumažinti įdegimą, tačiau ši funkcija nėra išbandyta ir jos veiksmingumas negali būti garantuotas.
+
+Pagrindinis Lively ekrano užsklandų tikslas yra pridėti dar vieną tinkinimo sluoksnį prie kompiuterio, naudokite ekrano užsklandas kaip apsaugą nuo įsidegimo savo rizika!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Pranešti apie programinės įrangos problemą</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Pasirinkiti failą</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Wallpaper playback behaviour based on running application</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>Ar tikrai norite atšaukti?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>Ar tai tikrai norite šią ekrano užsklandą visam laikui ištrinti iš kietojo disko?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>Ar tai tikrai norite šią ekrano užsklandą visam laikui ištrinti iš bibliotekos?</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Tiesiog nuvilkite failus čia</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Atidarote išorinę programą kaip ekrano foną.
+Kenkėjiškos programos gali priglobti kenkėjiškas programas, virusus... ir pakenkti jūsų sistemai.
+Tęskite, tik jei ši programa gaunama iš patikimo šaltinio.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>„Lively“ yra sumažintas sistemos dėkle, dešiniuoju pelės mygtuku spustelėkite ant „Lively“ piktogramos, kad tęstumėte.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Iš naujo paleiskite „Lively“, kad nustatymai įsigaliotų</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Prieš tęsdami sustokite</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Paspauskite norėdami pradėti įrašymą</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Atkuriamas(-i) buvęs(-ę) fonas(-ai), prašome palaukti...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Pasirinkite ekraną</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Nauja programinės įrangos versija yra prieinama!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Enter website link to load, shadertoy.com shader links are supported</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Šis vedlys padės jums pradėti „Lively“ sąranką</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>Jūsų Windows N/KN versija turės turėti atsiųstus papildomus kodekus, kad galėtų palaikyti vaizdo grojimą fonuose</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Parodykite palaikymą nupirkdami kūrėjui kavą</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Jūs dabar pasikeisit į beta (programuotojo) Lively versiją.
+Atnaujinimai bus dažnesni ir gali turėti defektų!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Sistemos dėklo piktogramos matomumas, „Lively“ toliau veiks su paslėpta piktograma</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Sistemos dėklo piktograma</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>"Lively" bus perkrautas, kad pritaikytų naują kalbą</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Atnaujinimas nepavyko; pamėginkite atsisiųsti programą iš:
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>Pažeistas darbalaukio fono failas, pamėginkite jį parsisiųsti iš naujo</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>O ne... Atrodo kažkas atsitiko ne taip :(
+Norint geriau suprasti šią klaidą ir sutaisyti problemą, pasidalinkite logoritmo failą su vyr. programuotoju.
+Instrukcijos kaip dalintys logoritmo failu:
+https://github.com/rocksdanister/lively/wiki (svetainė nėra lietuviškai išversta, kol kas)</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>"Lively" negali veikti naudojant Windows Aukšto Kontrasto režimą!
+Išjunkite jį ir pamėginkite iš naujo</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Media playback failed :(
+Try changing the videoplayer in lively settings.
+
+In order to better understand this error and fix the issue, share the log file with the developer.
+Instructions for sharing log file:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Ne Lively fono failas</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>"Lively" buvo negerai uždarytas, startuojamas saugiame režime.
+Ar norite atkurti prieš tai veikiančius darbalaukio fonus?</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Atrodo kai kurie nustatymai turi būti sutvarkyti, kad Lively veiktų: 
+1. Paspauskite Win ir R mygtukus kad atidarytumėte Vykdyti, 
+2. Parašykite SystemPropertiesPerformance.exe į Vykdyti, paspauskite "OK" kad atidaryti Atlikimo Nustatymus.
+3. Įjunkite/Patikrinkite "Animuoti valdiklius ir elementus viduje Windows" (Jei pažymėta, atžymėkite ir vėl pažymėkite) ir Pritaikyti.
+4. Paspauskite "Pritaikyti" tada "OK" kad uždaryti langą.
+
+Jei naudojate Windows 7, tai tiesiog nustatykite - "Adjust for best appearance" &amp; Pritaikyti.
+Jei vis tiek neveikia, uždarykite ir iš naujo įjunkite Lively/perkraukite Windows.
+(Neveikia kai kuriose Insider Windows 10 versijose)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>„Lively“ turi veikti fone, kad veiktų darbalaukio fonas</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Pradėti su Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Pridėti</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Visi failai</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Programa</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Atribucija</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Autorius</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Atgal</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Naršyti</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Atšaukti</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Keisti darbalaukio foną</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Įvykdyta!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Spauskite čia, kad sutvarkyti fonus</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Konvertuoti į Vaizdo formatą</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Sukurti Peržiūrą</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Tinkinti</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Tinkinti</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Ištrinti</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Aprašymas</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Visas ekranas (-ai)</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>Per ekraną</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Atsisiųsti</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Klaida</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Išeiti</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Įrašyti į failą</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Kai kurios funkcijos neveikia šioje Lively versijoje</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Failas nerastas</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>Animuotas Paveikslas</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Parodykite truputį meilės uždėdami žvaigždę</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Padėkite išversti</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>valanda(-os)</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Įdiegti</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Klaviatūra</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Tikrinta</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Sužinoti daugiau</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Licenzija</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>minutė(-ės)</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Informacija</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Daugiau Fonų</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Pelė</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Pelės veikimas kai programa sufokusuota</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Kitas</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>Išjungta</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>Gerai</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Įjungta</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>Prisijungęs</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Atidaryti Lively</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Visi procesai</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Priekinio vaizdo veikimas</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Sustabdyti Fonus</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Priverstinai stabdyti</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Nieko</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Pristabdyti</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Vaizdas</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Peržiūra</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Privatumo politika</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Apdorojama</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Pašalinti</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Taisyklė</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Ekranas</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Ieškoti</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Nustatyti kaip darbalaukio foną</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Atidaryti failo vietą</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Pradėti</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Sustabdyti</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>Ar jums patiko naudotis Lively? Palikite atsiliepimą :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Palaikymas</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Terjungti į Beta versiją (Vystymo kanalas)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Perjungti į stabilią versiją (Pagrindinis kanalas)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Žymės</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Suliejimas</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Išvalyti</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Spalva</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Sklandus</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Darbalaukio fonas</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Sklandus darbalaukio fonas</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Pavadinimas</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Headless</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Failo formatas nepalaikomas</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>Galimas atnaujinimas!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Tikrinti, ar yra atnaujinimų</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Nepavyko patikrinti autnaujinimų</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Ieškoma atnaujinimų</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>Programa atnaujinta!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Vaizdo įrašas</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Paleidimo Pasirinkimai</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Užpildyti</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Nėra</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Suvienodinti</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Užpildyti suvienodinant</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Dubliuoti</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Ekranas</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Išplėsti</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Tipas</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Tinklalapis</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Žiniatinklio srautas</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Sveiki</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Taip</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Vaizdo grotuvas</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Nustatyti visus palaikomus failų tipus kaip ekrano foną</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Nustatyti įvesto URL tinklalapį kaip ekrano foną</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Nustatykite, ką daryti, kai pasirenkama kuri nors programa</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Nustatykite, ką daryti, kai veikia viso ekrano žaidimai / programos</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Pristabdyti ekrano foną paleidžiant šias programas</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Lively prisitaiko prie sistemos temos nustatymų, kad pakeistų išvaizdą</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>Keisti atkūrimą, kai atjungtas išorinės srovės maitinimas</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Įveskite tinklalapio fono paveikslėlių derinimo prievadą; kai būsite pasiruošę, eikite į http://localhost:portnumber, kad pasiektumėte kūrėjo pultą</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Rodyti kūrėjo meniu</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Animacinio fono paveikslėlį nustatykite kaip darbalaukio foną</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Pristabdykite ekrano foną visuose ekranuose arba tik tame ekrane, kuriame pasirinkta programa</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Sukurti žurnalo ataskaitos failą</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>Pasirinkite grotuvą, naudojamą gif ekrano fonui</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Norėdami tęsti, užbaikite sąranką</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Nustatyti nuotrauką animuoto fono kaip užrakto foną</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Fono stabdymo algoritmas</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Pakeisti veikimą kai Windows Energijos Taupymo Režimas įjungtas</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Pakeisti veikimą kai veikia Nuotolinio Darbalaukio sesija</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Po pasirinkto neveikimo periodo naudoti dabartinį foną kaip ekrano taupymą</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Jei tinkamas vaizdo perdavimo sujungimas yra aptiktas naudoti vaizdo grotuvą vietoj svetainės užkrovimo</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Pasirinkti norimą vaizdo kokybę transliacijoms</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Pakeisti prog. įrangos versiją iš beta į stabilų arba atvirkščiai</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Pakeisti sistemos vykdymo juostos išvaizdą</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Fono plytelių dydis Bibliotekoje</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>For low-end systems select Lite mode</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Naudoti aparatūros pagreitinimą jei įmanoma</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Pasirinkti grotuvą, skirtą naudoti vaizdo fonui</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>Kelias, naudojamas fono failus laikyti</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Fono dydžio keitimo algoritmas</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Pasirinkti būdus kaip reaguoti su fonu</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Kaip fonas yra pritaikomas prijungtiems vaizdo įrenginiams</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Stabdyti fono veikimą kaip darbalaukis nesufokusuotas</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Laikyti laikinus failus diske vietoj atminties</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Pasirinkti grotuvą, skirtą naudoti svetainės fonui</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Pridėti Foną</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Programos fokusuotos</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Programos visame ekrane</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Lively Fonai</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Taikymo taisyklės</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Leisti garsą ekrane</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>Kai įjungtas akumuliatoriaus maitinimas</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Ieškokite vaizdo įrašų, GIF, tinklalapio... failo, kurį norite nustatyti kaip ekrano foną</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Derinimo prievadas</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Pakeitimų žurnalas</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Bendruomenė</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Derinimas</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Patvirtinti ištrynimą</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Darbalaukio paveikslėlis</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Rodymo pristabdymo taisyklė</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Dokumentacija</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>Įveskite URL</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Žurnalo failas</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Bendras</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>Gif grotuvas</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Pagalba</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Sąveika</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Biblioteka</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Lively sąranka</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Vieta</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Ekrano užrakto paveikslėlis</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Kita</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Nutildyti</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Pristabdymo algoritmas</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Našumas</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Grojaraštis</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Prašome palaukti</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>Kai įjungta Akumuliatoriaus tausojimo priemonė</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>Kai yra nuotolinis darbalaukis</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Pranešti apie klaidą</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Mastelio keitimas</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Valdymo skydas</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Ekrano užsklanda</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Pasirinkti failą</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Nustatymai</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Praleisti patvirtinimą</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Išeities kodas</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Parduotuvė</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Srautas</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Aptikti srautus</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Vaizdo kokybė</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Užduočių juostos tema</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Plytelių dydis</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Vartotojo sąsaja</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Atnaujinimai</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Vaizdo įrašas</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>GPU dekodavimas</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Darbalaukio fonas</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Pritaikyti</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Fono paveikslėlių katalogas</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Perkelkite esamus fono paveikslėlius į naują aplanką</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Pasirinkti talpinimą</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Ekrano fono įvestis</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Įdėjimo metodas</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Ekrano fono atkūrimas</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Įspėjimas</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Interneto naršyklė</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>&amp;Disko talpykla</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Variklis</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Įkelti tinklalapį</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Palikite veikiančią vartotojo sąsają, kad paleidimas būtų greitesnis</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Greitas paleidimas</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Failas</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Tamsi</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Šviesi</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>„Windows“ spalvų nustatymai</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Nešiojamieji kompiuteriai</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Kūrėjas</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Išvaizda ir elgesys</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Aktyvus (-ūs) fonas (-ai)</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Galerija</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Sveiki, aš esu Dani John, taip pat žinomas kaip rocksdanister. Sukūriau Lively nemokamą atvirojo kodo (FOSS) ekrano fonus. Ačiū, kad skyrėte laiko apžiūrėti mano darbus.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Programinės įrangos licencija</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Trečiosios šalies programinės įrangos pranešimas</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Duomenų rinkimo politika</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Pridėti Foną</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Jau Greitai</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Tinklalapis</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Atidaryti</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Išsaugoti</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Vartotojo sąsajos efektai ir animacijos</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Vartotojo sąsaja</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Palengvinta</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Normali</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Kaip ekrano užsklanda yra pritaikoma prijungtiems vaizdo įrenginiams</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Ekrano užsklandos tipas</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Pasirinktinis</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Veidrodinis fonas</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Reikalingas papildinys</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Norint paleisti ekrano užsklandą, reikia vieną kartą nustatyti</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Rinkdamiesi ekrano foną visada pasirinkite ekraną</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>Paskyra</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Ištrinti paskyrą</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Eksportuoti duomenis</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Prisijungti</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Atsijungti</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Rinkinys</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Pradžia</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Valdyti</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Profilis</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Prisijunkite, jei norite tęsti</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Sveiki</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>Šiuos fono paveikslėlius radome jūsų paskyroje</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Parsisiųsti dabar</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Galbūt vėliau</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Pažymėti visus</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Anuliuoti pasirinkimus</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Sveiki sugrįžę!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Priežastys</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Autorių teisių pažeidimas</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Klaidinanti informacija</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Kita</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Brukalas</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Nuogumas ar smurtas</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Papildomos pastabos</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Pranešti</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Pranešti apie ekrano foną</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Siųsti</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Patvirtinkite šį veiksmą, nes jo NEGALIMA anuliuoti</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Nepavyko ištrinti paskyros, bandykite dar kartą vėliau</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>Ar norite atšaukti?</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Palaukite</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Siunčiama</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Pagalbininkai</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Dalintis</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Bendrinti foną</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Įkelti į galeriją</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Kopijuoti nuorodą</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Tinkinti fono paveikslėlį</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Uždaryti fono paveikslėlius</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Pasirinkite programą</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Dydis</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Įdiekite reikiamą papildinį</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Papildinys nerastas</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Atnaujinimas baigtas</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Pažiūrėkite, kas naujo</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Spalva</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Naudoti numatytąjį</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Pritaikyti fonui</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Numatytas</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Dinaminis</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Siekiant išvengti atsitiktinio pasirinkimo, darbalaukio piktogramos šiuo metu yra paslėptos</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Darbalaukio piktogramos</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>Šiam kartui tiek..</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>Šios funkcijos kūrimas – sustabdytas</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Įskiepiai</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Sukurti judantį darbalaukio foną</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Papildomi nustatymai</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Vidurkinamas erdvės gylis..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Naudojant DI transformuoti nuotraukas į erdvines</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Tęsti</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Sukurti paprastą darbalaukio foną</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>DI erdvinis darbalaukio fonas</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Erdvinis darbalaukio fonas</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>DI sugeneruotas erdvinis darbalaukio fonas</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Sukurti darbalaukio foną</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Paleidus administratoriaus teisėmis kai kurios funkcijos gali būti nepasiekiamos</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Norint naudoti šią funkciją, reikia atsisiųsti papildomų failų</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Reikia atsisiųsti</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Atsisiųsti</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Tapkite Patreon remėju</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Dėkojame visiems nariams, kurie parėmė šį projektą.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Patreon remėjai</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Pasirinkti užsklandą</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Norint peržiūrėti šį turinį, reikia "Microsoft WebView2</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>Reikalingas papildinys</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Pasirinkite programas, kurios nerodys išsamios informacijos apie muziką</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>Programų išmetimas</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Paleisti iš naujo</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Muzika</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Kad nustatymai įsigaliotų, reikia iš naujo paleisti ekrano užsklandą</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Same as System</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Please restart application for settings to take effect.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Tęsiant rodyti prisijungimo ekraną</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

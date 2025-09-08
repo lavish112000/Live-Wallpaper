@@ -1,0 +1,68 @@
+{
+  "saturation": {
+    "max": 100,
+    "min": -100,
+    "tick": 200,
+    "text": "Saturation",
+    "type": "slider",
+    "value": 0
+  },
+   "hue": {
+    "max": 100,
+    "min": -100,
+    "tick": 200,
+    "text": "Hue",
+    "type": "slider",
+    "value": 0
+  },
+  "brightness": {
+    "max": 100,
+    "min": -100,
+    "tick": 200,
+    "text": "Brightness",
+    "type": "slider",
+    "value": 0
+  },
+   "contrast": {
+    "max": 100,
+    "min": -100,
+    "tick": 200,
+    "text": "Contrast",
+    "type": "slider",
+    "value": 0
+  },
+  "gamma": {
+    "max": 100,
+    "min": -100,
+    "tick": 200,
+    "text": "Gamma",
+    "type": "slider",
+    "value": 0
+  },
+   "speed": {
+    "max": 5,
+    "min": 0.25,
+    "tick": 10,
+    "step": 0.01,
+    "text": "Speed",
+    "type": "slider",
+    "value": 1
+  },
+  "scaler": {
+    "type": "scalerDropdown",
+    "value": 3,
+    "text": "Choose a Fit",
+    "help": "Wallpaper scaling algorithm",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "Uniform Fill"
+    ]
+  },
+   "mute": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Mute"
+  }
+}

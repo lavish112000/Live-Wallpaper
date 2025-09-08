@@ -1,0 +1,125 @@
+﻿<Window
+    x:Class="Lively.Views.LibraryPreview"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="clr-namespace:Lively.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:ext="clr-namespace:Lively.Extensions"
+    xmlns:local="clr-namespace:Lively.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="{ext:LocalizedString TitleLibrary}"
+    Width="410"
+    Height="630"
+    Closing="Window_Closing"
+    Loaded="Window_Loaded"
+    PreviewKeyDown="Window_PreviewKeyDown"
+    ResizeMode="NoResize"
+    Style="{DynamicResource WindowUI}"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <converters:TaskbarProgressConverter x:Key="TaskbarProgressConverter" />
+    </Window.Resources>
+
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo
+            x:Name="taskbarItemInfo"
+            ProgressState="Normal"
+            ProgressValue="{Binding CurrentProgress, Mode=OneWay, Converter={StaticResource TaskbarProgressConverter}}" />
+    </Window.TaskbarItemInfo>
+
+    <Grid Margin="0,10,0,0">
+        <!--  wallpaper window will be placed here!  -->
+        <Border
+            x:Name="PreviewBorder"
+            Width="384"
+            Height="216"
+            Margin="8,5,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            BorderBrush="Black"
+            BorderThickness="1"
+            OpacityMask="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}"
+            Visibility="Hidden" />
+
+        <ScrollViewer VerticalAlignment="Bottom" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <Label Margin="0,10,0,0" Content="{ext:LocalizedString Title_Text}" />
+                <TextBox
+                    Height="20"
+                    MinHeight="25"
+                    MaxHeight="20"
+                    Margin="10,5,25,10"
+                    Padding="5,0,0,0"
+                    VerticalContentAlignment="Center"
+                    BorderThickness="0,0,0,1"
+                    IsEnabled="{Binding IsUserEditable}"
+                    MaxLength="100"
+                    Text="{Binding Title, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                <Label Content="{ext:LocalizedString Description_Text}" />
+                <TextBox
+                    Height="81"
+                    MaxHeight="81"
+                    Margin="10,5,25,10"
+                    Padding="5,10,15,10"
+                    AcceptsReturn="True"
+                    BorderThickness="0,0,0,1"
+                    IsEnabled="{Binding IsUserEditable}"
+                    MaxLength="5000"
+                    Text="{Binding Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    TextWrapping="Wrap"
+                    VerticalScrollBarVisibility="Auto" />
+
+                <Label Content="{ext:LocalizedString Author_Text}" />
+                <TextBox
+                    Height="20"
+                    MinHeight="25"
+                    MaxHeight="20"
+                    Margin="10,5,25,10"
+                    Padding="5,0,0,0"
+                    VerticalContentAlignment="Center"
+                    BorderThickness="0,0,0,1"
+                    IsEnabled="{Binding IsUserEditable}"
+                    MaxLength="100"
+                    Text="{Binding Author, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                <Label Content="{ext:LocalizedString Website_Header}" />
+                <TextBox
+                    Height="20"
+                    MinHeight="25"
+                    MaxHeight="20"
+                    Margin="10,5,25,0"
+                    Padding="5,0,0,0"
+                    VerticalContentAlignment="Center"
+                    BorderThickness="0,0,0,1"
+                    IsEnabled="{Binding IsUserEditable}"
+                    Text="{Binding Url, Mode=TwoWay}" />
+
+                <Grid Margin="0,10,0,0" Background="{DynamicResource BackgroundMediumBrush}">
+                    <StackPanel
+                        Margin="10"
+                        HorizontalAlignment="Right"
+                        Orientation="Horizontal">
+                        <Button
+                            MinWidth="100"
+                            MinHeight="30"
+                            Margin="0,0,10,0"
+                            Command="{Binding CancelCommand}"
+                            Content="{ext:LocalizedString Cancel_Content}" />
+                        <Button
+                            MinWidth="100"
+                            Command="{Binding StartCommand}"
+                            Content="{ext:LocalizedString TextOK}"
+                            IsDefault="True"
+                            IsEnabled="{Binding IsUserEditable}" />
+                    </StackPanel>
+                    <ProgressBar
+                        MinHeight="2.5"
+                        VerticalAlignment="Bottom"
+                        Value="{Binding CurrentProgress, Mode=OneWay}" />
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

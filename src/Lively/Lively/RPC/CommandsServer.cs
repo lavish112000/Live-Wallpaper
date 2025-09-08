@@ -1,0 +1,114 @@
+﻿using Google.Protobuf.WellKnownTypes;
+using Grpc.Core;
+using Lively.Commandline;
+using Lively.Common.Services;
+using Lively.Grpc.Common.Proto.Commands;
+using System;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Threading;
+
+namespace Lively.RPC
+{
+    internal class CommandsServer : CommandsService.CommandsServiceBase
+    {
+        private readonly IRunnerService runner;
+        private readonly IWindowService windowService;
+        private readonly IScreensaverService screensaver;
+        private readonly ICommandHandler commandHandler;
+
+        public CommandsServer(IRunnerService runner,
+            IScreensaverService screensaver,
+            IWindowService windowService,
+            ICommandHandler commandHandler)
+        {
+            this.runner = runner;
+            this.screensaver = screensaver;
+            this.windowService = windowService;
+            this.commandHandler = commandHandler;
+        }
+
+        public override Task<Empty> ShowUI(Empty _, ServerCallContext context)
+        {
+            runner.ShowUI();
+            return Task.FromResult(new Empty());
+        }
+
+        public override Task<Empty> CloseUI(Empty _, ServerCallContext context)
+        {
+            runner.CloseUI();
+            return Task.FromResult(new Empty());
+        }
+
+        public override Task<Empty> RestartUI(Empty _, ServerCallContext context)
+        {
+            runner.RestartUI();
+            return Task.FromResult(new Empty());
+        }
+
+        public override Task<Empty> RestartUIWithArgs(RestartRequest request, ServerCallContext context)
+        {
+            runner.RestartUI(request.StartArgs);
+            return Task.FromResult(new Empty());
+        }
+
+        public override Task<Empty> ShowDebugger(Empty _, ServerCallContext context)
+        {
+            Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Normal, new ThreadStart(delegate
+            {
+                windowService.ShowLogWindow();
+            }));
+            return Task.FromResult(new Empty());
+        }
+
+        public override async Task<Empty> Screensaver(ScreensaverRequest request, ServerCallContext context)
+        {
+            switch (request.State)
+            {
+                case ScreensaverState.Start:
+                    await screensaver.StartAsync(request.FadeIn);
+                    break;
+                case ScreensaverState.Stop:
+                    await screensaver.StopAsync();
+                    break;
+                case ScreensaverState.Preview:
+                    _ = Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Normal, new ThreadStart(delegate
+                    {
+                        screensaver.CreatePreview(new IntPtr(request.PreviewHwnd));
+                    }));
+                    break;
+                case ScreensaverState.Configure:
+                    //TODO: Open control panel or cutomise panel
+                    runner.ShowUI();
+                    break;
+            }
+            return await Task.FromResult(new Empty());
+        }
+
+        public override Task<Empty> ShutDown(Empty _, ServerCallContext context)
+        {
+            try
+            {
+                return Task.FromResult(new Empty());
+            }
+            finally
+            {
+                App.QuitApp();
+            }
+        }
+
+        public override Task<Empty> AutomationCommand(AutomationCommandRequest request, ServerCallContext context)
+        {
+            commandHandler.ParseArgs(request.Args.ToArray());
+            return Task.FromResult(new Empty());
+        }
+
+        public override Task<Empty> SaveRectUI(Empty _, ServerCallContext context)
+        {
+            runner.SaveRectUI();
+            return Task.FromResult(new Empty());
+        }
+    }
+}

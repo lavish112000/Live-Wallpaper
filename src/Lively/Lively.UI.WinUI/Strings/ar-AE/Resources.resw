@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>تشغيل الصوت فقط عندما تكون في الشاشة الرئيسة</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>مستوى الصوت لجميع الخلفيات</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>مستوى الصوت</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>الصوت</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>منتدى المناقشات عبر الإنترنت</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>مستندات API والمساعدة</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>لقد واجهنا مشكلة كبيرة.
+
+تم إعادة تشغيل مستكشف الملفات مرتين في آخر 30 ثانية! قد يكون هذا تعارضًا بين التطبيق وبرنامج تخصيص آخر أو النظام نفسه. لتجنب المزيد من المشاكل، سيتم إيقاف جميع الخلفيات حالياً.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>تم العثور على برنامج غير متوافق ، تم تعطيل تطبيق سمات شريط المهام.</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>صفحة الإنترنت الرسمية لـ Lively Wallpaper</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>لا تعاني معظم شاشات LCD و LED الحديثة من مشاكل الاحتراق؛ لذلك، يمكن استخدام أي خلفية كشاشة توقف.
+
+بالنسبة لشاشات OLED أو Plasma أو CRT المعرضة للاحتراق، يُنصح باستخدام الخلفيات المظلمة التي من المفترض أن تخفف الاحتراق. ومع ذلك، لم يتم اختبار هذه الميزة ولا يمكن ضمان فعاليتها.
+
+الغرض الأساسي من شاشات توقف Lively هو إضافة طبقة أخرى من التخصيص إلى جهاز الكمبيوتر الخاص بك، واستخدام شاشات التوقف كحماية ضد الاحتراق هو على مسؤوليتك الخاصة!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>الإبلاغ عن مشكلة في التطبيق</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>قم بتحديد ملف</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>تعيين الخلفية(ات) سلوك التشغيل بناءً على تشغيل التطبيق:-</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>هل أنت متأكد من إلغاء هذه العملية؟</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>هل أنت متأكد من حذف الخلفية بشكل دائم من القرص؟</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف هذه الخلفية من المكتبة؟</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>ببساطة أسحب الملفات وإفلاتها هنا</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>أنت تفتح تطبيقاً خارجياً كخلفية.
+يمكن للتطبيقات الضارة استضافة برامج ضارة وفيروسات... وتُلحق الضرر بنظامك.
+تابع فقط إذا كان هذا التطبيق يأتي من مصدر موثوق.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>تم تصغير البرنامَج إلى علبة النظام، انقر بزر الفأرة الأيمن على أيقونة البرنامَج للمتابعة.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>يرجى إعادة تشغيل البرنامَج لتصبح الإعدادات سارية المفعول</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>يرجى التوقف قبل المتابعة</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>اضغط لبدء التسجيل</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>جاري إستعادة الخلفية (الخلفيات) السابقة, يرجى الانتظار...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>اختر الشاشة</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>يتوفر إصدار جديد من البرنامَج!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>أدخل رابط الموقع للتحميل, Shadertoy.com  روابط هذا الموقع مدعومة:-</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>هذا المساعد سيمكنك من البَدء في إعداد البرنامَج</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>سيتطلب إصدار Windows N/KN الخاص بك تنزيل برامج ترميز إضافية لدعم تشغيل الفيديو كخلفيات شاشة</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>أظهر الدعم بشراء قهوة للمطورة</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>أنت على وشك الانتقال إلى الإصدار التجريبي من البرنامَج (للمطورين).
+ستكون التحديثات متكررة وقد تحتوي على أخطاء!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>إمكانية رؤية أيقونة علبة النظام، سيستمر البرنامَج في العمل مع إخفاء الأيقونة</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>أيقونة علبة النظام</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>سيتم إعادة تشغيل البرنامَج لتطبيق اللغة الجديدة</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>فشل التحديث؛ حاول تحميل البرنامَج من:
+https://github.com/rocksdanister/lively/releasases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>ملف الخلفية تالف, حاول إعادة تنزيله.</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>للأسف... يبدو أن شيئا ما قد احدث خطأ :(
+لفهم هذا الخطأ بشكل أفضل وإصلاح المشكلة ، شارك ملف السجل مع المطور.
+تعليمات لمشاركة ملف السجل:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>لا يمكن للبرنامَج العمل بشكل صحيح عند تمكين وضع التباين العالي في نظام Windows!
+يمكنك تعطيل وضع التباين العالي والمحاولة مرة أخرى</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>تشغيل الوسائط فشل :(
+حاول تغيير مشغل الفيديو في إعدادات البرنامج.
+
+من أجل فهم هذا الخطأ بشكل أفضل وإصلاح المشكلة ، شارك ملف السجل مع المطور.
+تعليمات لمشاركة ملف السجل:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>ليس مِلف خلفية حيوي</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>لم يتم إغلاق البرنامَج بشكل صحيح، عند البَدء في الوضع الآمن.
+هل تريد استعادة خلفيات الشاشة التي تم تشغيلها مسبقاً؟</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>يبدو أنه يجب تعديل بعض الإعدادات لتشغيل Lively بشكل صحيح:
+1. اضغط مفتاحي Win + R معًا لفتح التشغيل،  
+2. اكتب SystemPropertiesPerformance.exe في التشغيل ثم انقر فوق "موافق" لفتح خيارات الأداء.
+3. قم بتفعيل/تحديد "تحريك عناصر النوافذ والتحكمات" (إذا كان مفعلًا مسبقًا فقم بإلغاء تحديده ثم تحديده مرة أخرى) وتطبيق التغييرات. 
+4. انقر فوق "تطبيق" ثم على "موافق" لإغلاق النافذة.
+
+في حالة ويندوز 7 قم بـ - ضبطه لأقصى جودة مظهر وتطبيق التغييرات.
+إذا لم يعمل بعدها، اغلق Lively ثم اعد فتحه/إعادة تشغيل ويندوز.
+(قد لا يعمل في بعض بناءات ويندوز 10 إنسايدر)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>يجب تشغيل البرنامَج في الخلفية لتشغيل خلفية الشاشة</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>البَدء مع Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>جميع الملفات</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>التطبيق</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>المساهمة</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>المؤلف</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>تصفح</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>تغيير الخلفية</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>اكتمل!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>انقر هنا لإدارة الخلفيات</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>التحويل إلى فيديو</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>إنشاء معاينة</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>تخصيص</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>تخصيص</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>جميع الشاشات</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>لكل شاشة</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>الحفظ إلى مِلف</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>بعض الميزات غير متوفرة في هذا الإصدار من البرنامَج</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>المِلف غير موجود</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>GIF المتحركة</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>أظهر بعض الحب بإعطائنا نجمة</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>اذهب</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>المساعدة في الترجَمة</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>ساعات</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>تثبيت</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>لوحة المفاتيح</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>آخر فحص</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>معرفة المزيد</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>الترخيص</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>المزيد من الخلفيات</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>الفأرة</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>تفاعل الفأرة عند التركيز على التطبيق</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>عبر الإنترنت</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>فتح البرنامَج</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>جميع العمليات</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>ثلاثي الأبعاد</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>العمليات الأمامية</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>ايقاف مؤقت للخلفيات</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>إنهاء</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>لاشيء</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>إيقاف مؤقت</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>الصورة</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>معاينة</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>جاري المعالجة</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>القاعدة</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>الشاشة</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>تعيين كخلفية</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>فتح موقع المِلف</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>المصدر</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>البَدء</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>هل تستمتع باستخدام البرنامَج؟ اترك مراجعة:)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>الدعم</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>التبديل إلى الإصدار التجريبي (قناة التطوير)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>التبديل إلى الإصدار المستقر (القناة الافتراضية)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>العلامات</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>ضبابي</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>صافي</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>اللون</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>سلس</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>الخلفية</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>سلاسة الخلفية</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>كبير</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>عادي</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>صغير</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>بلا رأس</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>خفيف</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>عادي</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>تنسيق الملف غير معتمد</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>يتوفر تحديث!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>البحث عن تحديثات</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>فشل التحقق من تحديث البرنامَج</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>جاري البحث عن تحديث</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>البرنامَج مُحدث!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>خيارات التشغيل</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>تعبئة</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>موحد</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>تعبئة موحدة</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>تكرار</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>الشاشة</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>تمتد</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>الموقع الإلكتروني</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>بث الويب</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>مرحباً</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>مشغل الفيديو</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>تعيين جميع أنواع الملفات المدعومة كخلفية</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>تعيين صفحة الويب لعنوان URL الذي أدخلته كخلفية</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>تعيين ما يجب فعله عند التركيز على أي تطبيق</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>تعيين ما يجب فعله عند تشغيل الألعاب/التطبيقات بوضع ملء الشاشة</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>إيقاف الخلفية مؤقتاً عند تشغيل هذه التطبيقات</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>تتكيف البرنامج مع إعدادات موضوع النظام، لتغيير المظهر انتقل إلى</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>تغيير التشغيل عند فصل التيار المتردد</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>أدخل المنفذ لتصحيح أخطاء خلفيات صفحات الويب؛ عندما تكون مستعداً، انتقل إلى http://localhost:portnumber للوصول إلى وحدة تحكم المطور</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>عرض قائمة المطور</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>تعيين صورة خلفية متحركة كخلفية سطح المكتب</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>إيقاف الخلفية مؤقتا على جميع الشاشات أو الشاشة التي يركز عليها التطبيق فقط</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>إنشاء مِلف تقرير السجل</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>تحديد المشغل المستخدم لخلفية gif</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>إنهاء الإعداد للمتابعة</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>تعيين صورة خلفية متحركة كخلفية لشاشة القفل</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>خوارزمية الإيقاف المؤقت للخلفية</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>تغيير التشغيل عند تمكين وضع توفير الطاقة لـ Windows</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>تغيير التشغيل عند تشغيل جلسة سطح المكتب عن بعد</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>بعد مدّة عدم النشاط، استخدم خلفية الشاشة الحالية كشاشة توقف على جهازك</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>إذا تم اكتشاف رابط دفق الفيديو المدعوم استخدم مشغل الفيديو بدلا من تحميل صفحة الويب</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>حدد جودة الفيديو المطلوبة للبثوث عبر الإنترنت</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>تغيير إصدار البرنامج من لبيتا إلى المستقر أو العكس</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>تغيير مظهر شريط مهام النظام</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>حجم البلاط ورق الجدران في المكتبة.</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>بالنسبة للأنظمة المنخفضة حدًا ، حدد الوضع البسيط.</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>استخدام تسريع الأجهزة إن أمكن</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>حدد المشغل المستخدَم لخلفية الفيديو</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>المسار المستخدم لتخزين ملفات الخلفية</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>خوارزمية قياس الخلفية</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>حدد طرق التفاعل مع الخلفية</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>كيف يتم تطبيق الخلفية على أجهزة العرض المتصلة</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>إيقاف تشغيل الخلفية مؤقتاً عندما لا يكون سطح المكتب مركزاً</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>تخزين الملفات المؤقتة على القرص بدلاً من الذاكرة</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>حدد المشغل المستخدَم لخلفية html</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>التطبيقات المركزة</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>تطبيقات في وضع ملء الشاشة</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Lively Wallpaper</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>قواعد التطبيق</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>السمة</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>تشغيل الصوت على الشاشة</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>عندما يكون على وضع البطارية</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>تصفح لملف للتعيين كخلفية</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>منفذ التصحيح</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>سِجل التغييرات</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>المجتمع</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>التصحيح</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>تأكيد الحذف</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>صورة سطح المكتب</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>عرض قاعدة الإيقاف المؤقت</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>الوثائق</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>ادخل عنوان URL</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>ملف السجل</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>مشغل Gif</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>التفاعل</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>المكتبة</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>إعداد Lively</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>صورة شاشة القفل</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>كتم</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>إيقاف مؤقت للخوارزمية:</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>الأداء</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>قائمة التشغيل</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>يرجى الإنتظار</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>عندما يكون على وضع البطارية</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>عندما يكون على سطح المكتب البعيد</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>الإبلاغ عن خطأ</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>التحجيم/ الاحتواء</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>لوحة التحكم</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>شاشة التوقف</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>تحديد ملف</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>تخطي التأكيد</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>شفرة المصدر</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>المتجر</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>البث</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>كشف البثوث</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>جودة الفيديو</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>النظام</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>سمة شريط المهام</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>الحجم</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>واجهة المستخدم</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>التحديثات</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>وحدة فك تشفير GPU</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>الخلفية</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>تخصيص</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>دليل الخلفية</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>نقل خلفيات موجودة إلى مجلد جديد</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>اختيار ملائمة</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>إدخال الخلفية</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>طريقة الوضع</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>تشغيل الخلفية</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>متصفح الويب</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>ذاكرة التخزين المؤقت على القرص</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>محرك</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>تحميل الصفحة</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>إبقاء واجهة المستخدم تعمل من أجل بدء تشغيل أسرع</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>بدأ تشغيل اسرع</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>الملف</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>داكن</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>فاتح</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>النظام</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>إعدادات لون Windows</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>الحواسيب المحمولة</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>المطور</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>المظهر والسلوك</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>خلفيات نشطة</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>المعرض</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Hi, I'm Dani John also known as rocksdanister. I developed Lively a Free and open-source (FOSS) wallpaper application. Thanks for taking the time to look at my work.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>ترخيص البرنامج</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>إشعار برنامج الطرف الثالث</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>سياسة جمع البيانات</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>إضافة خلفية</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>قريباً</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>موقع</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>تأثيرات واجهة المستخدم والرسوم المتحركة</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>واجهة المستخدم</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>خفيف</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>عادي</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>كيفية تطبيق ورق الجدران على أجهزة العرض المتصلة</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>نوع شاشة التوفير</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>مخصص</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>تشبه الخلفية</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>إضافة مطلوبة</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>مطلوب في المرة الأولى الإعداد لتشغيل شاشة التوقف</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>اختيار الشاشة دائماً عند اختيار الخلفية</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>حذف الحساب</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>تصدير البيانات</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>المجموعة</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>إدارة</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>الرجاء تسجيل الدخول للمتابعة</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>مرحباً</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>لقد وجدنا هذه الخلفيات في حسابك</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>حمل الان</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>ربما لاحقاً</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>تحديد الكل</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>عدم تحديد شيء</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>أهلاً بعودتك!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>أسباب</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>انتهاك لحقوق النشر</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>معلومات مضلِّلة</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>آخر</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>رسائل متكررة</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>يحتوي على عنف أو تعري</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>ملاحظات إضافية</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>إبلاغ</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>الإبلاغ عن الخلفية</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>يرجى تأكيد هذا الإجراء لأنه لا يمكن التراجع عنه</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>فشل حذف الحساب ، يرجى المحاولة مرة أخرى في وقت لاحق</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>هل تريد إلغاءه؟</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>يرجى الانتظار</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>جاري التحميل</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>المساهمين</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>مشاركة</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>مشاركة خلفيات</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>تحميل المعرض</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>نسخ الرابط</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>تخصيص خلفية</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>إغلاق الخلفية</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>اختيار التطبيق</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>الحجم</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>الرجاء تثبيت الإضافة المطلوبة</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>الإضافة غير موجودة</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>اكتمل التحديث</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>انظر ما هو جديد</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>اللون</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>استخدام الإعداد للنظام</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>التكيف مع الخلفية</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>افتراضي</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>متحرك</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>خلفية</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>لمنع التحديد العرضي لأيقونات سطح المكتب مخفية حاليا</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>أيقونة سطح المكتب</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>هذا كل شيء حتى الآن..</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>تطوير هذه المِيزة قيد الانتظار</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>الإضافات</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>إنشاء خلفية متحركة</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>متقدم</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>جارٍ تقريب العمق..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>يستخدم الذكاء الاصطناعي لتحويل الصور إلى ثلاثية الأبعاد</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>إنشاء خلفية بسيطة</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>خلفية ذات عمق بالذكاء الاصطناعي</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>خلفية ذات عمق</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>خلفية ذات عمق مصنوعة بالذكاء الاصطناعي</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>إنشاء خلفية</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>بعض الوظائف قد لا تكون متاحة عند التشغيل كمسؤول</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>يجب تحميل ملفات إضافية لهذه الميزة</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>التنزيل مطلوب</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>كن داعم باتريون</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>شكرا لكل الأعضاء الذين يدعمون هذا المشروع.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>داعمين باتريون</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>حدد شاشة التوقف</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>مطلوب Microsoft WebView2 لعرض هذا المحتوى</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>إضافة مطلوبة</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>حدد التطبيقات لاستبعادها من عرض تفاصيل الموسيقى</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>استثناء التطبيق</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>إعادة التشغيل</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>الموسيقى</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>مطلوب إعادة تشغيل الخلفية حتى تصبح الإعدادات فعالة</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>نفس النظام</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>يرجى إعادة تشغيل التطبيق لكي يتم تطبيق الإعدادات.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>عند الاستئناف، عرض شاشة تسجيل الدخول</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>تلاشي إلى الأسود قبل البدء</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

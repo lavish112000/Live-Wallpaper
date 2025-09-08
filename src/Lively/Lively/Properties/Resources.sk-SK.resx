@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Prehrávať zvuk iba vtedy, keď je zameranie na pracovnú plochu</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Úroveň hlasitosti všetkých pozadí</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Hlasitosť</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Zvuk</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Online diskusné fórum</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>API dokumentácia a pomoc</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Došlo k fatálnemu zlyhaniu Lively.
+
+Prieskumník Windowsu sa reštartoval dvakrát za posledných 30 sekúnd! Môže ísť o konflikt medzi Lively a iným softvérom na prispôsobenie pracovnej plochy alebo systémom Windows. Všetky pozadia boli ukončené, aby sa predišlo ďalším problémom.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Našiel sa nekompatibilný program, funkcia zmeny motívu panelu úloh je zakázaná</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Oficiálna webová stránka Lively Wallpaper</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Väčšina moderných LCD a LED displejov netrpí vypáľovaním, a preto je možné ako šetrič obrazovky použiť akékoľvek pozadie.
+
+Pre OLED, plazmové alebo CRT displeje, ktoré sú náchylné na vypálenie, sa odporúča použiť pozadie s pravidelným pohybom a celkovo tmavým motívom, ktorý by mal tento problém zmierniť, ale táto funkcia nie je odskúšaná a jej účinnosť nemožno zaručiť.
+
+Hlavným účelom šetričov obrazovky Lively je pridať ďalšiu vrstvu prispôsobenia vášmu počítaču. Použitie šetriča obrazovky ako ochranu pred vypálením je na vlastné riziko!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Nahlásiť problém so softvérom</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Vybrať súbor</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Wallpaper playback behaviour based on running application</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>Ste si istý, že chcete zrušiť?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>Ste si istý, že chcete navždy odstrániť toto pozadie z disku?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>Ste si istý, že chcete navždy odstrániť toto pozadie z knižnice?</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Sem potiahnite súbor</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Pokúšate sa otvoriť externú aplikáciu ako pozadie.
+Škodlivé aplikácie v sebe môžu ukrývať malvéry, vírusy… a poškodiť váš systém.
+Pokračujte len vtedy, ak táto aplikácia pochádza z dôveryhodného zdroja.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Aplikácia Lively sa zminimalizovala do system tray. Kliknite pravým tlačidlom na ikonu Lively pre pokračovanie.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Prosím, reštartujte Lively, aby sa zmeny aplikovali</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Pred pokračovaním počkajte</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Stlačením spustíte nahrávanie</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Obnovuje predošlé pozadie(a), prosím počkajte...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Vybrať obrazovku</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Je dostupná nová verzia aplikácie!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Enter website link to load, shadertoy.com shader links are supported</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Tento sprievodca vám pomôže nastaviť Lively</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>Vaša N/KN verzia Windowsu bude potrebovať inštaláciu prídavných kodekov pre podporu prehrávania videopozadí</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Preukážte vývojárovi podporu kúpením kávy</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Pokúšate sa prepnúť verziu Lively na beta (vývojárska).
+Aktualizácie budú častejšie a môžu obsahovať chyby!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Viditeľnosť ikony v system tray. Vypnutím sa ikona skryje</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Ikona v system tray</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Lively sa reštartuje, aby sa nastavil nový jazyk</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Aktualizácia sa nepodarila, skúste stiahnuť inštalátor z odkazu:
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>Súbor je poškodený. Skúste ho stiahnuť znovu</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>Ups... Vyzerá, že sa niečo pokazilo :(
+Aby sme túto chybu mohli čo najskôr opraviť, pošlite vývojárovi záznamový log.
+Návod na poslanie záznamového logu:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>Lively nedokáže správne fungovať s povoleným Režimom vysokého kontrastu!
+Vypnite ho v nastaveniach Windowsu a skúste to znova</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Media playback failed :(
+Try changing the videoplayer in lively settings.
+
+In order to better understand this error and fix the issue, share the log file with the developer.
+Instructions for sharing log file:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Nejedná sa o súbor pozadia Lively</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>Aplikácia Lively nebola správne ukončená a spustila sa v režime safe mode.
+Želáte si obnoviť predtým spustené pozadia?</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Vyzerá, že ešte musíte nastaviť pár vecí, aby Lively fungoval:
+1. Stlačte klávesy Win + R na otvorenie okna spustenia
+2. Napíšte doň SystemPropertiesPerformance.exe a kliknite na tlačidlo "OK" na otvorenie nastavení výkonu
+3. Povoľte (zaškrtnite) možnosť "Animovať ovládacie prvky v oknách" (Ak už je zaškrtnutá, odškrtnite ju a znovu zaškrtnite)
+4. Kliknite na tlačidlo "Použiť" a potom na tlačidlo "OK"
+
+Pre používateľov Windows 7 - nastavte "Nastaviť na dosiahnutie najvyššieho výkonu", kliknite na "Použiť"
+Ak aj napriek tomu Lively nefunguje, zatvorte a otvorte Lively alebo reštartujte Windows
+(Nefunguje na niektorých zostavách Windows 10)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Lively musí bežať na pozadí, aby fungovalo prehrávanie pozadí</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Spustiť so systémom Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Pridať</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Všetky súbory</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Aplikácia</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Pripisovanie</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Späť</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Prehľadávať</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Zmeniť pozadia</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Dokončené!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Kliknite sem pre správu pozadí</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Konvertovať na video</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Vytvoriť náhľad</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Prispôsobiť</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Prispôsobiť</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Vymazať</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Na všetkých obrazovkách</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>Zvlášť na obrazovke</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Stiahnuť</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Upraviť</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Ukončiť</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Uložiť ako súbor</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Niektoré funkcie nie sú v tejto verzii Lively dostupné</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Súbor sa nenašiel</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>Animovaný GIF</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Preukážte trochu vďaky tým, že dáte hviezdičku</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Pomôžte s prekladmi</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>hodiny</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Inštalovať</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Klávesnica</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Naposledy skontrolované</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Ďalšie informácie</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Licencia</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>minúty</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Informácie</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Viac pozadí</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Myš</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Interakcia myši, keď je zameranie na aplikáciu</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Ďalšie</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>Vyp.</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Zap.</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Otvoriť Lively</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Všetky procesy</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Proces v popredí</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Pozastaviť pozadia</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Ukončiť</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Nerobiť nič</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Pozastaviť</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Obrázok</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Náhľad</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Ochrana osobných údajov</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Spracovávanie</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Pravidlo</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Obrazovka</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Hľadať</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Nastaviť ako pozadie</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Otvoriť umiestnenie súboru</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Zdroj</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Spustiť</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Zastaviť</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>Radi používate Lively? Napíšte recenziu :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Podpora</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Prepnúť na beta verziu (pre vývojárov)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Prepnúť na stabilnú verziu (predvolené)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Tagy</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Rozmazanie</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Vymazať</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Farba</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Plynulý</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Pozadie</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Plynulé pozadie</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Headless</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Formát súboru nie je podporovaný</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>K dispozícii je aktualizácia!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Skontrolovať aktualizácie</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Nepodarilo sa skontrolovať aktualizáciu aplikácie</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Kontrola aktualizácií...</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>Aplikácia je aktuálna!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Možnosti spustenia</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Vyplniť</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Žiadne</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Rovnomerne</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Rovnomerne vyplniť</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Duplikovať</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Obrazovka</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Naprieč obrazovkami</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Stránka</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Webový stream</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Vitajte</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Prehrávač videa</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Nastaviť akýkoľvek podporovaný súbor ako pozadie</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Nastaviť zadané URL (stránku) ako pozadie</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Nastavte, čo sa stane, keď je zameranie na nejakú aplikáciu</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Nastavte, čo sa stane, keď je nejaká aplikácia zobrazená na celú obrazovku</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Pozadia sa pozastavia, keď sú spustené tieto aplikácie</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Lively sa prispôsobí systémovému nastaveniu motívu, zmení vzhľad</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>Zmení prehrávanie pri odpojení z napájania</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Zadajte port na debugovanie webových pozadí. Konzolu nájdete na http://localhost:cisloportu</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Zobrazí vývojárske možnosti</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Nastavte si obrázok animovaného pozadia ako pozadie</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Pozastaviť pozadie na všetkých obrazovkách alebo len na tej, kde je zameranie na aplikáciu</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Vytvorí záznamový log</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>Vyberte, ktorý prehrávač sa použije na prehrávanie GIF pozadí</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Pred pokračovaním dokončite prípravu</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Nastaviť obrázok animovaného pozadia ako pozadie uzamknutej obrazovky</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Algoritmus na pozastavenie pozadia</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Zmení prehrávanie, keď je zapnutý režim šetrenia batérie vo Windowse</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Zmení prehrávanie, keď pristupujete zo vzdialenej pracovnej plochy</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Po uplynutí zadanej doby neaktivity nastaví aktuálne pozadie ako šetrič obrazovky</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Ak sa detegne odkaz na stream, bude na prehratie použitý prehrávač videa namiesto načítania stránky</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Vyberte si video kvalitu, ktorou sa budú streamy prehrávať</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Zmeniť vydanie aplikácie z beta na stabilné alebo naopak</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Zmení vzhľad panelu úloh</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Size of the wallpaper tiles in Library</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>For low-end systems select Lite mode</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Ak je to možné, použije sa hardvérová akcelerácia</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Vyberte, ktorý prehrávač sa použije na prehrávanie videopozadí</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>Cesta k priečinku, kde sú uložené pozadia</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Algoritmus na škálovanie pozadí</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Vyberte spôsoby na interakciu s pozadím</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Ako sa pozadie aplikuje na obrazovky</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Pozastaviť prehrávanie pozadia, keď nie je zameranie na pracovnú plochu</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Ukladať dočasné súbory na disk namiesto pamäte</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Vyberte, ktorý prehrávač sa použije na prehrávanie HTML pozadí</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Informácie</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Pridať pozadie</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Zameranie na aplikáciu</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Aplikácia na celej obrazovke</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Lively Wallpaper</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Pravidlá pri spustených aplikáciách</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Motív</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Prehrávať na obrazovke zvuk</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>Pri napájaní z batérie</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Prehľadávať videá, GIFy, stránky... súbory vhodné ako pozadie</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Port na debugovanie</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Prehľad zmien</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Komunita</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Debugovanie</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Potvrdiť zmazanie</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Obrázok plochy</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Pravidlo pozastavenia</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Dokumentácia</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>Zadať URL</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Záznamový log súbor</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Hlavné</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>Prehrávač GIFov</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Interakcia</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Knižnica</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Príprava Lively</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Poloha</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Obrázok uzamknutej obrazovky</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Rôzne</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Stlmiť</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Pozastavovací algoritmus</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Prosím, počkajte</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>Pri zapnutom šetriči batérie</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>Pri pristupovaní zo vzdialenej pracovnej plochy</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Nahlásiť chybu</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Škálovanie/Prispôsobenie</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Ovládací panel</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Šetrič obrazovky</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Vybrať súbor</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Preskočiť potvrdenie</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Zdrojový kód</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Obchod</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Detegovať streamy</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Kvalita videa</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Systém</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Motív panelu úloh</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Veľkosť dlaždice</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Užívateľské rozhranie</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Aktualizácie</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>Dekódovanie pomocou GPU</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Pozadie</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Prispôsobiť</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Priečinok pozadí</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Presúvať existujúce pozadia do nového priečinka</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Prispôsobenie veľkosti</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Vstup</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Rozloženie</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Prehrávanie pozadia</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Upozornenie</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Webový prehliadač</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>Používať disk ako vyrovnávaciu pamäť</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Načítať stránku</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Ponechať užívateľské rozhranie spustené pre rýchlejšie spúšťanie</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Rýchle spúšťanie</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Úložisko</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Tmavá</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Svetlá</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Systém</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>Nastavenie farieb vo Windowse</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Laptopy</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Vývojárske</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Vzhľad a správanie</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Aktívne pozadie(a)</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Galéria</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Ahoj, volám sa Dani John, tiež známy ako rocksdanister. Som vývojárom Lively, čo je zdarma a open-source (FOSS) aplikácia na zmenu pozadia. Ďakujem, že si si našiel čas, aby si si prezrel moju prácu.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Licencia</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Oznámenie o softvére tretích strán</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Zásady zhromažďovania údajov</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Pridať pozadie</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Už čoskoro</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Informácie</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Stránka</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Otvoriť</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Efekty a animácie používateľského rozhrania</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Používateľské rozhranie</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Jednoduché</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Normálne</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Ako sa šetrič obrazovky aplikuje na pripojené obrazovky</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Druh šetriča obrazovky</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Vlastné</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Zrkadliť pozadie</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Vyžaduje sa plugin</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Na fungovanie je potrebné jednorazové nastavenie šetriča obrazovky</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Vždy zobrazovať výber obrazovky pri výbere pozadia</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>Účet</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Vymazať účet</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Exportovať údaje</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Prihlásiť sa</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Odhlásiť sa</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Zbierka</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Spravovať</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Prosím, prihláste sa, ak chcete pokračovať</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Ahoj,</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>V tvojom účte sme našli tieto pozadia</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Stiahnuť teraz</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Možno neskôr</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Vybrať všetky</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Nevybrať žiadne</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Vitajte spať!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Dôvody</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Porušenie autorských práv</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Zavádzajúce informácie</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Iné</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Spam</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Nahota alebo násilie</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Dodatočné poznámky</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Nahlásiť</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Nahlásiť pozadie</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Odoslať</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Prosím, potvrďte tento krok, nakoľko sa NEDÁ vrátiť späť</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Nepodarilo sa vymazať účet. Skúste to, prosím, neskôr</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>Želáte si ho prerušiť?</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Čakať</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Prebieha sťahovanie</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Prispievatelia</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Zdieľať</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Zdieľať pozadie</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Uverejniť v galérii</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Kopírovať odkaz</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Prispôsobiť pozadia</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Ukončiť pozadia</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Vybrať aplikáciu</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Veľkosť</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Prosím, nainštalujte potrebný plugin</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Plugin nebol nájdený</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Aktualizácia dokončená</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Čo je nové</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Farba</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Použiť predvolené systémom</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Adaptovať pozadiu</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Predvolené</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Dynamické</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Motív</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Aby sa zabránilo náhodnému označeniu, ikony na ploche sú momentálne skryté</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Ikony na ploche</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>To je nateraz všetko...</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>Vývoj tejto funkcie je pozastavený</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Pluginy</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Vytvorte si dynamické pozadie</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Rozšírené</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Odhadovanie hĺbky...</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Použiť AI na pretvorenie fotografií do 3D</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Pokračovať</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Vytvoriť jednoduché pozadie</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>Hĺbkové pozadie s AI</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Pozadie s hĺbkou</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>Pozadie s AI generovanou hĺbkou</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Vytvoriť pozadie</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Niektoré funkcie nemusia byť dostupné, keď aplikácia beží ako správca</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Táto funkcia si vyžaduje prídavné súbory</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Vyžaduje sa stiahnutie</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Stiahnuť</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Staňte sa podporovateľom na Patreone</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Ďakujeme všetkým členom, ktorí podporili tento projekt.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Patreon podporovatelia</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Vybrať šetrič obrazovky</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Na prehliadanie tohto obsahu je potrebný Microsoft WebView2</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>Vyžaduje sa plugin</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Vyberte aplikácie, pri ktorých sa nebudú zobrazovať detaily o hudbe</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>Vynechanie aplikácií</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Reštartovať</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Hudba</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Na aplikovanie zmien sa vyžaduje reštart pozadia</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Same as System</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Please restart application for settings to take effect.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Po skončení šetriča zobraziť prihlásenie</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

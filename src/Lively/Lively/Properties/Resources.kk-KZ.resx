@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Жұмыс үстелі болған кезде ғана дыбысты ойнатуға</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Барлық тұсқағаздардың дыбыс деңгейі</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Дыбыс</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Аудио</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Онлайн пікірталас форумы</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>API құжаттамасы және көмегi</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Lively маңызды қатеге тап болды.
+
+Windows Explorer соңғы 30 секундта екі рет қайта іске қосылды! Бұл Lively және басқа жұмыс үстелін теңшеу бағдарламалық құралы немесе Windows арасындағы қайшылық болуы мүмкін. Қосымша мәселелерді болдырмау үшін барлық тұсқағаздар тоқтатылады.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Үйлесімсіз бағдарлама табылды, тапсырмалар тақтасының тақырыбы өшірілген</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Lively Wallpaper ресми веб-сайты</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Қазіргі заманғы СКД және жарықдиодты дисплейлердің көпшілігі күйіп кетуден зардап шекпейді, сондықтан кез келген тұсқағазды экран қорғаушысы ретінде пайдалануға болады.
+
+Жанып кетуге бейім OLED, плазмалық немесе CRT дисплейлері үшін тұрақты қозғалыстағы тұсқағазды және күйіп кетуді азайтатын жалпы қараңғы тақырыпты пайдалану ұсынылады, бірақ бұл мүмкіндік тексерілмеген және оның тиімділігіне кепілдік берілмейді.
+
+Lively's скринсейверлерінің негізгі мақсаты - компьютеріңізге басқа теңшеу қабатын қосу, экран сақтағыштарды жанып кетуден қорғау ретінде пайдалану, өз тәуекеліңізге!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Бағдарламалық құралға қатысты мәселе туралы хабарлаңыз</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Файлды таңдаңыз</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Wallpaper playback behaviour based on running application</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>Шынымен бас тартқыңыз келе ме?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>Бұл тұсқағазды дискіден біржола жойғыңыз келетініне сенімдісіз бе?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>Бұл тұсқағазды Кітапханадан шынымен жойғыңыз келе ме?</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Файлдарды осы жерге жай сүйреп апарыңыз</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Сіз сыртқы қолданбаны тұсқағаз ретінде ашып жатырсыз.
+Зиянды қолданбалар зиянды бағдарламаларды, вирустарды орналастыруы және жүйеңізге зиян келтіруі мүмкін.
+Бұл қолданба сенімді көзден келген жағдайда ғана жалғастырыңыз.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Lively жүйелік тақтаға кішірейтілген, жалғастыру үшін жанды белгішесін тінтуірдің оң жақ түймешігімен басыңыз.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Параметрлер күшіне енуі үшін Lively қолданбасын қайта іске қосыңыз</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Жалғастырмас бұрын тоқтатыңыз</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Жазуды бастау үшін басыңыз</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Қазіргі уақытта алдыңғы тұсқағаз(лар) қалпына келтірілуде, күте тұрыңыз...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Дисплейді таңдаңыз</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Бағдарламалық құралдың жаңа нұсқасы қолжетімді!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Enter website link to load, shadertoy.com shader links are supported</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Бұл шебер сізге Lively орнатуды бастайды</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>Windows N/KN нұсқасы тұсқағаздардағы бейнені ойнатуды қолдау үшін қосымша кодектерді жүктеп алуды қажет етеді</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Әзірлеуші кофені сатып алу арқылы қолдау көрсетіңіз</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Сіз Lively нұсқасының бета (әзірлеуші) нұсқасына ауысқалы жатырсыз.
+Жаңартулар жиі болады және қателер болуы мүмкін!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Жүйелік науа белгішесінің көрінуі, белгіше жасырылған кезде жанды жұмыс істей береді</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Жүйе науасы белгішесі</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Жаңа тілді қолдану үшін Lively қайта іске қосылады</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Тіл</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Жаңарту мүмкін болмады; орнатушыны мына жерден жүктеп көріңіз:
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>Зақымдалған тұсқағаз файлы, қайта жүктеп көріңіз</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>Ой... Бірдеңе дұрыс болмады :(
+Бұл қатені жақсырақ түсіну және мәселені шешу үшін журнал файлын әзірлеушімен бөлісіңіз.
+Журнал файлын ортақ пайдалану нұсқаулары:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>Windows High Contrast режимі қосылған кезде Lively дұрыс жұмыс істей алмайды!
+Жоғары контраст режимін өшіріп, әрекетті қайталаңыз</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Media playback failed :(
+Try changing the videoplayer in lively settings.
+
+In order to better understand this error and fix the issue, share the log file with the developer.
+Instructions for sharing log file:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Lively тұсқағаз файлы емес</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>Lively қауіпсіз режимде дұрыс жабылмады.
+Бұрын іске қосылған тұсқағаздарды қалпына келтіргіңіз келе ме?</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Lively жұмыс істеуі үшін кейбір параметрлерді орнату қажет сияқты:
+1. Іске қосуды ашу үшін Win + R пернелерін басыңыз,
+2. «Іске қосу» ішіне SystemPropertiesPerformance.exe енгізіңіз, өнімділік параметрлерін ашу үшін «OK» түймесін басыңыз.
+3. "Басқару элементтерін және терезелердегі элементтерді анимациялау" (Егер әлдеқашан белгіленген болса, құсбелгіні алып тастаңыз және тексеріңіз) және Қолдану қосыңыз/тексеріңіз.
+4. «Қолдану» түймесін басып, терезені жабу үшін «OK» түймесін басыңыз.
+
+Егер Windows 7 жай ғана орнатылған болса - Ең жақсы көрініс үшін реттеу &amp; Қолдану.
+Әлі жұмыс істемесе, Lively қолданбасын жауып, қайта іске қосыңыз/терезелерді қайта қосыңыз.
+(Кейбір инсайдерлік Windows 10 құрастыруларында жұмыс істемейді)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Түсқағазды ойнату үшін Lively фондық режимде жұмыс істеуі керек</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Windows-пен бірге қосылу</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Қосу</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Барлық файлдар</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Қолданба</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Авторлық</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Артқа</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Іздеу</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Доғару</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Артқы фонын өзгерту</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Жабу</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Жабу</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Аяқталды!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Түсқағаздарды басқару үшін осы жерді басыңыз</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Бейнеге түрлендіру</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Алдын ала қарауды жасау</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Баптау</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Баптау</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Жою</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Сипаттама</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Барлық экралар</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>Экранға</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Өңдеу</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Қате</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Шығу</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Файлға сақтау</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Кейбір мүмкіндіктер Lively қолданбасының осы нұсқасында қолжетімді емес</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Файл табылмады</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>GIF-анимация</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Жұлдызшаны түсіру арқылы махаббатыңызды көрсетіңіз</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Аударуға көмектесу</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>сағат</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Орнату</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Пернетақта</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Соңғы қаралған</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Көбірек білу</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Ақпарат</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Көбірек түсқағаздар</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Тінтуір</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Қолданба ашық кезде, тінтуір түсқағазбен әректтеседі</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Келесі</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Жоқ</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>Сөндіру</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Қосу</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>Желіде</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Lively ашу</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Барлық үдерістер</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Алдыңғы процесс</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Түсқағазды тоқтату</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Аяқтау</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Ештеңе</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Тоқтату</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Сурет</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Алдын-ала қарау</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Құпиялылық саясаты</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Өңдеу</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Жою</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Ереже</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Экран</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Іздеу</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Тұсқағаз ретінде орнату</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Файл орнын ашу</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Дереккөз</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Бастау</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Тоқтату</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>Сізге Lively пайдалану ұнайды ма? Пікір қалдырыңыз :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Қолдау</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Бета нұсқасына ауысу (әзірлеу арнасы)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Тұрақтыға ауысу (әдепкі арна)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Тегтер</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Бұлыңғыр</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Таза</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Түс</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Еркін</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Түсқағаз</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Түсқағаздар еркін</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Тақырып</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Headless</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Файл пішіміне қолдау көрсетілмейді</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>Жаңарту қолжетімді!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Жаңартуды тексеріңіз</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Бағдарламалық құрал жаңартуын тексеру мүмкін болмады</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Жаңарту тексерілуде</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>Бағдарламалық құрал жаңартылған!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Қосу параметрлері</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Толтыру</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Жоқ</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Біркелкі</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Біркелкі толтыру</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Қайталау</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Экран</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Қабаттасу</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Түрі</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Ағын видеосы</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Қош келдіңіз</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Иә</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Видео ойнатқыш</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Барлық қолдана алатын файл түрлерін тұсқағаз ретінде қойыңыз</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Сіз кірген сайттың URL мекенжайын қолданып оны тұсқағаз ретінде қолдану</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Қолданба кеңейтілген кезде не істеу керектігін көрсетіңіз</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Толық экранды ойындарды / қолданбаларды іске қосқан кезде не істеу керектігін орнатыңыз</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Тұсқағазды келесі қолданбалар қосылынып тұрған кезде тоқтаку</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Lively жүйелік тақырып параметрлерін қолданады. Оларды өзгерту үшін келесіге өтіңіз</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>Батареямен жұмыс істегенде әрекетті өзгертіңіз</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Веб-станикалық тұсқағазды жөндеу үшін портты енгізіңіз. Өзгерістердің күшіне енуі үшін браузерді қайта жүктеу қажет.
+Дайын болған кезде келесіге өтіңіз http://localhost:portnumber әзірлеуші консоліне кіру үшін</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Әзірлеуші мәзірін көрсету</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Анимациялық тұсқағаздың суретін жұмыс үстелінің тұсқағазы ретінде орнатыңыз</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Түсқағазды тек алдыңғы қатарда/бүкіл экранда қолданба ашылған экранда кідіртіңіз</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Журналдың есеп файлын жасаңыз</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>GIF тұсқағаздарын ойнату үшін ойнатқышты таңдаңыз</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Жалғастыру үшін орнатуды аяқтаңыз</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Анимациялық тұсқағаздың суретін құлыптау экранының тұсқағазы ретінде орнатыңыз</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Тұсқағаздың кідірту алгоритмі</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Windows қуат үнемдеу режимінде ойнату параметрлері</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Қашықтағы жұмыс үстелі режимінде ойнату параметрлері</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Әрекетсіздік режиміне өту кезінде экран сақтағыштың орнына ағымдағы тұсқағазды пайдалану</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Егер қолдау көрсетілетін сілтеме табылса веб-бетті жүктеудің орнына бейне ойнатқышты пайдалану</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Қажетті ағын видеоның сапасын таңдаңыз</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Бағдарламалық жасақтаманың нұсқасын бета нұсқасынан тұрақтыға немесе керісінше өзгертіңіз</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Жүйелік тапсырмалар тақтасының көрінісін өзгерту</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Size of the wallpaper tiles in Library</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>For low-end systems select Lite mode</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Мүмкіндігінше аппараттық жеделдетуді қолданыңыз</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Бейне тұсқағаз ойнатқышын таңдаңыз</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>Тұсқағаз файлдары сақталатын жолы</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Тұсқағазды масштабтау алгоритмі</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Тұсқағаздармен өзара әрекеттесу әдісін таңдаңыз</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Тұсқағазды қосылған дисплей құрылғыларына қолдану әдісі</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Жұмыс үстелі назардан тыс қалған кезде тұсқағазды ойнатуды кідірту</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Уақытша файлдарды жедел жадтың орына дискіде сақтау</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Html тұсқағаздары үшін қолданылатын ойнатқышты таңдаңыз</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Қосымша туралы</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Тұсқағаз Косу</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Алдыңғы қатардағы қосымшалар</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Толық экранды қолданбалар</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Lively Wallpaper</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Қолдану ережелері</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Тақырып</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Экранда музыка мен аудио ойнаңыз</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>Батареямен жұмыс істегенде</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Видео, gif, сайт және тағыда басқа файлдарды түсқағаз ретінде қою үшін іздеу</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Жөндеу порты</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Өзгерістер журналы</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Қоғамдастық</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Жөндеу</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Жоюды растаңыз</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Жұмыс үстеліндегі сурет</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Кідірту түрі</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Құжаттама</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>URL мекенжайын енгізіңіз</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Журналдын файлы</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Басты</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>GIF ойнатқышы</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Көмек</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Әрекеттесу</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Кітапхана</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Lively Оранту</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Орналасқан жер</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Құлыптау экранындағы сурет</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Басқа</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Үнсіз</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Тоқтау алгоритмі</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Өнімділік</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Плейлист</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Күте тұрыңыз</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>Энергия үнемдеу режимінде жұмыс істеген кезде</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>Қашықтағы үстел режимінде жұмыс істегенде</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Қате туралы хабарлау</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Масштабтау/Орналастыру</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Басқару тақтасы</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Экран сақтағыш</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Файлды таңдаңыз</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Баптаулар</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Растауды өткізіп жіберу</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Бастапқы код</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Дүкен</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Ағын видеосы</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Ағын видеоны анықтау</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Бейне сапасы</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Жүйе</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Тапсырмалар тақтасының тақырыбы</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Плиткалардың мөлшері</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Пайдаланушы интерфейсі</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Жаңартулар</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Бейне</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>GPU декодтау</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Түсқағаз</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Баптау</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Тұсқағаз қалтасы</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Бар тұсқағазды жаңа қалтаға жылжытыңыз</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Орналастыру әдісі</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Енгізу құрылғысы</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Орналастыру әдісі</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Тұсқағаздын ойнатуы</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Ескерту</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Веб-шолғыш</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>Диск кэші</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Қозғалтқыш</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Веб-бетті жүктеу</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Жылдам іске қосу үшін қолданбаны іске қосу</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Жылдам іске қосу</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Қараңғы</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Жарық</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Жүйе</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>Windows түс параметрлері</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Ноутбуктер</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Әзірлеуші</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Көрініс және мінез-құлық</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Тұсқағаз жұмыс істеп отыр</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Галерея</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Сәлеметсіз бе, мен Дани Джонмын (Рокс данистері деп те аталады). Мен Lively әзірледім - тегін және ашық тұсқағаз қолдануы.
+Lively таңдағаныңызға рахмет.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Бағдарламалық жасақтама лицензиясы</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Үшінші тарап бағдарламалық жасақтамасы туралы хабарлама</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Ақпарат жинау саясаты</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Тұсқағаз қосу</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Жақында болады...</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Қосымша туралы</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Ашық</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Сақтау</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Пайдаланушы интерфейсінің әсерлері мен анимациялары</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Пайдаланушы интерфейсі</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Жеңілдетілген</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Кәдімгі</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Қосылған дисплей құрылғыларына экран сақтағышты қолдану әдісі</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Экран сақтағыш түрі</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Әдет-ғұрып</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Айна тұсқағазы</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Плагин қажет</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Экран сақтағышын іске қосу үшін бір реттік орнату қажет</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Әрқашан экранға қолданыңыз</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>Аккуант</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Аккаунтты жою</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Деректерді экспорттау</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Кіру</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Шығу</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Жинақ</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Басты бет</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Басқару</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Жалғастыру үшін жүйеге кіріңіз</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Сәлем</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>Біз сіздің есептік жазбаңызда бұл тұскағаздарды таптық</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Қазір емес</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Барлығын таңдау</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Ешбіреуін таңдамау</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Қайта оралуымен!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Себебі</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Авторлық құқықты бұзу</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Жалған ақпарат</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Басқасы</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Спам</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Жалаңаштық немесе зорлық-зомбылық</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Қосымша ақпарат</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Шағымдану</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Тұсқағазға шағымдану</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Жіберу</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Бұл әрекетті жою мүмкін емес. Сіз жалғастырғыңыз келетініне сенімдісіз бе?</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Есептік жазбаны жою мүмкін болмады, кейінірек көріңіз</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>Жүктеуден бас тартасыз ба?</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Күте тұру</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Жүктеу процесте</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Алғыс</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Бөлісу</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Тұсқағазды бөлісу</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Галереяны жүктеу</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Сілтемені көшіру</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Тұсқағазды орнатыныз</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Тұсқағазды өшіру</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Бағдарламаны таңдаңыз</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Өлшемі</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Қажетті плагинді орнатыңыз</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Плагин табылмады</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Жаңарту аяқталды</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Не жаңалық екенін біліңіз</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Түс</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Әдепкі бойынша қолданылады</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Тұсқағазға бейімделу</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Әдепкі</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Динамикалық</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Тақырып</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Кездейсоқ таңдауды болдырмау үшін жұмыс үстелінің төте жолдары жасырылады</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Төте жолдар</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>Әзірше осы ғана..</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>Бұл функциянның құрылынуы тоқталынып тұр</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Плагиндер</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Динамикалық тұсқағаздар жасаңыз</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Кеңейтілген</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Шамалы тереңдік..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Ai көмегімен кескіндерді 3D форматына түрлендіруді қолдану</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Жалғастыру</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Қарапайым тұсқағаздар жасау</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>Ai Depth тұсқағазы</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Терең тұсқағаз</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>AI көмегімен жасалған терең тұсқағаз</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Тұсқағаз жасау</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Әкімші ретінде іске қосылған кезде кейбір мүмкіндіктер қол жетімді болмауы мүмкін</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Бұл функция үшін қосымша файлдарды жүктеу қажет</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Жүктеу қажет</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Patreon жазылушысы болыңыз</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Осы жобаны қолдаған барлық қатысушыларға рахмет.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Patreon жазылушылары</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Экран сақтағышын таңдау</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Бұл мазмұнды көру үшін Microsoft WebView2 қажет</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>Плагин қажет</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Музыка мәліметтерінің көрсетілуіне жол бермеу үшін қолданбаларды таңдаңыз</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>тыйым қолданбалар</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Қайтадан іске қосу</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Ән</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Параметрлер күшіне енуі үшін тұсқағазды қайта жүктеу керек.</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Same as System</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Please restart application for settings to take effect.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Түйіндемеде, кіру экраны</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

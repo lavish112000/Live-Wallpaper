@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Ná seinn fuaim ach amháin nuair atá an deasc i bhfócas</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Airde fuaime gach cúlbhrat</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Airde fuaime</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Fuaim</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Fóram plé ar líne</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>Cáipéisíocht API ⁊ cabhair</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Tháinig Lively ar earráid mharfach.
+
+Tá Windows Explorer tar éis atosnú dhá uair le 30 soicind anuas. Is féidir gur coinbhleacht é seo idir Lively agus bogearraí phearsantú deisce eile nó Windows. Cuireadh stop le gach cúlbhrat chun fadhbanna eile a sheachaint.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Aimsíodh feidhmchlár neamh-chomhoiriúnach, tá téama an tascbharra díchumasaithe</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Suíomh oifigiúil Lively Wallpaper</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Ní fhulaingíonn an chuid is mó de scáileáin LCD ⁊ LED an lae inniubh le fadhbanna triailreatha agus is féidir aon chúlbhrat a úsáid mar spárálaí scáileáin.
+
+Le haghaidh scáileán OLED, plasma nó CRT ar féidir leo triailrith a fhulaingt, moltar cúlbhrat a úsáid a bhfuil gluaiseacht rialta agus téama atá dorcha go ginearálta ann chun trailrith a mhaolú. Is gné neamhphrofa í seo agus ní féidir a héifeachtacht a dhearbhú.
+
+Is é príomhchuspóir spárálaithe scáileáin Lively ná leibhéal eile pearsantaithe a chur le do ríomhaire. Is ar do phriacal féin a bhaineann tú úsáid as spárálaithe scáileáin mar chosaint ar an triailrith.</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Tuairiscigh fadhb leis an mbogearra</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Roghnaigh comhad</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Wallpaper playback behaviour based on running application</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>An bhfuil tú cinnte go bhfuil fonn ort cealú?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>An bhfuil tú cinnte go bhfuil fonn ort an cúlbhrat so a scriosadh go buan ón diosca?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>An bhfuil tú cinnte go bhfuil fonn ort an cúlbhrat so a scriosadh ón leabharlann?</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Tarraing ⁊ scaoil comhaid anso</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Tá feidhmchlár seachtrach á oscailt agat mar chúlbhrat.
+Is féidir le feidhmchláir mhailíseacha bogearraí mailíseacha nó víris a óstáil agus dochar a dhéanamh don chóras.
+Ná lean ar aghaidh ach amháin má thagann an feidhmchlár so ó fhoinse iontaofa.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Tá Lively íosmhéadaithe sa tráidire córais, deaschliceáil ar dheilbhín Lively le leanúint ar aghaidh.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Atosnaigh Lively le hathruithe a chur i bhfeidhm</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Please stop before proceeding</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Brúigh chun taifeadadh a thosnú</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Cúlbhrait roimhe seo á gcur thar n-ais, fan nóiméad...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Roghnaigh modh taispeána</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Tá leagan nua den mbogearra ar fáil</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Enter website link to load, shadertoy.com shader links are supported</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Cabhróidh an draoi seo leat le cumraíocht Lively</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>Beidh comhbhrúnna breise ag teastáil ó leagan N/KN Windows chun tacú le hathsheinnt físeán i gcúlbhrait</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Ceannaigh caife don bhforbróir agus taispeáin tacaíocht dó</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Tá tú ar tí athrú go dtí an leagan béite (forbróra) de Lively.
+Tiocfaidh na nuashonruithe go minic agus seans go mbeidh fabhtanna iontu</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Infheictheacht an deilbhín sa tráidire córas, leanfaidh Lively ag rith agus an deilbhín folaithe</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Deilbhín an tráidire córais</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Atosnófar Lively chun an teanga nua a chur i bhfeidhm</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Teanga</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Theip ar an nuashonrú. Bain triail as an suiteálaí a íoslódáil ó:
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>Comhad cúlbhrait damáistithe, bain triail as é a íoslódáil arís</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>Hoips... Is cosúil go bhfuil fadhb ann :(
+Chun tuiscint níos fearr a fháil ar an earráid seo agus chun an fhadhb a réiteach, comhroinn an comhad loga leis an bhforbróir.
+Treoir le haghaidh comhroinnte an chomhaid loga:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>Ní fheidhmíonn Lively i gceart agus mód 'Ardchodarsnacht' Windows casta air.
+Cas an mód 'Ardchodarsnacht' as agus bain triail eile as</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Media playback failed :(
+Try changing the videoplayer in lively settings.
+
+In order to better understand this error and fix the issue, share the log file with the developer.
+Instructions for sharing log file:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Ní comhad cúlbhrait Lively é seo</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>Níor dúnadh Lively i gceart. Mód sábháilte á thosnú.
+An bhfuil fonn ort na cúlbhrait a bhí á rith agat roimhe seo a chur thar n-ais?</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Is cosúil go gcaithfidh tú cúpla socruithe a athrú chun Lively a rith i gceart:
+1. Brúigh ar na heochracha 'Win' + 'R' le 'Rith' a oscailt.
+2. Clóscríobh "SystemPropertiesPerformance.exe" isteach i 'Rith', cliceáil ar 'OK' chun 'Roghanna feidhmíochta' a oscailt.
+3. Cumasaigh/Ticeáil 'Beoigh rialtáin agus eilimintí laistigh de Windows' (Má tá tic ann cheana féin, déan é a bhaint agus a chur ann arís) agus cuir i bhfeidhm é.
+4. Cliceáil ar 'Cuir i bhfeidhm' agus ansan ar 'OK' chun an fhuinneog a dhúnadh.
+
+I gcás Windows 7, déan é a shocrú mar 'Adjust for best appearance' (Coigeartaigh i gcomhair na cuma is fearr) agus cuir i bhfeidhm é.
+Mura bhfuil sé ag feidhmiú go fóill, déan Lively a dhúnadh agus a atosnú arís/atosnaigh Windows.
+(Ní oibreoidh sé i roinnt leaganacha 'Insider' de Windows 10)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Ní mór do Lively a bheith ag rith sa chúlra le haghaidh athsheinnt na gcúlbhrat</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Tosnaigh in éineacht le Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Cuir leis</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Gach comhad</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Feidhmchlár</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Údarás</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Údar</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Siar</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Cuardaigh</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Cealaigh</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Athraigh cúlbhrait</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Dún</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Dún</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Críochnaithe</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Cliceáil anso chun cúlbhrait a bhainistiú</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Tiontaigh go físeán</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Cruthaigh réamhamharc</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Pearsantaigh</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Pearsantaigh</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Scrios</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Cur síos</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Gach scáileán</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>In aghaidh an scáileáin</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Íoslódáil</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Cuir in eagar</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Earráid</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Scoir</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Sábháil chuig comhad</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Níl roinnt gnéithe ar fáil sa leagan so de Lively</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Comhad ar iarraidh</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>GIF beo</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Taispeáin grá trí réiltín a fágaint</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Cabhraigh leis an aistriúchán</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>uair</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Suiteáil</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Méarchlár</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Dearbhú is déanaí</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Tuilleadh eolais</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Ceadúnas</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>nóiméad</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Faisnéis</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Tuilleadh cúlbhrat</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Luch</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Idirghníomhú leis an luch agus an feidhmchlár i bhfócas</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Ar aghaidh</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Níl</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>As</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Air</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>Ar líne</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Oscail Lively</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Gach próiseas</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Próiseas an tulra</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Cuir cúlbhrait ar sos</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Múch</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Dada</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Cuir ar sos</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Íomhá</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Réamhamharc</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Beartas Príobháideachais</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Á bpróiseáil</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Bain</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Riail</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Scáileán</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Cuardaigh</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Socraigh mar chúlbhrat</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Oscail suíomh an chomhaid</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Foinse</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Tosnaigh</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Stad</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>An bhfuil tú ag baint sult as Lively? Scríobh léirmheas :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Athraigh go dtí an leagan béite (Cainéal forbartha)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Athraigh go dtí an leagan cobhsaí (Cainéal réamhshocraithe)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Clibeanna</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Geamhaigh</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Trédhearcach</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Dath</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Éasca</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Cúlbhrat</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Cúlbhrat éasca</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Teideal</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Headless</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Ní thacaítear le formáid an chomhaid</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>Tá nuashonrú ar fáil</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Seiceáil le haghaidh nuashonraithe</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Theip ar an seiceáil le haghaidh nuashonraithe</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Ag seiceáil le haghaidh nuashonraithe</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>Tá an bogearra cothrom le dáta</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Físeán</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Roghanna lainseála</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Líon</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Neamhní</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Aonghnéitheach</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Líonadh aonghnéitheach</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Dúbláil</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Scáileán</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Trasnaigh</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Cineál</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Suíomh Gréasáin</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Sruth Gréasáin</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Fáilte</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Tá</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Seinnteoir físeáin</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Socraigh íomhá de gach cineál comhaid a thacaítear leis mar chúlbhrat</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Socraigh leathanach Gréasáin ón URL a iontráladh mar chúlbhrat</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Socraigh an iompraíocht agus feidhmchlár i bhfócas</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Socraigh an iompraíocht agus cluichí/feidhmchláir á rith ar lánscáileán</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Cuir an cúlbhrat ar sos agus na feidhmchláir seo á rith</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Lively adapts to system theme settings, to change appearance goto</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>Athraigh an athsheinnt nuair a bhaintear cumhacht srutha ailtéarnaigh</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Iontráil an port le haghaidh dífhabhtaithe chúlbhrait leathanach Gréasáin. Gabh go dtí http://localhost:portnumber nuair a bhéas tú réidh le rochtain a dhéanamh ar an gconsól forbróra</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Taispeáin an roghchlár forbróra</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Socraigh íomhá de chúlbhrat beo mar chúlbhrat deisce</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Cuir an cúlbhrat ar sos ar gach scáileán nó ar an scáileán ar a bhfuil an feidhmchlár i bhfócas amháin</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Cruthaigh comhad loga tuairiscithe</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>Roghnaigh seinnteoir le húsáid le cúlbhrat GIF</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Cuir an chumraíocht i gcrích le leanúint ar aghaidh</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Socraigh íomhá de chúlbhrat beo mar chúlbhrat scáileáin ghlasáilte</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Algartam sosa an chúlbhrait</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Athraigh an athsheinnt agus mód sábhála cumhachta Windows casta air</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Athraigh an athsheinnt agus seisiún ciandeisce ar siúl</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Úsáid an cúlbhrat reatha mar spárálaí scáileáin i ndiaidh an aga neamhghníomhaíochta socraithe</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Má bhraitear nasc shruth físeáin, bain úsáid as an seinnteoir físeáin in ionad an leathanach Gréasáin a lódáil</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Roghnaigh an caighdeán físeáin atá uait le haghaidh sruthanna ar líne</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Athraigh idir leagan béite agus leagan cobhsaí an bhogearra</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Athraigh cuma thascbharra an chórais</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Size of the wallpaper tiles in Library</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>For low-end systems select Lite mode</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Bain úsáid as luathú crua-earraí más féidir</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Roghnaigh seinnteoir le húsáid le cúlbhrat físeáin</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>An cosán a úsáidtear le comhaid chúlbhrait a stóráil</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Algartam scálaithe an chúlbhrait</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Roghnaigh bealaí le hidirghníomhú leis an gcúlbhrat</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Conas a chuirtear an cúlbhrat i bhfeidhm ar na gléasanna taispeána ceangailte</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Cuir athsheinnt an chúlbhrait ar sos nuair ná fuil an deasc i bhfócas</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Stóráil comhaid shealadacha ar an diosca seachas sa chuimhne</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Roghnaigh seinnteoir le húsáid le cúlbhrat HTML</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Maidir leis seo</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Cuir cúlbhrat leis</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Feidhmchláir atá i bhfócas</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Feidhmchláir atá ar lánscáileán</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Cúlbhrat Lively</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Rialacha feidhmchlár</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Téama</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Seinn fuaim ar an scáileán</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>Ar chumhacht ceallra</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Cuardaigh comhad físeáin, GIF, leathanaigh Ghréasáin... le socrú mar chúlbhrat</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Port dífhabhtaithe</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Loga athruithe</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Pobal</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Dífhabhtaithe</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Deimhnigh an scriosadh</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Íomhá deisce</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Riail maidir le sos na taispeána</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Cáipéisíocht</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>Cuir URL isteach</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Comhad loga</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Ginearálta</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>Seinnteoir GIF</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Cabhair</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Idirghníomhú</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Leabharlann</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Cumraíocht Lively</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Suíomh</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Íomhá scáileáin ghlasáilte</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Eile</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Balbhaigh</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Algartam sosa</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Feidhmíocht</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Seinnliosta</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Fan nóiméad</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>Ar mód 'Spárálaí ceallra'</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>Ar ciandeasc</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Tuairscigh fabht</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Scálaigh/oiriúnaigh</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Painéal rialúcháin</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Spárálaí scáileáin</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Roghnaigh comhad</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Socruithe</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Skip Confirmation</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Cód foinseach</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Microsoft Store</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Sruth</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Braith sruthanna</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Caighdeán físeáin</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Córas</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Téama an tascbharra</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Méid na dtíleanna</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Comhéadan úsáideora</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Nuashonruithe</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Físeán</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>Díchódú GPU</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Cúlbhrat</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Pearsantaigh</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Comhadlann na gcúlbhrat</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Bog cúlbhrait reatha go dtí fillteán nua</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Roghnaigh oiriúnú</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Forimeallach idirghníomhaithe</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Modh curtha</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Athsheinnt na gcúlbhrat</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Rabhadh</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Brabhsálaí Gréasáin</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>Dioscthaisce</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Inneall</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Lódáil leathanach Gréasáin</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Coinnigh an comhéadan úsáideora ag rith le haghaidh tosnaithe níos tapa</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Mearthosnú</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Comhad</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Dorcha</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Geal</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Córas</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>Socruithe datha Windows</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Ríomhairí glúine</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Forbróir</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Cuma ⁊ iompraíocht</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Cúlbhrait ghníomhacha</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Gailearaí</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Hé, mise Dani John, nó "rocksdanister". D'fhorbair mé Lively mar fheidhmchlár foinse oscailte saor in aisce le haghaidh cúlbhrat. Go raibh maith agat as súil a chaitheamh ar mo chuid saothar.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Ceadúnas bogearra</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Fógra maidir le bogearraí tríú páirtí</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Beartas um bailiú sonraí</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Cuir cúlbhrat leis</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Ag teacht go luath</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Maidir leis seo</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Suíomh Gréasáin</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Oscail</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Sábháil</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Maisíochtaí agus beochaintí an chomhéadain úsáideora</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Comhéadan úsáideora</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Éadrom</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Gnách</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Conas a chuirtear an spárálaí scáileáin i bhfeidhm ar na gléasanna taispeána ceangailte</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Cineál spárálaí scáileáin</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Pearsantaithe</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Dúblaigh an cúlbhrat</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Breiseán de dhíth</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Tá cumraíocht aonuaire de dhíth chun spárálaí scáileáin a rith</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Roghnaigh "Scáileán" i gcónaí agus cúlbhrat á roghnú</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>Cuntas</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Scrios an cuntas</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Easpórtáil sonraí</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Logáil isteach</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Logáil amach</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Bailiúchán</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Baile</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Bainistigh</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Próifíl</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Logáil isteach le leanúint ar aghaidh</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Haigh,</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>D'aimsíomair na cúlbhrait seo i do chuntas</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Íoslódáil anois</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Níos déanaí b'fhéidir</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Roghnaigh gach ceann</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Díroghnaigh gach ceann</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Fáilte thar n-ais</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Cúiseanna</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Sárú ar chóipcheart</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Eolas míthreorach</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Eile</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Turscar</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Nochtacht nó foréigean</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Nótaí breise</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Tuairiscigh</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Tuairiscigh an cúlbhrat</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Seol</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Ní féidir an gníomh seo a chealú ina dhiaidh</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Níor scriosadh an cuntas, bain triail eile as ar ball</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>An bhfuil fonn ort í a chur ar ceal?</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Fan</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Íoslódáil ar siúl</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Rannpháirtithe</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Comhroinn</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Comhroinn an cúlbhrat</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Uaslódáil ghailearaí</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Cóipeáil an nasc</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Pearsantaigh an cúlbhrat</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Dún cúlbhrait</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Roghnaigh feidhmchlár</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Méid</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Suiteáil an breiseán atá ag teastáil</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Níor aimsíodh an breiseán</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Críochnaíodh an nuashonrú</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Féach cad atá nua</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Dath</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Bain úsáid as réamhshocrú an chórais</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Oiriúnaigh don chúlbhrat</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Réamhshocraithe</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Dinimiciúil</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Téama</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Tá deilbhíní deisce folaithe fé láthair chun roghnú teagmhasach a sheachaint</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Deilbhíní deisce</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>Sin é fé láthair...</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>Cuireadh forbairt na gné seo go hathlá</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Breiseáin</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Cruthaigh cúlbhrat dinimiciúil</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Ardsocruithe</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Doimhneacht á meas...</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Grianghraif á dtiontú go 3T le hintleacht shaorga</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Lean ar aghaidh</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Cruthaigh cúlbhrat simplí</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>Cúlbhrat doimhneachta intleachta saorga</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Cúlbhrat doimhneachta</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>Cúlbhrat doimhneachta a gineadh le hintleacht shaorga</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Cruthaigh cúlbhrat</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Seans ná beidh fáil ar roinnt feidhmiúlachtaí agus an feidhmchlár á rith agat mar riarthóir</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Ní mór duit comhaid bhreise a íoslódáil chun úsáid a bhaint as an ngné seo</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Íoslódáil de dhíth</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Íoslódáil</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Téigh isteach sa lucht tacaithe ar Patreon</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Buíochas do gach aon bhall atá ag tabhairt tacaíocht don tionscadal so.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Lucht tacaithe ar Patreon</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Roghnaigh spárálaí scáileáin</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Tá Microsoft WebView2 ag teastáil le hamharc ar an inneachar so</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>Breiseán de dhíth</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Roghnaigh feidhmchláir le fágaint ar lár le haghaidh taispeána sonraí an cheoil</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>Eisiamh feidhmchlár</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Atosnaigh</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Ceol</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Tá atosnú cúlbhrait de dhíth le socruithe a chur i bhfeidhm</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Same as System</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Please restart application for settings to take effect.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Taispeáin an scáileán logála isteach tar éis athdhúiseachta</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

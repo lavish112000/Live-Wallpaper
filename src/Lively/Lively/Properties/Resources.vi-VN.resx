@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Chỉ phát âm thanh khi đang ở màn hình chính</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Âm lượng của tất cả các hình nền</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Âm lượng</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Âm thanh</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Diễn đàn thảo luận online</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>Tư liệu API và hỗ trợ</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Lively đã gặp sự cố nghiêm trọng. 
+
+Windows Explorer đã khởi động lại 2 lần trong 30 giây! Đây có thể là do Lively và những ứng dụng chỉnh hình nền khác chạy cùng một lúc gây ra lỗi. Để tránh trường hợp bị lỗi nặng hơn, tất cả hình nền của bạn sẽ bị tắt.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Phát hiện chương trình không tương thích, taskbar theming đã bị tắt</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Trang chính thức của Lively Wallpaper</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Hầu như tất cả màn hình LCD và LED đều không bị burn-in(lưu ảnh màn hình) nên bất kỳ hình nền nào cũng có thể sử dụng làm màn hình chờ.
+
+Còn đối với màn hình OLED, Plasma hoặc CRT thì sẽ có thể dễ bị burn-in nên lively khuyến cáo bạn nên sử dụng hình nền có ảnh động và tối để giảm thiểu hiệu ứng burn-in nhưng chức năng này cũng chưa được thử nghiệm nên sẽ không đảm bảo màn hình của bạn sẽ không bị hỏng.
+
+Mục đích chính của Lively là để làm cho màn hình desktop của bạn đẹp hơn, nên trong trường hợp sử dụng Lively để làm màn hình chờ thì Lively sẽ không chịu trách nhiệm!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Báo lỗi chương trình</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Chọn file</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Dừng hoặc phát lại hình nền dựa trên ứng dụng đang chạy.</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>Bạn có chắc muốn hủy bỏ?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa vĩnh viễn hình nền này khỏi máy?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa nền này khỏi thư viện?</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Kéo và thả tập tin vào đây</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Bạn đang sử dụng phần mềm thứ 3 để làm hình nền.
+Phần mềm không được kiểm duyệt có thể chứa phần mềm gián điệp, virus.. và làm hại đến máy tính của bạn.
+Chỉ tiếp tục nếu phần mềm này nếu bạn tin tưởng nó.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Lively đã được thu nhỏ vào khay hệ thống, click vào biểu tượng Lively để tiếp tục.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Xin hãy khởi động lại Lively để xác nhận cài đặt</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Vui lòng dừng trước khi đi tiếp</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Bấm để bắt đầu quay màn hình</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Đang phục hồi các hình nền trước đây, xin vui lòng đợi trong giây lát...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Chọn màn hình</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Lively đã có một phiên bản mới hơn!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Nhập url trang web để tải, có hỗ trợ link cho shader trên shadertoy.com</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Trình cài đặt này sẽ giúp bạn cài đặt Lively</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>Phiên bản Windows N/KN sẽ cần phải tải thêm một số codecs khác để hỗ trợ chạy video dưới dạng hình nền</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Hãy giúp đỡ nhà phát triển của Lively bằng cách donate</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Bạn chuẩn bị chuyển qua phiên bản beta (developer) của Lively.
+Lively sẽ được cập nhật thường xuyên hơn và sẽ bị lỗi nhiều hơn!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Ẩn hiện khay icon của hệ thống, Lively sẽ tiếp tục chạy dù icon đã bị ẩn</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Biểu tượng trên khay hệ thống</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Lively sẽ khởi động lại để áp dụng ngôn ngữ mới.</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Cập nhật phiên bản thất bại, hãy thử tải xuống bản cài đặt từ
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>File hình nền bị lỗi, hãy thử tải lại file này</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>Oops... Có vấn đề xảy ra :(
+Để hiểu rõ hơn lỗi và có thể giải quyết vấn đề này, xin hãy chia sẻ file log với người phát triển.
+Hướng dẫn chia sẻ file log:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>Lively không thể hoạt động tốt trên Windows bật chế độ tương phản cao!
+Hãy tắt chế độ tương phản cao và thử lại.</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Không thể phát lại video :(
+thử thay đổi trình phát video trong phần cài đặt của Lively.
+
+Để hiểu rõ hơn lỗi và có thể giải quyết vấn đề này, xin hãy chia sẻ file log với người phát triển.
+Hướng dẫn chia sẻ file log:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Không phải file hình nền của Lively.</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>Lively đã không được tắt đúng cách, khởi động Lively trong chế độ an toàn.
+Bạn có muốn khôi phục lại hình nền trước đây?</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Có vẻ như bạn cần phải cài đặt một chút để Lively có thể hoạt động: 
+1. Nhấn tổ hợp phím Win + R để mở cửa sổ Run
+2. Nhập (SystemPropertiesPerformance.exe) vô Run, xong rồi nhấp "OK" để mở lên (Performance Options).
+3. Trong phần (Visual Effects) bạn hãy nhấn tick con dấu tại (Animate controls and elements inside windows) và nhấn (Apply).
+4. Sau khi xong bạn nhấn (Apply) rồi nhấn "OK" để đóng.
+
+Nếu là Windows 7 chỉ cần chọn - (Adjust for best appearance) &amp; Apply.
+Nếu vẫn không thể hoạt động, đóng lại &amp; khởi động lại Lively / khởi động lại windows.
+(Lively sẽ không hoạt động trên một vài bản insider-build của windows 10)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Lively cần chạy ngầm để phát lại hình nền</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Khởi động cùng Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Tất cả tập tin</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Đóng góp</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Thay đổi hình nền</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Đóng hình nền</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Hoàn thành!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Nhấn vào đây để quản lý hình nền</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Chuyển đổi thành Video</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Xem trước hình nền</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Tùy chỉnh hình nền</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Tất cả màn hình</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>Từng màn hình</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Lưu vào máy</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Một số chức năng sẽ không có trong phiên bản Lively này</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Không tìm thấy tập tin</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>GIF động</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Tặng sao để cảm ơn nhà phát triển Lively</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>ĐI</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Giúp phiên dịch Lively.</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Bàn phím</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Kiểm tra lần cuối</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Tìm hiểu thêm</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Giấy phép</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Thêm hình nền</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Chuột</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Tương tác bằng chuột với hình nền khi đang ở trong ứng dụng</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Tiếp theo</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>Trực tuyến</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Mở Lively</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Tất cả tiến trình</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Tiến trình ưu tiên </value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Tạm dừng hình nền</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Dừng hẳn</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Không có gì</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Tạm dừng</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Xem trước hình nền</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Chính sách quyền riêng tư</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Đang xử lý</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Quy tắc</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Màn hình</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Đặt làm hình nền</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Mở thư mục chứa File</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Dừng lại</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>Bạn có thích Lively không? Hãy để lại đánh giá nhé :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Chuyển qua bản thử nghiệm (Dành cho nhà phát triển)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Chuyển qua bản ổn định (Người dùng bình thường)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Thẻ</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Làm mờ</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Trong suốt</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Làm mờ Mica</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Hình nền</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Hình nền mờ Mica</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Lớn</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Vừa</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Nhỏ</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Headless</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Bình thường</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Định dạng tập tin không được hỗ trợ</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>Đã có bản cập nhật mới!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Kiểm tra phiên bản mới</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Kiểm tra phiên bản mới thất bại</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Kiểm tra phiên bản mới</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>Phần mềm đã được cập nhật!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Tùy chọn Khởi động</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Lấp đầy (Fill)</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Đồng nhất (Uniform)</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Đồng nhất lấp đầy (Uniform Fill)</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Nhân đôi</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Màn hình</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Trải dài</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Stream từ web</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Chào mừng</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Đồng ý</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Trình phát Video</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Chọn tất cả các loại tệp được hỗ trợ làm hình nền.</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Sử dụng đường dẫn liên kết của web bạn vừa nhập để làm hình nền</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Cài đặt Lively sẽ làm gì khi ứng dụng đang được sử dụng</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Cài đặt hoạt động của Lively khi Game/Phần mềm sử dụng toàn màn hình hoạt động.</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Tạm dừng Lively khi đang chạy các ứng dụng trên</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Thích nghi Lively với các theme của hệ thống, đổi giao diện đến</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>Đổi Lively sẽ làm gì khi dây sạc bị ngắt</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Hãy nhập cổng port để bắt đầu debug hình nền chạy trên web; khi sẵn sàng thì hãy truy cập http://localhost:portnumber để sử dụng console của nhà phát triển</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Hiển thị menu của nhà phát triển</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Chuyển hình nền động qua hình nền tĩnh ở màn hình desktop</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Tạm dừng hình nền trên tất cả màn hình hay chỉ mỗi một màn hình khi vào ứng dụng đang được ưu tiên</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Tạo log file chứa lỗi</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>Chọn trình phát được sử dụng cho hình nền(gif)</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Hoàn tất thiết lập để tiếp tục.</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Đồng bộ hình nền động ở màn hình chính qua màn hình khóa</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Thuật toán ngừng phát wallpaper</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Thay đổi cách hoạt động khi windows đang ở trạng thái tiết kiệm pin</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Chuyển chế độ chạy video khi đang điều khiển máy tính từ xa</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Sau một lúc không sử dụng máy thì sử dụng hình nền hiện tại để làm màn hình chờ</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Nếu phát hiện thấy Stream video được hỗ trợ, sử dụng trình phát video thay vì tải trang web.</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Chọn chất lượng video mong muốn khi đang stream</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Chuyển phiên bản hiện tại từ beta sang bản gốc hoặc ngược lại</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Chỉnh lại taskbar của hệ thống</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Kích thước của các ô hình nền trong Thư viện.</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>Đối với các hệ thống yếu, hãy chọn chế độ Lite.</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Sử dụng phần cứng để xử lý khi có thể</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Chọn trình phát được sử dụng cho hình nền video.</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>Đường dẫn dùng để lưu trữ các tập tin hình nền.</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Thuật toán chia tỷ lệ hình nền.</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Chọn các cách để tương tác với hình nền.</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Cách áp dụng hình nền cho các màn hình</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Tạm dừng phát lại hình nền khi màn hình không được tập trung.</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Lưu trữ các tệp tạm thời trên đĩa thay vì RAM</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Chọn trình duyệt để sử dụng cho hình nền HTML</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Thêm hình nền</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Các ứng dụng được tập trung</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Các ứng dụng toàn màn hình</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Lively Wallpaper</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Quy tắc của các ứng dụng</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Phát âm thanh trên màn hình</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>Khi đang dùng pin</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Tìm kiếm video, gif, trang web,... để đặt làm hình nền</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Cổng debug</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Nhật ký thay đổi</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Cộng đồng</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Xác nhận xóa</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Ảnh Desktop</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Quy tắc tạm dừng hình nền desktop</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>Nhập URL</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Log File</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Tổng quát</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>Trình chiếu Gif</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Tương tác</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Thư viện</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Cài đặt Lively</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Hình nền của màn hình khóa</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Tắt tiếng</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Thuật toán tạm dừng</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Hiệu suất</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Danh sách phát</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Vui lòng đợi</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>Khi đang ở trong chế độ tiết kiệm pin</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>Khi đang điều khiển máy tính từ xa</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Báo lỗi</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Kích thước/Tỷ lệ</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Bảng điều khiển</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Màn hình chờ</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Chọn tập tin</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Bỏ qua đồng ý</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Mã nguồn</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Cửa hàng</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Phát trực tuyến</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Phát hiện Stream</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Chất lượng video</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Phông màu của Taskbar</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Kích thước ô</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Giao diện người dùng</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>GPU Decode</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Hình nền</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Thư mục hình nền</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Di chuyển tất cả hình nền hiện tại vào thư mục mới</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Chọn tỉ lệ hình nền</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Tương tác bằng</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Phương pháp sắp xếp</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Phát lại hình nền</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Trình duyệt Web</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>Bộ nhớ đệm</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Engine</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Tải trang web</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Giữ Lively chạy để mở nhanh hơn vào lần sau</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Mở nhanh</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Thư mục</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Tối</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Sáng</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>Cài đặt màu cho Windows</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Máy tính xách tay  </value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Nhà phát triển</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Vẻ ngoài &amp; biểu hiện</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Hình nền đang sử dụng</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Thư viện</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Xin chào, tôi là Dani John hay còn được biết là rocksdanister. Tôi là người tạo ra Lively, một chương trình chỉnh sửa hình nền desktop miễn phí và open-source (FOSS). Cảm ơn bạn đã dành thời gian để xem qua thành quả của tôi.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Bản quyền phần mềm</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Phần mềm bên phía thứ ba</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Quy định thu thập dữ liệu</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Thêm hình nền</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Sắp ra mắt</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Giao diện của người dùng và animations</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Giao diện người dùng</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Đây là cách màn hình chờ sẽ hiển thị trên các màn hình được kết nối</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Kiểu màn hình chờ</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Tuỳ chỉnh</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Phản chiếu</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Cần Plugin</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Cần phải setup lần đầu để sử dụng màn hình chờ</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Luôn luôn chọn màn hình khi chọn hình nền</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Xoá tài khoản</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Xuất dữ liệu</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Bộ sưu tập</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Vui lòng đăng nhập để tiếp tục</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Xin chào</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>Chúng tôi tìm thấy những hình nền này trong tài khoản của bạn</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Tải về</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Để sau</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Bỏ chọn tất cả</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Chào mừng bạn quay lại!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Vi phạm bản quyền</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Thông tin không chính xác</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Spam</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Nội dung nhạy cảm</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Ghi chú khác</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Báo cáo vi phạm</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Tố cáo hình nền</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Vui lòng xác nhận hành động này vì bạn sẽ KHÔNG thể khôi phục được nó</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Xóa tài khoản thất bại, vui lòng thử lại sau</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>Bạn có muốn hủy không?</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Vui lòng chờ</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Đang tải xuống</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Những người đóng góp</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Chia sẻ</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Chia sẻ hình nền</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Tải lên thư viện</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Sao chép liên kết</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Tùy chỉnh hình nền</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Đóng hình nền</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Chọn ứng dụng</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Vui lòng tải những plugin cần thiết</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Không tìm thấy được plugin</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Kiểm tra xem có gì mới</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Sử dụng mặc định hệ thống</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Thích nghi theo hình nền</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Đa dạng</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Giao diện</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Để tránh việc chọn nhầm tất cả desktop icons đã bị ẩn</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Desktop icons</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>Chỉ có như vậy thôi..</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>Quá trình phát triển tính năng này đang bị tạm dừng</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Tính năng hỗ trợ</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Tạo hình nền động</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Nâng cao</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Ước lượng độ sâu..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Sử dụng AI để biến bức ảnh thành 3D</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Tiếp tục</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Tạo một hình nền đơn giãn</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>AI Depth Wallpaper</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Hình nền 3D</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>Hình nền 3D bằng AI</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Tạo hình nền</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Một số chức năng sẽ không thể sử dụng được khi chạy dưới dạng administrator</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Cần phải tải thêm một số dữ liệu nữa để sử dụng chức năng này</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Cần tải xuống</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Trở thành người ủng hộ trên Patreon</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Cảm ơn đến tất cả thành viên người đã hỗ trợ dự án này.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Thành viên Patreon</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Chọn màn hình chờ</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Cần có phần mềm Microsoft WebView2 để xem nội dung này</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>yêu cầu phần mềm bổ trợ</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Chọn các ứng dụng để loại trừ khỏi hiển thị chi tiết nhạc</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>Loại trừ ứng dụng</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Khởi động lại</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Âm nhạc</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Khởi động lại hình nền để xác nhận cài đặt</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Giống với Hệ thống</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Vui lòng khởi động lại app để cài đặt được áp dụng.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Khi trở lại, hiển thị màn hình đăng nhập</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

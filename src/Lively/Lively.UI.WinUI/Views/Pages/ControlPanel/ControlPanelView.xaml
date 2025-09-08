@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="Lively.UI.WinUI.Views.Pages.ControlPanel.ControlPanelView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:customConverters="using:Lively.UI.WinUI.Helpers.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Lively.UI.WinUI.Views.Pages.ControlPanel"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Lively.Models.UserControls"
+    MinWidth="490"
+    MinHeight="520"
+    MaxWidth="490"
+    MaxHeight="520"
+    Loaded="ControlPanelView_Loaded"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <customConverters:BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    </Page.Resources>
+
+    <Grid x:Name="Root">
+        <NavigationView
+            IsBackButtonVisible="Collapsed"
+            IsSettingsVisible="False"
+            MenuItemsSource="{Binding MenuItems, Mode=OneWay}"
+            PaneDisplayMode="Top"
+            SelectedItem="{Binding SelectedMenuItem, Mode=TwoWay}">
+            <NavigationView.MenuItemTemplate>
+                <DataTemplate>
+                    <NavigationViewItem
+                        Content="{Binding Name}"
+                        Tag="{Binding PageType}"
+                        Visibility="{Binding IsVisible, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}" />
+                </DataTemplate>
+            </NavigationView.MenuItemTemplate>
+            <Frame x:Name="contentFrame" />
+        </NavigationView>
+    </Grid>
+</Page>

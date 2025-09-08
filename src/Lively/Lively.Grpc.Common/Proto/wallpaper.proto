@@ -1,0 +1,178 @@
+﻿syntax = "proto3";
+package Lively.Grpc.Common.Proto.Desktop;
+import "google/protobuf/empty.proto";
+
+service DesktopService {
+  rpc SetWallpaper (SetWallpaperRequest) returns (google.protobuf.Empty);
+  rpc GetWallpapers (google.protobuf.Empty) returns (stream GetWallpapersResponse);
+  rpc PreviewWallpaper (PreviewWallpaperRequest) returns (google.protobuf.Empty);
+  rpc CloseAllWallpapers(CloseAllWallpapersRequest) returns (google.protobuf.Empty);
+  rpc CloseWallpaperMonitor(CloseWallpaperMonitorRequest) returns (google.protobuf.Empty);
+  rpc CloseWallpaperLibrary(CloseWallpaperLibraryRequest) returns (google.protobuf.Empty);
+  rpc CloseWallpaperCategory(CloseWallpaperCategoryRequest) returns (google.protobuf.Empty);
+  rpc SubscribeWallpaperChanged (google.protobuf.Empty) returns (stream google.protobuf.Empty);
+  rpc SubscribeWallpaperError (google.protobuf.Empty) returns (stream WallpaperErrorResponse);
+  rpc SubscribeUpdateWallpaper (google.protobuf.Empty) returns (stream UpdateWallpaperResponse) { option deprecated = true; }
+  rpc SendMessageWallpaper(WallpaperMessageRequest) returns (google.protobuf.Empty);
+  rpc GetCoreStats (google.protobuf.Empty) returns (GetCoreStatsResponse);
+  rpc TakeScreenshot(WallpaperScreenshotRequest) returns (google.protobuf.Empty);
+  rpc EditWallpaper(EditWallpaperRequest) returns (EditWallpaperResponse);
+  rpc CreateWallpaper(CreateWallpaperRequest) returns (CreateWallpaperResponse);
+}
+
+message EditWallpaperRequest {
+	string lively_info_path = 1;
+}
+
+message EditWallpaperResponse {
+	bool is_success = 1;
+	WallpaperErrorResponse error = 2;
+}
+
+message CreateWallpaperRequest {
+	string file_path = 1;
+	WallpaperCategory Category = 2;
+	string arguments = 3;
+}
+
+message CreateWallpaperResponse {
+	bool is_success = 1;
+	string lively_info_path = 2;
+	WallpaperErrorResponse error = 3;
+}
+
+message SetWallpaperRequest {
+  string lively_info_path = 1;
+  string monitor_id = 2;
+  LibraryItemCategory type = 3 [deprecated = true];
+}
+
+message GetWallpapersResponse {
+  string lively_info_path = 1;
+  ScreenData screen = 2;
+  string property_copy_path = 3;
+  string thumbnail_path = 4;
+  string preview_path = 5;
+  WallpaperCategory category = 6;
+}
+
+message UpdateWallpaperResponse {
+	UpdateWallpaperCategory type_ = 1;
+	string lively_info_path_ = 2;
+	string title = 3;
+	string description = 4;
+	string author = 5;
+	string website = 6;
+	string thumbnail_path_ = 7;
+	string preview_path_ = 8;
+	bool is_absolute_path = 9;
+}
+
+message GetCoreStatsResponse {
+	string base_directory = 1;
+	string assembly_version = 2;
+	bool is_core_initialized = 3;
+}
+
+message PreviewWallpaperRequest {
+	string lively_info_path = 1;
+}
+
+message ScreenData {
+  string device_id = 1;
+  string device_name = 2;
+  string display_name = 3;
+  int32 h_monitor = 4;
+  int32 index = 5;
+  bool is_primary = 6;
+  Rectangle bounds = 7;
+  Rectangle working_area = 8;
+}
+
+message Rectangle {
+	int32 x = 1;
+	int32 y = 2;
+	int32 width = 3;
+	int32 height = 4;
+	//int32 bottom = 1;
+	//int32 left = 3;
+	//int32 right = 4;
+	//int32 top = 5;
+}
+
+message CloseAllWallpapersRequest {
+	bool terminate = 1 [deprecated = true];
+}
+
+message CloseWallpaperMonitorRequest {
+	bool terminate = 1 [deprecated = true];
+    string monitor_id = 2;
+}
+
+message CloseWallpaperLibraryRequest {
+	bool terminate = 1 [deprecated = true];
+	string lively_info_path = 2;
+}
+
+message CloseWallpaperCategoryRequest {
+	bool terminate = 1 [deprecated = true];
+	WallpaperCategory Category = 2;
+}
+
+message WallpaperMessageRequest {
+	string monitor_id = 1;
+	string lively_info_path = 2;
+	string msg = 3;
+}
+
+message WallpaperScreenshotRequest {
+	string monitor_id = 1;
+	string save_path = 2;
+}
+
+message WallpaperErrorResponse {
+	ErrorCategory error = 1;
+	string error_msg = 2;
+}
+
+enum ErrorCategory {
+	workerw = 0;
+	wallpaper_not_found = 1;
+	wallpaper_plugin_fail = 2;
+	wallpaper_plugin_not_found = 3;
+	wallpaper_plugin_media_codec_missing = 4;
+	wallpaper_not_allowed = 5;
+	screen_not_found = 6;
+	general = 7;
+	wallpaper_webview2_not_found = 8;
+	wallpaper_file_error = 9;
+}
+
+enum WallpaperCategory {
+	app = 0;
+	web = 1;
+	webaudio = 2;
+	url = 3;
+	bizhawk = 4;
+	unity = 5;
+	godot = 6;
+	video = 7;
+	gif = 8;
+	unityaudio = 9;
+	videostream = 10;
+	picture = 11;
+}
+
+enum LibraryItemCategory {
+	processing = 0;
+	ready = 1;
+	cmdImport = 2;
+	multiImport = 3;
+	edit = 4;
+}
+
+enum UpdateWallpaperCategory {
+	changed = 0;
+	remove = 1;
+    done = 2;
+}

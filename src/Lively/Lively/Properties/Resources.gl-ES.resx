@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>Reproducir audio só cando o escritorio está enfocado</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>Nivel de volume de todos os fondos</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>Foro de conversas en liña</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>Documentación da API e axuda</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Lively tivo un erro fatal.
+
+O Windows Explorer reiniciouse dúas veces nos últimos 30 segundos! Isto pode ser un conflito entre Lively e outros programas de personalización do escritorio. Para evitar maiores problemas, todos os fondos foron finalizados.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>Programa non compatíbel atopado, desactivouse a tematización da barra de tarefas</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>Páxina web oficial de Lively Wallpaper</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>Moitas pantallas LCD e LED non sofren de problemas de queimaduras e por tanto calquera fondo de pantalla pode usarse como salvapantallas.
+
+Para pantallas OLED, Plasma ou CRT que son subsceptibles a queimarse recoméndase usar un fondo de pantalla con movementos regulares e un tema principalmente escuro que suponse que mitiga as queimaduras pero esta funcionalidade non está testada e a súa efectividade non pode ser garantida.
+
+O propósito principal dos salvapantallas de Lively é engadir outra capa de personalización ao teu PC, usa os salvapantallas como protección ante queimaduras asumindo os posibles riscos!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>Informa dun problema co programa</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>Escolle un ficheiro</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>Wallpaper playback behaviour based on running application</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>Ten a certeza de que desexa cancelar?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>Seguro que desexas borrar permanentemente este fondo do disco duro?</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>Seguro que desexas borrar permanentemente este fondo da Biblioteca?</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>Clave: DragDropFile.Text
+ArrastrarDropFile.Texto</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>Estás abrindo unha aplicación externa como fondo de pantalla.
+As aplicacións maliciosas poden conter malware, virus... E facer dano ó teu sistema.
+Continúa só si esta aplicación vén dunha fonte fiable.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Clave: Bandexa Minimizada. Texto
+Bandexa minimizada. Texto.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>Key: DescriptionPleaseRestartLively
+DescriptionPleaseRestartLively</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>Clave: DescriciónPleaseStop
+Descrición Please Stop</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>Pulsa para comezar a gravar</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>Key: DescriptionRestoringWallpaper
+DescriptionRestoringWallpaper...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>Elixir pantalla</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>Está dispoñible unha nova versión do programa!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>Enter website link to load, shadertoy.com shader links are supported</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>Este asistente axudarate a comezar a configurar Lively</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>A túa versión de Windows N/KN require a descarga de codecs adicionais para soportar a reproducción de vídeo nos fondos</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>Mostra o teu apoio comprando un café aos desenvolvedores</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>Estás a piques de cambiar á compilación beta (desenvolvemento) de Lively.
+As actualizacións serán habituais e poden conter erros!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>Visibilidade da icona da bandexa do sistema, Lively seguirá funcionando coa icona oculta</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>Icona da bandexa do sistema</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Lively reiniciarase para aplicar a nova linguaxe</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>Produciuse un erro ao actualizar; proba a descargar o instalador de:
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>Ficheiro de fondo danado, proba a descargalo de novo</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value>Vaia... Parece que algo saíu mal :(
+Para comprender mellor este erro e solucionar o problema, comparte o ficheiro de rexistro co programador.
+Instrucións para compartir o ficheiro de rexistro (en inglés):
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>Lively non pode funcionar correctamente co modo de alto contraste de Windows activado.
+Desactiva o modo de alto contraste e téntao de novo</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>Media playback failed :(
+Try changing the videoplayer in lively settings.
+
+In order to better understand this error and fix the issue, share the log file with the developer.
+Instructions for sharing log file:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>Non é un ficheiro de Lively</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>Lively non se pechou correctamente, comezando en modo seguro.
+Queres restaurar os fondos de pantalla que se executaron anteriormente?</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>Parece que hai que configurar algunhas opcións para que Lively funcione:
+1. Preme as teclas Win + R para abrir Executar,
+2. Escriba SystemPropertiesPerformance.exe en Executar, faga clic en "Aceptar" para abrir Opcións de rendemento.
+3. Activa/Marca "Animar controis e elementos dentro das ventás" (Se xa está marcado, desmarque e marque) e Aplicar.
+4. Fai clic en "Aplicar" e despois prema "Aceptar" para pechar a xanela.
+
+Se Windows 7 acaba de configurar - Axuste para a mellor aparencia &amp; Solicitar.
+Se aínda non funciona, pecha e inicia Lively de novo ou reinicia Windows.
+(Non funciona nalgunhas versións "insider" de Windows 10)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Lively necesita executarse en segundo plano para reproducir fondos de pantalla</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>Abrir con Windows</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>Engadir</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>Todos os ficheiros</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>Atribución</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>Examinar</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>Cambiar fondo de pantalla</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>Pechar</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>Pechar</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>Completado!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>Fai clic aquí para xestionar os fondos de pantalla</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>Converter a Vídeo</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>Crear Previsualización</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>Personalizar</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>Personalizar</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Descrición</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>Todas as pantallas</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>Por pantalla</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>Saír</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>Gardar nun ficheiro</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>Algunhas funcións non están dispoñibles nesta versión de Lively</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>Arquivo non atopado</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>GIF Animado</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>Amosa amor deixando unha estrela</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>Axuda a traducir</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>hora(s)</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>Instalar</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>Teclado</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>Última comprobación</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>Saber máis</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>Licenza</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>minuto(s)</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>Máis fondos de pantalla</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>Rato</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>Interacción co rato cando a aplicación está enfocada</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>Seguinte</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>Encendido</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>En liña</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>Abrir Lively</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>Todos os procesos</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>Proceso en primeiro plano</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>Pausar os fondos</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>Matar</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>Nada</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>Pausar</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>Imaxe</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>Previsualizar</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>Procesando</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>Regra</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>Pantalla</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>Establecer como fondo de pantalla</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>Abrir localización do ficheiro</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>Orixe</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>Deter</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>Desfrutas usando Lively? Deixa unha opinión :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>Cambiar a beta (canle Dev)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>Cambiar a estable (canle predeterminada)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>Etiquetas</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>Desenfoque</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>Transparente</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>Fluent</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>Fondo de pantalla</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>Fondo de pantalla Fluent</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>Headless</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>Lite</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>Formato de arquivo non soportado</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>Actualización dispoñíbel!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>Buscar actualizacións</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>Erro ao buscar actualizacións do programa</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>Buscando actualizacións</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>O software está actualizado!</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>Opcións de lanzamento</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>Encher</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>Ningún</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>Uniforme</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>Enchemento uniforme</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>Pantalla</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>Expansión</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>Sitio web</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>Retransmisión Web</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>Benvido/a</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>Reprodutor de vídeo</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>Establece todos os tipos de ficheiros compatibles como fondo de pantalla</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>Establece a páxina web do URL que introduciu como fondo de pantalla</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>Establece que facer cando calquera aplicación estea enfocada</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>Establece que facer cando se executan xogos/aplicacións a pantalla completa</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>Pausa o fondo ao executar estas aplicacións</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Lively adáptase á configuración do tema do sistema para cambiar a aparencia</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>Cambie a reprodución cando se desconecte a alimentación de corrente</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>Introduza o porto para depurar fondos de pantalla da páxina web; cando estea listo, navegue a http://localhost:portnumber para acceder á consola de desenvolvedores</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>Mostrar menú de desenvolvedor</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Establece unha imaxe de fondo de pantalla animado como fondo de escritorio</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Pausa o fondo de pantalla en todas as pantallas ou só na pantalla na que se centra a aplicación</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>Crear ficheiro de informe de rexistro</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>Seleccione o reprodutor usado para o fondo gif</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>Remata a configuración para continuar</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Establece unha imaxe de fondo de pantalla animado como fondo de bloqueo</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>Algoritmo de pausa do fondo de pantalla</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>Cambia a reprodución cando o modo de aforro de enerxía de Windows estea activado</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>Cambia a reprodución ao executar unha sesión de Escritorio remoto</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>Despois do período de inactividade, utiliza o fondo de pantalla actual como salvapantallas</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>Se se detecta unha ligazón en fluxo de vídeo compatible usar o reprodutor de vídeo en lugar de cargar a páxina do sitio web</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>Selecciona a calidade de vídeo desexada para retransmisión en liña</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Cambiar a versión do programa de beta a estable ou viceversa</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Cambiar a aparencia da barra de tarefas do sistema</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>Size of the wallpaper tiles in Library</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>For low-end systems select Lite mode</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>Usar aceleración de equipamento físico cando sexa posible</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>Seleccionar o reprodutor utilizado para o fondo de pantalla de vídeo</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>Ruta utilizada para almacenar ficheiros de fondo de pantalla</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>Algoritmo de escalado de fondo de pantalla</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>Seleccionar maneiras de interactuar co fondo de pantalla</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>Modo de aplicación do fondo de pantalla a dispositivos de vídeo conectados</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>Interromper reprodución do fondo de pantalla cando o punteiro non estea no escritorio</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>Almacenar arquivos temporais no disco duro en vez da memoria</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>Seleccionar o reprodutor utilizado para o fondo de pantalla html</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>Engadir fondo de pantalla</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>Aplicacións enfocadas</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>Aplicacións en pantalla completa</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>Fondo de pantalla Lively</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>Regras da aplicación</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>Reproducir son na pantalla</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>En aforro de batería</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>Buscar vídeo, gif, páxina web... arquivo para establecer como fondo de pantalla</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>Porto de depuración</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>Rexistro de cambios</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>Comunidade</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>Depuración</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>Confirmar borrado</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Imaxe do escritorio</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>Regra de pausa de pantalla</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>Documentación</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>Introducir URL</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>Ficheiro de Rexistro</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>Xeral</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>Reprodutor Gif</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>Axuda</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>Interacción</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>Libraría</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>Configuración de Lively</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>Localización</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>Imaxe da pantalla de bloqueo</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>Miscelánea</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>Silenciar</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>Interromper algoritmo</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>Rendemento</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>Listaxe de reprodución</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>Agarda, por favor</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>En aforro de enerxía</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>En escritorio remoto</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>Informar dun erro</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>Escala/Axuste</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>Panel de control</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>Protector de pantalla</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>Seleccionar ficheiro</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>Configuracións</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>Skip Confirmation</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>Código fonte</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>Tenda</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>Detectar streams</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>Calidade do vídeo</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>Tema da barra de tarefas</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>Tamaño do título</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>Interface de usuario</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>Actualizacións</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>Vídeo</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>Decodificación de GPU</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>Fondo de pantalla</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>Personalizar</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>Directorio de fondos de pantalla</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>Mover fondos de pantalla existentes a un novo cartafol</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>Elixa unha dimensión</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>Entrada de fondo de pantalla</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>Método de colocación</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Reprodución do fondo de pantalla</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>Navegador web</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>Caché do disco</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>Motor</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>Cargar páxina web</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>Manter a interface de usuario executándose para un inicio máis rápido</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>Inicio rápido</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>Ficheiro</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>Escuro</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>Claro</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>Configuracións de color de Windows</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>Portátiles</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>Desenvolvedor</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>Aparencia e comportamento</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>Fondo(s) de pantalla activo(s)</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>Galería</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Ola, son Dani John tamén coñecido como rocksdanister. Desenvolvín Lively, unha aplicación de fondos de pantalla libre e de código aberto (FOSS). Moitas grazas por tomar o tempo de ver o meu traballo.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>Licenza do software</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>Aviso sobre software de terceiros</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>Política de recolección de datos</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>Engadir fondo de pantalla</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>Proximamente</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>Sitio web</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>Gardar</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>Efectos de interface de usuario e animacións</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>Interface de usuario</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>Lixeira</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>Modo de aplicación do protector de pantalla a dispositivos de vídeo conectados</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>Tipo de salvapantallas</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>Personalizado</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>Duplicar fondo de pantalla</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>Engadido requirido</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>Requírese una configuración unha única vez para executar o salvapantallas</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>Sempre escoller pantalla cando se elixe o salvapantallas</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>Eliminar conta</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>Exportar datos</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>Colección</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>Xestionar</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>Por favor, inicie sesión para continuar</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>Ola</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>Atopamos estes fondos de pantalla na súa conta</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>Descargar agora</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>Quizais máis tarde</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>Non seleccionar ningunha</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>Benvido/a de novo!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>Razóns</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>Violación de dereitos de autor</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>Información enganosa</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>Outro</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>Spam</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>Persoas espidas ou violencia</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>Notas adicionais</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>Reportar</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>Reportar fondo de pantalla</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>Por favor, confirme esta acción xa que NON SE PODE DESFACER</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>Erro ao eliminar a conta, inténteo de novo máis tarde</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>Quere cancelalo?</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>Espere</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>Descarga en progreso</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>Contribuidores</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>Compartir</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>Compartir fondo de pantalla</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>Subir á galería</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>Copiar ligazón</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>Personalizar fondo de pantalla</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>Pechar fondos de pantalla</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>Elixa aplicación</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>Tamaño</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>Por favor, instale o engadido requirido</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>Engadido non encontrado</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>Actualización completada</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>Ver as novidades</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>Usar predeterminado do sistema</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>Adaptar ao fondo de pantalla</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>Predeterminado</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>Dinámico</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>Para previr a selección accidental as iconas do escritorio están agochadas</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>Iconas do escritorio</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>Isto é todo por agora…</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>O desenvolvemento desta función está en espera</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>Engadidos</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>Crear un fondo de pantalla dinámico</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>Avanzado</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>Aproximando profundidade..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Empregando IA para transformar fotografías en 3D</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>Crear un fondo de pantalla sinxelo</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>Fondo de profundidade de IA</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>Fondo de profundidade</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>Fondo de profundidade xerado por IA</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>Crear fondo de pantalla</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>Algunhas funcionalidades poden non estar dispoñibles cando se executa como administrador</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Precísase descargar ficheiros adicionais para esta funcionalidade</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Descarga requirida</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>Convertirse en seguidor de Patreon</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>Grazas a todos os membros que apoian este proxecto.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>Seguidores de Patreon</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>Seleccionar salvapantallas</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Requírese Microsoft WebView2 para ver este contido</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>Engadido requirido</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>Seleccionar aplicacións a excluír de amosar detalles de música</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>Exclusión de aplicacións</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>Requírese reiniciar o fondo de pantalla para que os cambios teñan efecto</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Same as System</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>Please restart application for settings to take effect.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>Ao reiniciar, amosar na pantalla de inicio de sesión</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>

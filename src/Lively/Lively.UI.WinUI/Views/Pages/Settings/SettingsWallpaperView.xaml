@@ -1,0 +1,386 @@
+﻿<Page
+    x:Class="Lively.UI.WinUI.Views.Pages.Settings.SettingsWallpaperView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:animations="using:CommunityToolkit.WinUI.Animations"
+    xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+    xmlns:customconverters="using:Lively.UI.WinUI.Helpers.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Lively.UI.WinUI.Views.Pages.Settings"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <customconverters:BooleanToVisibilityConverter x:Key="VisibilityConverter" />
+    </Page.Resources>
+
+    <Grid>
+        <ScrollViewer x:Name="scrollViewer">
+            <StackPanel Margin="10,25,10,5" Spacing="{StaticResource SettingGroupControlSpacing}">
+                <!--  Appearnace and Behaviour  -->
+                <StackPanel>
+                    <TextBlock
+                        x:Uid="AppearanceBehaviour"
+                        Margin="0,0,0,10"
+                        FontWeight="SemiBold" />
+
+                    <!--  depreciated  -->
+                    <!--<controls:SettingsCard x:Uid="LockscreenPicture" Visibility="Collapsed">
+                        <ToggleSwitch IsOn="{Binding IsLockScreenAutoWallpaper, Mode=TwoWay}" />
+                    </controls:SettingsCard>-->
+
+                    <controls:SettingsExpander x:Uid="DesktopPicture" IsExpanded="True">
+                        <controls:SettingsExpander.HeaderIcon>
+                            <FontIcon Glyph="&#xE8B9;" />
+                        </controls:SettingsExpander.HeaderIcon>
+                        <ToggleSwitch IsOn="{Binding IsDesktopAutoWallpaper, Mode=TwoWay}" />
+                        <controls:SettingsExpander.Items>
+                            <!--
+                                This setting was originally used as a global scaling option for live wallpapers.
+                                Since scaling is now handled per wallpaper, we repurpose it here for Desktop Picture mode.
+                                Some plugins (eg: VLC) still rely on this since they don’t yet support per-wallpaper scaling.
+                            -->
+                            <controls:SettingsCard x:Uid="WallpaperFit">
+                                <controls:SettingsCard.HeaderIcon>
+                                    <FontIcon Glyph="&#xE73F;" />
+                                </controls:SettingsCard.HeaderIcon>
+                                <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedWallpaperScalingIndex, Mode=TwoWay}">
+                                    <ComboBoxItem x:Uid="WallpaperFitNone" />
+                                    <ComboBoxItem x:Uid="WallpaperFitFill" />
+                                    <ComboBoxItem x:Uid="WallpaperFitUniform" />
+                                    <ComboBoxItem x:Uid="WallpaperFitUniformToFill" />
+                                </ComboBox>
+                            </controls:SettingsCard>
+                        </controls:SettingsExpander.Items>
+                    </controls:SettingsExpander>
+
+                    <controls:SettingsExpander x:Uid="WallpaperInput" IsExpanded="True">
+                        <controls:SettingsExpander.HeaderIcon>
+                            <FontIcon Glyph="&#xEC77;" />
+                        </controls:SettingsExpander.HeaderIcon>
+                        <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedWallpaperInputMode, Mode=TwoWay}">
+                            <ComboBoxItem x:Uid="TextOff" />
+                            <ComboBoxItem x:Uid="TextMouse" />
+                            <ComboBoxItem x:Uid="TextKeyboard" />
+                        </ComboBox>
+                        <controls:SettingsExpander.Items>
+                            <controls:SettingsCard ContentAlignment="Left">
+                                <CheckBox x:Uid="MouseInteractOnDesktop" IsChecked="{Binding MouseMoveOnDesktop, Mode=TwoWay}" />
+                            </controls:SettingsCard>
+                        </controls:SettingsExpander.Items>
+                    </controls:SettingsExpander>
+                    <InfoBar
+                        x:Uid="IconsHidden"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Top"
+                        IsClosable="False"
+                        IsOpen="True"
+                        Severity="Informational"
+                        Visibility="{Binding IsDesktopIconsHidden, Converter={StaticResource VisibilityConverter}, Mode=OneWay}">
+                        <animations:Implicit.ShowAnimations>
+                            <animations:TranslationAnimation
+                                From="0,-15,0"
+                                To="0"
+                                Duration="0:0:0.4" />
+                            <animations:OpacityAnimation
+                                From="0"
+                                To="1.0"
+                                Duration="0:0:0.6" />
+                        </animations:Implicit.ShowAnimations>
+                        <animations:Implicit.HideAnimations>
+                            <animations:OpacityAnimation
+                                From="1.0"
+                                To="0"
+                                Duration="0:0:0.2" />
+                            <animations:TranslationAnimation
+                                From="0"
+                                To="0,-15,0"
+                                Duration="0:0:0.2" />
+                        </animations:Implicit.HideAnimations>
+                    </InfoBar>
+                </StackPanel>
+
+                <!--  Plugin  -->
+                <StackPanel>
+                    <TextBlock
+                        x:Uid="WallpaperPluginGroup"
+                        Margin="0,0,0,10"
+                        FontWeight="SemiBold" />
+                    <controls:SettingsExpander x:Uid="VideoPlayer" IsExpanded="True">
+                        <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedVideoPlayerIndex, Mode=TwoWay}">
+                            <ComboBoxItem>wmf</ComboBoxItem>
+                            <ComboBoxItem Visibility="Collapsed">libVLC</ComboBoxItem>
+                            <ComboBoxItem Visibility="Collapsed">libVLC(External)</ComboBoxItem>
+                            <ComboBoxItem Visibility="Collapsed">libMPV</ComboBoxItem>
+                            <ComboBoxItem Visibility="Collapsed">libMPV(External)</ComboBoxItem>
+                            <ComboBoxItem>mpv</ComboBoxItem>
+                            <ComboBoxItem>vlc</ComboBoxItem>
+                        </ComboBox>
+                        <controls:SettingsExpander.Items>
+                            <controls:SettingsCard x:Uid="VideoHardwareDecode">
+                                <ToggleSwitch IsOn="{Binding VideoPlayerHWDecode, Mode=TwoWay}" />
+                            </controls:SettingsCard>
+                            <controls:SettingsCard x:Uid="VideoLetWindowsManageColor">
+                                <ToggleSwitch IsOn="{Binding IsWindowsManageVideoColor, Mode=TwoWay}" />
+                            </controls:SettingsCard>
+                        </controls:SettingsExpander.Items>
+                    </controls:SettingsExpander>
+                    <InfoBar
+                        x:Uid="PluginNotFound"
+                        VerticalAlignment="Top"
+                        IsClosable="False"
+                        IsOpen="True"
+                        Severity="Error"
+                        Visibility="{Binding IsSelectedVideoPlayerAvailable, Converter={StaticResource VisibilityConverter}, Mode=OneWay, ConverterParameter=Reverse}">
+                        <InfoBar.ActionButton>
+                            <HyperlinkButton NavigateUri="https://github.com/rocksdanister/lively/wiki/Video-Guide" ToolTipService.ToolTip="https://github.com/rocksdanister/lively/wiki/Video-Guide">
+                                <HyperlinkButton.Content>
+                                    <TextBlock x:Uid="TextLearnMore" TextWrapping="Wrap" />
+                                </HyperlinkButton.Content>
+                            </HyperlinkButton>
+                        </InfoBar.ActionButton>
+                        <animations:Implicit.ShowAnimations>
+                            <animations:TranslationAnimation
+                                From="0,-15,0"
+                                To="0"
+                                Duration="0:0:0.4" />
+                            <animations:OpacityAnimation
+                                From="0"
+                                To="1.0"
+                                Duration="0:0:0.6" />
+                        </animations:Implicit.ShowAnimations>
+                        <animations:Implicit.HideAnimations>
+                            <animations:OpacityAnimation
+                                From="1.0"
+                                To="0"
+                                Duration="0:0:0.2" />
+                            <animations:TranslationAnimation
+                                From="0"
+                                To="0,-15,0"
+                                Duration="0:0:0.2" />
+                        </animations:Implicit.HideAnimations>
+                    </InfoBar>
+
+                    <controls:SettingsExpander x:Uid="WebBrowser" IsExpanded="True">
+                        <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedWebBrowserIndex, Mode=TwoWay}">
+                            <ComboBoxItem>CefSharp</ComboBoxItem>
+                            <ComboBoxItem>WebView2</ComboBoxItem>
+                        </ComboBox>
+                        <controls:SettingsExpander.Items>
+                            <controls:SettingsCard x:Uid="WebBrowserDiskCache">
+                                <ToggleSwitch IsOn="{Binding CefDiskCache, Mode=TwoWay}" />
+                            </controls:SettingsCard>
+                            <controls:SettingsCard x:Uid="BrowserDebuggingPort">
+                                <StackPanel>
+                                    <ToggleSwitch IsOn="{Binding IsWebDebuggingEnabled, Mode=TwoWay}" />
+                                    <NumberBox
+                                        MinWidth="200"
+                                        Text="{Binding WebDebuggingPort, Mode=TwoWay}"
+                                        Visibility="Collapsed" />
+                                </StackPanel>
+                            </controls:SettingsCard>
+                        </controls:SettingsExpander.Items>
+                    </controls:SettingsExpander>
+                    <!--  WebView2 install required  -->
+                    <InfoBar
+                        x:Uid="WebViewRequired"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Top"
+                        IsClosable="False"
+                        IsOpen="True"
+                        Severity="Error"
+                        Visibility="{Binding IsWebView2Required, Mode=OneWay}">
+                        <InfoBar.ActionButton>
+                            <Button x:Uid="TitleDownload" Command="{Binding InstallWebView2Command}" />
+                        </InfoBar.ActionButton>
+                        <ProgressBar
+                            Margin="-50,0,0,0"
+                            IsIndeterminate="True"
+                            Visibility="{Binding IsWebView2Installing, Mode=OneWay}" />
+                    </InfoBar>
+                    <!--  Plugin not found  -->
+                    <InfoBar
+                        x:Uid="PluginNotFound"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Top"
+                        IsClosable="False"
+                        IsOpen="True"
+                        Severity="Error"
+                        Visibility="{Binding IsSelectedWebBrowserAvailable, Converter={StaticResource VisibilityConverter}, Mode=OneWay, ConverterParameter=Reverse}">
+                        <InfoBar.ActionButton>
+                            <HyperlinkButton NavigateUri="https://github.com/rocksdanister/lively/wiki/Web-Guide-I-:-Cef" ToolTipService.ToolTip="https://github.com/rocksdanister/lively/wiki/Web-Guide-I-:-Cef">
+                                <HyperlinkButton.Content>
+                                    <TextBlock x:Uid="TextLearnMore" TextWrapping="Wrap" />
+                                </HyperlinkButton.Content>
+                            </HyperlinkButton>
+                        </InfoBar.ActionButton>
+                        <animations:Implicit.ShowAnimations>
+                            <animations:TranslationAnimation
+                                From="0,-15,0"
+                                To="0"
+                                Duration="0:0:0.4" />
+                            <animations:OpacityAnimation
+                                From="0"
+                                To="1.0"
+                                Duration="0:0:0.6" />
+                        </animations:Implicit.ShowAnimations>
+                        <animations:Implicit.HideAnimations>
+                            <animations:OpacityAnimation
+                                From="1.0"
+                                To="0"
+                                Duration="0:0:0.2" />
+                            <animations:TranslationAnimation
+                                From="0"
+                                To="0,-15,0"
+                                Duration="0:0:0.2" />
+                        </animations:Implicit.HideAnimations>
+                    </InfoBar>
+
+                    <!--  depreciated  -->
+                    <!--<controls:SettingsCard x:Uid="GifPlayer">
+                        <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedGifPlayerIndex, Mode=TwoWay}">
+                            <ComboBoxItem>Win10</ComboBoxItem>
+                            <ComboBoxItem Visibility="Collapsed">libMPV(External)</ComboBoxItem>
+                            <ComboBoxItem>mpv</ComboBoxItem>
+                        </ComboBox>
+                    </controls:SettingsCard>
+                    <InfoBar
+                        x:Uid="PluginNotFound"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Top"
+                        IsClosable="False"
+                        IsOpen="True"
+                        Severity="Error"
+                        Visibility="{Binding IsSelectedGifPlayerAvailable, Converter={StaticResource VisibilityConverter}, Mode=OneWay, ConverterParameter=Reverse}">
+                        <InfoBar.ActionButton>
+                            <HyperlinkButton NavigateUri="https://github.com/rocksdanister/lively/wiki/GIF-Guide" ToolTipService.ToolTip="https://github.com/rocksdanister/lively/wiki/GIF-Guide">
+                                <HyperlinkButton.Content>
+                                    <TextBlock x:Uid="TextLearnMore" TextWrapping="Wrap" />
+                                </HyperlinkButton.Content>
+                            </HyperlinkButton>
+                        </InfoBar.ActionButton>
+                        <animations:Implicit.ShowAnimations>
+                            <animations:TranslationAnimation
+                                From="0,-15,0"
+                                To="0"
+                                Duration="0:0:0.4" />
+                            <animations:OpacityAnimation
+                                From="0"
+                                To="1.0"
+                                Duration="0:0:0.6" />
+                        </animations:Implicit.ShowAnimations>
+                        <animations:Implicit.HideAnimations>
+                            <animations:OpacityAnimation
+                                From="1.0"
+                                To="0"
+                                Duration="0:0:0.2" />
+                            <animations:TranslationAnimation
+                                From="0"
+                                To="0,-15,0"
+                                Duration="0:0:0.2" />
+                        </animations:Implicit.HideAnimations>
+                    </InfoBar>-->
+
+                    <controls:SettingsExpander
+                        x:Uid="StreamWallpaperVideoQuality"
+                        IsExpanded="False"
+                        Visibility="{Binding IsStreamSupported, Converter={StaticResource VisibilityConverter}, Mode=OneWay}">
+                        <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedWallpaperStreamQualityIndex, Mode=TwoWay}">
+                            <ComboBoxItem>144p</ComboBoxItem>
+                            <ComboBoxItem>240p</ComboBoxItem>
+                            <ComboBoxItem>360p</ComboBoxItem>
+                            <ComboBoxItem>480p</ComboBoxItem>
+                            <ComboBoxItem>720p</ComboBoxItem>
+                            <ComboBoxItem>1080p</ComboBoxItem>
+                            <ComboBoxItem>1080p+</ComboBoxItem>
+                        </ComboBox>
+                        <controls:SettingsExpander.Items>
+                            <controls:SettingsCard x:Uid="StreamWallpaperDetect">
+                                <ToggleSwitch IsOn="{Binding DetectStreamWallpaper, Mode=TwoWay}" />
+                            </controls:SettingsCard>
+                        </controls:SettingsExpander.Items>
+                    </controls:SettingsExpander>
+                </StackPanel>
+                <!--  Music  -->
+                <StackPanel>
+                    <TextBlock
+                        x:Uid="WallpaperMusicGroup"
+                        Margin="0,0,0,10"
+                        FontWeight="SemiBold" />
+                    <controls:SettingsExpander x:Uid="AppMusicExclusion" IsExpanded="False">
+                        <controls:SettingsExpander.HeaderIcon>
+                            <FontIcon Glyph="&#xF0E3;" />
+                        </controls:SettingsExpander.HeaderIcon>
+                        <controls:SettingsExpander.Items>
+                            <controls:SettingsCard ContentAlignment="Left">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <ListView
+                                        Grid.Column="0"
+                                        MinWidth="500"
+                                        MinHeight="200"
+                                        MaxHeight="200"
+                                        Background="{ThemeResource ControlFillColorDefault}"
+                                        CornerRadius="5"
+                                        ItemsSource="{Binding AppMusicExclusionRules}"
+                                        SelectedItem="{Binding SelectedAppMusicExclusionRuleItem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                        SelectionMode="Single">
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Margin="0,5,0,5" Text="{Binding AppName}" />
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                    </ListView>
+                                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                        <Button Margin="5" Command="{Binding AddAppMusicExclusionRuleCommand}">
+                                            <FontIcon FontSize="12" Glyph="&#xE710;" />
+                                        </Button>
+                                        <Button Margin="5" Command="{Binding RemoveAppMusicExclusionRuleCommand}">
+                                            <FontIcon FontSize="12" Glyph="&#xE738;" />
+                                        </Button>
+                                    </StackPanel>
+                                </Grid>
+                            </controls:SettingsCard>
+                        </controls:SettingsExpander.Items>
+                    </controls:SettingsExpander>
+                    <InfoBar
+                        x:Name="musicWallpaperRestartNotify"
+                        x:Uid="WallpaperRestartRequiredNotify"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Top"
+                        IsClosable="False"
+                        IsOpen="True"
+                        Severity="Informational"
+                        Visibility="{Binding IsAppMusicExclusionRuleChanged, Converter={StaticResource VisibilityConverter}, Mode=OneWay}">
+                        <InfoBar.ActionButton>
+                            <Button x:Uid="RestartCommand" Command="{Binding RestartMusicWallpapersCommand}" />
+                        </InfoBar.ActionButton>
+                        <animations:Implicit.ShowAnimations>
+                            <animations:TranslationAnimation
+                                From="0,-15,0"
+                                To="0"
+                                Duration="0:0:0.4" />
+                            <animations:OpacityAnimation
+                                From="0"
+                                To="1.0"
+                                Duration="0:0:0.6" />
+                        </animations:Implicit.ShowAnimations>
+                        <animations:Implicit.HideAnimations>
+                            <animations:OpacityAnimation
+                                From="1.0"
+                                To="0"
+                                Duration="0:0:0.2" />
+                            <animations:TranslationAnimation
+                                From="0"
+                                To="0,-15,0"
+                                Duration="0:0:0.2" />
+                        </animations:Implicit.HideAnimations>
+                    </InfoBar>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

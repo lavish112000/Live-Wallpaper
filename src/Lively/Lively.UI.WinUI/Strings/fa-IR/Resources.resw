@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AudioFocused.Content" xml:space="preserve">
+    <value>پخش صدا تنها زمانی که بر روی دسکتاپ هستید</value>
+  </data>
+  <data name="Audio.Description" xml:space="preserve">
+    <value>سطح صدای همه‌ی پس زمینه‌ها</value>
+  </data>
+  <data name="Audio.Header" xml:space="preserve">
+    <value>مقدار صدا</value>
+  </data>
+  <data name="AudioGroup.Text" xml:space="preserve">
+    <value>صدا</value>
+  </data>
+  <data name="Community.Description" xml:space="preserve">
+    <value>انجمن گفتگوی آنلاین</value>
+  </data>
+  <data name="Documentation.Description" xml:space="preserve">
+    <value>مستندات و راهنمای API</value>
+  </data>
+  <data name="DescExplorerCrash" xml:space="preserve">
+    <value>Lively با یک خطای مهلک مواجه شده است.
+
+Windows Explorer دو بار در 30 ثانیه گذشته راه‌اندازی مجدد شد! این ممکن است تضاد بین Lively و سایر نرم افزارهای سفارشی‌سازی دسکتاپ یا ویندوز باشد. برای جلوگیری از مشکلات بیشتر، تمام تصاویر زمینه بسته می‌شوند.</value>
+  </data>
+  <data name="DescIncompatibleTaskbarTheme" xml:space="preserve">
+    <value>برنامۀ ناسازگار پیدا شد، پوسته‌ی نوار وظیفه غیرفعال شد</value>
+  </data>
+  <data name="Website.Description" xml:space="preserve">
+    <value>صفحه وب رسمی Lively Wallpaper</value>
+  </data>
+  <data name="DescOledScreensaverNotice" xml:space="preserve">
+    <value>اکثر نمایشگرهای LCD و LED مدرن مشکل سوختگی پیکسل ندارند و بنابراین می‎‌توان از هر تصویر زمینه به عنوان محافظ صفحه استفاده کرد.
+
+برای نمایشگرهای OLED، پلاسما یا CRT که مستعد سوختن هستند، توصیه می‌شود از تصاویر زمینه با حرکت منظم و تم کلی تیره استفاده کنید که سوختگی پیکسل را کاهش می‌دهد، اما این ویژگی آزمایش نشده است و نمی‌توان کارایی آن را تضمین کرد.
+
+هدف اصلی محافظ‌های صفحه نمایش Lively اضافه کردن لایه دیگری از سفارشی‌سازی به رایانه شما است، از محافظ‌های صفحه نمایش به عنوان محافظت در برابر سوختگی پیکسل با مسئولیت خود استفاده کنید!</value>
+  </data>
+  <data name="ReportBug.Description" xml:space="preserve">
+    <value>مشکل نرم افزار را گزارش دهید</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Header" xml:space="preserve">
+    <value>یک فایل انتخاب کنید</value>
+  </data>
+  <data name="DescriptionAppRules" xml:space="preserve">
+    <value>تنظیم رفتار پس زمینه بر اساس برنامه در حال اجرا.</value>
+  </data>
+  <data name="DescriptionCancelQuestion" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید لغو کنید؟</value>
+  </data>
+  <data name="DescriptionDeleteConfirmation" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید این کاغذدیواری را برای همیشه از دیسک حذف کنید؟</value>
+  </data>
+  <data name="DescriptionDeleteConfirmationLibrary" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید این کاغذدیواری را از کتابخانه حذف کنید؟</value>
+  </data>
+  <data name="DragDropFile.Text" xml:space="preserve">
+    <value>به سادگی فایل ها را در اینجا بکشید و رها کنید</value>
+  </data>
+  <data name="DescriptionExternalAppWarning" xml:space="preserve">
+    <value>شما در حال باز کردن یک برنامه خارجی به عنوان تصویر زمینه هستید.
+برنامه های مخرب می توانند میزبان بدافزارها، ویروس ها.. باشند و به سیستم شما آسیب برسانند.
+فقط در صورتی ادامه دهید که این برنامه از منبع قابل اعتمادی تهیه شده باشد.</value>
+  </data>
+  <data name="MinimizedTray.Text" xml:space="preserve">
+    <value>Lively کوچک شده و به سیستم ترِی (زیر نوار وظیفه) انتقال یافته، برای ادامه آیکون Lively را راست کلیک کنید.</value>
+  </data>
+  <data name="DescriptionPleaseRestartLively" xml:space="preserve">
+    <value>لطفاً Lively را مجدداً راه اندازی کنید تا تنظیمات اعمال شوند</value>
+  </data>
+  <data name="DescriptionPleaseStop" xml:space="preserve">
+    <value>لطفا قبل از ادامه دست نگه دارید.</value>
+  </data>
+  <data name="DescriptionRecordStart" xml:space="preserve">
+    <value>برای شروع ضبط فشار دهيد</value>
+  </data>
+  <data name="DescriptionRestoringWallpaper" xml:space="preserve">
+    <value>در حال بازیابی کاغذدیواری(های) قبلی، لطفاً صبر کنید...</value>
+  </data>
+  <data name="DescriptionScreenLayout" xml:space="preserve">
+    <value>صفحه نمایش خود را انتخاب کنید</value>
+  </data>
+  <data name="DescriptionUpdateAvailable" xml:space="preserve">
+    <value>نسخه جدیدی از نرم‌افزار در دسترس است!</value>
+  </data>
+  <data name="DescriptionWebpageLoad" xml:space="preserve">
+    <value>آدرس وبسايت را وارد کنيد تا بارگذاري شود، از شِيدر هم پشتيباني ميشود. (shadertoy.com)</value>
+  </data>
+  <data name="DescriptionWelcomeWizard" xml:space="preserve">
+    <value>این پنجره شما را در مراحل نصب همراهی می کند</value>
+  </data>
+  <data name="DescriptionWindowsNCodecInstall" xml:space="preserve">
+    <value>ویندوز شما نیازمند دانلود و نصب چندین برنامه برای پشتیبانی از اجرای ویدیو در پس زیمنه است</value>
+  </data>
+  <data name="DescSupperDev" xml:space="preserve">
+    <value>با خرید قهوه برای توسعه‌دهنده حمایت خود را نشان دهید</value>
+  </data>
+  <data name="DescSwitchBranchBetaWarning" xml:space="preserve">
+    <value>شما در شرف تغییر به نسخه بتا (توسعه‌دهنده) Lively هستید.
+به‌روزرسانی‌ها مکرر خواهد بود و ممکن است حاوی اِشکال باشند!</value>
+  </data>
+  <data name="HideSysTray.Description" xml:space="preserve">
+    <value>مشاهده آیکون سیستم، lively با آیکون پنهان به کار خود ادامه می دهد</value>
+  </data>
+  <data name="HideSysTray.Header" xml:space="preserve">
+    <value>آیکون System-tray</value>
+  </data>
+  <data name="Language.Description" xml:space="preserve">
+    <value>Lively برای اعمال زبان جدید راه اندازی مجدد می شود</value>
+  </data>
+  <data name="Language.Header" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="LivelyExceptionAppUpdateFail" xml:space="preserve">
+    <value>بروز رسانی با مشکل مواجه شد، می توانید از لینک زیر برای دانلود نسخه جدید استفاده کنید
+https://github.com/rocksdanister/lively/releases</value>
+  </data>
+  <data name="LivelyExceptionDamagedZipFile" xml:space="preserve">
+    <value>فايل پس زمینه آسيب ديده، لطفا دوباره دانلود کنيد.</value>
+  </data>
+  <data name="LivelyExceptionGeneral" xml:space="preserve">
+    <value> 
+اوووه... ظاهرا به مشکل خوردیم :(
+برای بهبود نرم افزار و رفع مشکل به وجود آمده می توانید فایل خطا ها را با توسعه دهنده این نرم افزار به اشتراک بگذارید.
+نحوه اشتراک گذاری فایل خطا ها:
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionHighContrastMode" xml:space="preserve">
+    <value>لايولي تا زمانيکه گزینه کنتراست بالا فعال باشد نميتونه درست عمل کنه!
+لطفا آنرا غيرفعال کنيد سپس دوباره تلاش کنيد.</value>
+  </data>
+  <data name="LivelyExceptionMediaPlayback" xml:space="preserve">
+    <value>اجراي رسانه با مشکل مواجه شد :(
+با عوض کردن پخش کننده ويديو در تنظيمات دوباره تلاش کنيد.
+
+براي درک بهتر اين مشکل و درست کردن آن فايل گزارش را به برنامه نويس يه اشتراک بگذاريد.
+راهنمايي براي به اشتراک گذاشتن فايل گذارش :
+https://github.com/rocksdanister/lively/wiki</value>
+  </data>
+  <data name="LivelyExceptionNotLivelyZip" xml:space="preserve">
+    <value>این فایل پس زمینه برای لایولی نیست</value>
+  </data>
+  <data name="LivelyExceptionSafeModeStart" xml:space="preserve">
+    <value>دفعه قبل لایولی به درستی بسته نشد، در تلاش برای اجرای آن در حالت امن.
+آيا ميخواهيد پس زمینه قبلي را بگردانيد؟</value>
+  </data>
+  <data name="LivelyExceptionWorkerWSetupFail" xml:space="preserve">
+    <value>ظاهرا چند تنظيمات بايد تغيير کنند تا لايولي کار کند:
+1. دکمه هاي Win + R بزنيد تا Run اجرا شود.
+2. SystemPropertiesPerformance.exe را در Run تايپ کنيد و Ok را بزنيد.
+3. "Animate controls and elements inside windows" را فعال کنيد، (اگر فعال است، يکبار غيرفعال و دوباره فعال کنيد) و Apply را بزنيد.
+4. دکمه Apply را بزنيد و سپس Ok را انتخاب کنيد.
+ 
+اگر ويندوز 7 داريد، Adjust for best appearance را انتخاب کنيد و سپس Apply کنيد.
+اگر هنوز کار نميکند، لايولي را يکبار باز و بسته کنيد و يا ويندوز را ري استارت کنيد.
+(در بعضي از نسخه هاي اينسايدر ويندوز کار نميکند)</value>
+  </data>
+  <data name="Startup.Description" xml:space="preserve">
+    <value>Lively برای پخش کاغذ دیواری باید در پس زمینه اجرا شود</value>
+  </data>
+  <data name="Startup.Header" xml:space="preserve">
+    <value>روشن شدن با ویندوز</value>
+  </data>
+  <data name="TextAdd" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="TextAllFiles" xml:space="preserve">
+    <value>همه فایلها</value>
+  </data>
+  <data name="Application.Text" xml:space="preserve">
+    <value>درخواست</value>
+  </data>
+  <data name="Attribution.Header" xml:space="preserve">
+    <value>خصوصیات</value>
+  </data>
+  <data name="Author.Text" xml:space="preserve">
+    <value>سازنده</value>
+  </data>
+  <data name="TextBack" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="TextBrowse" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>انصراف</value>
+  </data>
+  <data name="TextChangeWallpaper" xml:space="preserve">
+    <value>تغییر تصویر پس‌زمینه</value>
+  </data>
+  <data name="TextClose" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="CloseWallpapers.Label" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="TextCompleted" xml:space="preserve">
+    <value>تکمیل شد!</value>
+  </data>
+  <data name="ControlPanel.Subtitle" xml:space="preserve">
+    <value>برای مدیریت تصاویر پس زمینه اینجا را کلیک کنید</value>
+  </data>
+  <data name="TextConvertVideo" xml:space="preserve">
+    <value>تبديل به ويديو</value>
+  </data>
+  <data name="TextCreatePreview" xml:space="preserve">
+    <value>ساختن پيش‌نمايش</value>
+  </data>
+  <data name="Customise.Text" xml:space="preserve">
+    <value>سفارشی‌سازی</value>
+  </data>
+  <data name="CustomiseWallpaper.Label" xml:space="preserve">
+    <value>سفارشی‌سازی</value>
+  </data>
+  <data name="DeleteWallpaper.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="DisplayPauseRuleAllScreen.Content" xml:space="preserve">
+    <value>تمام صفحات</value>
+  </data>
+  <data name="DisplayPauseRulePerScreen.Content" xml:space="preserve">
+    <value>برای هر صفحه</value>
+  </data>
+  <data name="TextDownload.Content" xml:space="preserve">
+    <value>دانلود</value>
+  </data>
+  <data name="EditWallpaper.Text" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="TextError" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="TextExit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="ExportWallpaperZip.Text" xml:space="preserve">
+    <value>ذخیره در فایل</value>
+  </data>
+  <data name="TextFeatureMissing" xml:space="preserve">
+    <value>برخی از ویژگی ها در این نسخه از Lively موجود نیست</value>
+  </data>
+  <data name="TextFileNotFound" xml:space="preserve">
+    <value>فايل پيدا نشد</value>
+  </data>
+  <data name="TextGIF" xml:space="preserve">
+    <value>GIF متحرک</value>
+  </data>
+  <data name="SourceCode.Description" xml:space="preserve">
+    <value>با دادن ستاره علاقه‌تان را نشان دهید</value>
+  </data>
+  <data name="TextGo" xml:space="preserve">
+    <value>برو</value>
+  </data>
+  <data name="TextHelpTranslate.Title" xml:space="preserve">
+    <value>به ترجمه لايولي کمک کنيد.</value>
+  </data>
+  <data name="TextHours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="TextInstall.Content" xml:space="preserve">
+    <value>نصب</value>
+  </data>
+  <data name="TextKeyboard.Content" xml:space="preserve">
+    <value>کيبورد</value>
+  </data>
+  <data name="TextLastChecked" xml:space="preserve">
+    <value>آخرین بازدید</value>
+  </data>
+  <data name="TextLearnMore.Text" xml:space="preserve">
+    <value>بیشتر بدانید</value>
+  </data>
+  <data name="License.Header" xml:space="preserve">
+    <value>جواز</value>
+  </data>
+  <data name="TextMinutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="TextmoreInfo" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="TextMoreWallpapers" xml:space="preserve">
+    <value>پس زمینه های بیشتر</value>
+  </data>
+  <data name="TextMouse.Content" xml:space="preserve">
+    <value>ماوس</value>
+  </data>
+  <data name="MouseInteractOnDesktop.Content" xml:space="preserve">
+    <value>انجام اثر متقابل وقتی تمرکز روی دسکتاپ است</value>
+  </data>
+  <data name="TextNext" xml:space="preserve">
+    <value>بعدی</value>
+  </data>
+  <data name="TextNo" xml:space="preserve">
+    <value>خیر</value>
+  </data>
+  <data name="TextOff.Content" xml:space="preserve">
+    <value>خاموش</value>
+  </data>
+  <data name="TextOK" xml:space="preserve">
+    <value>تایید</value>
+  </data>
+  <data name="TextOn.Content" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="TextOnline" xml:space="preserve">
+    <value>آنلاین</value>
+  </data>
+  <data name="TextOpenLively" xml:space="preserve">
+    <value>باز کردن لایولی</value>
+  </data>
+  <data name="PauseAlgorithmTypeAllProcess.Content" xml:space="preserve">
+    <value>همه ی پردازش ها</value>
+  </data>
+  <data name="PauseAlgorithmTypeExclusiveMode.Content" xml:space="preserve">
+    <value>Direct3D</value>
+  </data>
+  <data name="PauseAlgorithmTypeForegroundProcess.Content" xml:space="preserve">
+    <value>پردازش های پشت صحنه</value>
+  </data>
+  <data name="TextPauseWallpapers" xml:space="preserve">
+    <value>توقف پس زمینه ها</value>
+  </data>
+  <data name="TextPerformanceKill.Content" xml:space="preserve">
+    <value>توقف  اجباری</value>
+  </data>
+  <data name="TextPerformanceNone.Content" xml:space="preserve">
+    <value>هیج</value>
+  </data>
+  <data name="TextPerformancePause.Content" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="TextPicture" xml:space="preserve">
+    <value>عکس</value>
+  </data>
+  <data name="PreviewWallpaper.Text" xml:space="preserve">
+    <value>پیش نمایش</value>
+  </data>
+  <data name="PrivacyPolicy.Header" xml:space="preserve">
+    <value>سیاست حفظ حریم خصوصی</value>
+  </data>
+  <data name="TextProcessingWallpaper" xml:space="preserve">
+    <value>در حال پردازش</value>
+  </data>
+  <data name="TextRemove" xml:space="preserve">
+    <value>پاک کردن</value>
+  </data>
+  <data name="TextRule" xml:space="preserve">
+    <value>قانون</value>
+  </data>
+  <data name="TextScreen" xml:space="preserve">
+    <value>صفحه</value>
+  </data>
+  <data name="SearchBox.PlaceholderText" xml:space="preserve">
+    <value>جستوجو</value>
+  </data>
+  <data name="SetWallpaper.Text" xml:space="preserve">
+    <value>تنظیم به عنوان پس زمینه</value>
+  </data>
+  <data name="ShowOnDisk.Text" xml:space="preserve">
+    <value>باز کردن مکان فایل</value>
+  </data>
+  <data name="WallpaperSource.Text" xml:space="preserve">
+    <value>منبع</value>
+  </data>
+  <data name="TextStart" xml:space="preserve">
+    <value>شروع</value>
+  </data>
+  <data name="TextStop" xml:space="preserve">
+    <value>پایان</value>
+  </data>
+  <data name="StoreReview.Content" xml:space="preserve">
+    <value>آیا از استفاده Lively لذت می برید؟ نظر بدهید :)</value>
+  </data>
+  <data name="TextSupport.Content" xml:space="preserve">
+    <value>پشتیبانی</value>
+  </data>
+  <data name="TextSwitchBranchDev" xml:space="preserve">
+    <value>رفتن به نسخه بتا (کانال توسعه‌دهنده)</value>
+  </data>
+  <data name="TextSwitchBranchOfficial" xml:space="preserve">
+    <value>تغییر به نسخه پایدار (کانال پیش‌فرض)</value>
+  </data>
+  <data name="TextTags" xml:space="preserve">
+    <value>برچسب ها</value>
+  </data>
+  <data name="TaskbarThemeBlur.Content" xml:space="preserve">
+    <value>تاری</value>
+  </data>
+  <data name="TaskbarThemeClear.Content" xml:space="preserve">
+    <value>پاک سازی</value>
+  </data>
+  <data name="TaskbarThemeColor.Content" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="TaskbarThemeFluent.Content" xml:space="preserve">
+    <value>مسلط</value>
+  </data>
+  <data name="TaskbarThemeWallpaper.Content" xml:space="preserve">
+    <value>پس زمینه</value>
+  </data>
+  <data name="TaskbarThemeWallpaperFluent.Content" xml:space="preserve">
+    <value>تصویر زمینه Fluent</value>
+  </data>
+  <data name="TextTileSizeLarge" xml:space="preserve">
+    <value>بزرگ</value>
+  </data>
+  <data name="TextTileSizeNormal" xml:space="preserve">
+    <value>عادی</value>
+  </data>
+  <data name="TextTileSizeSmall" xml:space="preserve">
+    <value>کوچک</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="TextUIHeadless" xml:space="preserve">
+    <value>بدون سر</value>
+  </data>
+  <data name="TextUILite" xml:space="preserve">
+    <value>سبک</value>
+  </data>
+  <data name="TextUINormal" xml:space="preserve">
+    <value>عادی</value>
+  </data>
+  <data name="TextUnsupportedFile" xml:space="preserve">
+    <value>فرمت فایل قابل پشتیبانی نیست</value>
+  </data>
+  <data name="TextUpdateAvailable" xml:space="preserve">
+    <value>نسخه جدید موجود است!</value>
+  </data>
+  <data name="TextUpdateCheck.Content" xml:space="preserve">
+    <value>بررسی به‌روزرسانی</value>
+  </data>
+  <data name="TextupdateCheckFail" xml:space="preserve">
+    <value>بررسی برای نسخه جدید با مشکل مواجه شد</value>
+  </data>
+  <data name="TextUpdateChecking" xml:space="preserve">
+    <value>در حال بررسی برای نسخه جدید</value>
+  </data>
+  <data name="TextUpdateUptodate" xml:space="preserve">
+    <value>برنامه مطابق آخرین نسخه است</value>
+  </data>
+  <data name="TextVideo" xml:space="preserve">
+    <value>ویدیو</value>
+  </data>
+  <data name="TextWallpaperCommandlineArgs" xml:space="preserve">
+    <value>راه‌اندازی گزینه ها</value>
+  </data>
+  <data name="WallpaperFitFill.Content" xml:space="preserve">
+    <value>پر کردن</value>
+  </data>
+  <data name="WallpaperFitNone.Content" xml:space="preserve">
+    <value>هیج</value>
+  </data>
+  <data name="WallpaperFitUniform.Content" xml:space="preserve">
+    <value>پر کردن بالا و پایین</value>
+  </data>
+  <data name="WallpaperFitUniformToFill.Content" xml:space="preserve">
+    <value>پر کردن مساوی</value>
+  </data>
+  <data name="WallpaperLayoutDuplicate.Text" xml:space="preserve">
+    <value>تکثیر کردن</value>
+  </data>
+  <data name="WallpaperLayoutPerScreen.Text" xml:space="preserve">
+    <value>صفحه</value>
+  </data>
+  <data name="WallpaperLayoutSpan.Text" xml:space="preserve">
+    <value>چرخیده</value>
+  </data>
+  <data name="WallpaperType.Text" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="Website.Header" xml:space="preserve">
+    <value>وبسایت</value>
+  </data>
+  <data name="TextWebStream" xml:space="preserve">
+    <value>پخش تحت وب</value>
+  </data>
+  <data name="TextWelcome" xml:space="preserve">
+    <value>خوش آمدید</value>
+  </data>
+  <data name="TextYes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="VideoPlayer.Header" xml:space="preserve">
+    <value>پخش کننده ویدیو</value>
+  </data>
+  <data name="AddWallpaperFileBrowse.Description" xml:space="preserve">
+    <value>همه انواع فایل های پشتیبانی شده را به عنوان تصویر زمینه تنظیم کنید</value>
+  </data>
+  <data name="EnterUrl.Description" xml:space="preserve">
+    <value>تنظيم صفحه وبِ آدرس وارد شده به عنوان کاغذ ديواري.</value>
+  </data>
+  <data name="AppFocus.Description" xml:space="preserve">
+    <value>تنظیم کنید وقتی هر برنامه ای در فوکوس است چه کاری انجام دهید</value>
+  </data>
+  <data name="AppFullScreen.Description" xml:space="preserve">
+    <value>تنظیم کنید وقتی بازی ها/برنامه های تمام صفحه در حال اجرا هستند چه کاری انجام شود</value>
+  </data>
+  <data name="AppRules.Description" xml:space="preserve">
+    <value>هنگام اجرای این برنامه ها، کاغذدیواری را متوقف کنید</value>
+  </data>
+  <data name="TipAppTheme" xml:space="preserve">
+    <value>Lively با تنظیمات تم سیستم سازگار می شود تا ظاهر را تغییر دهد</value>
+  </data>
+  <data name="BatteryPower.Description" xml:space="preserve">
+    <value>(فقط برای سیستم هایی که با باتری کار می کنند) هنگام قطع برق AC ، پخش را تغییر دهید.</value>
+  </data>
+  <data name="BrowserDebuggingPort.Description" xml:space="preserve">
+    <value>پورت اشکال زدایی والپیپرهای صفحه وب را وارد کنید. پس از آماده شدن به http://localhost:portnumber بروید تا به کنسول توسعه دهنده دسترسی پیدا کنید</value>
+  </data>
+  <data name="Debug.Description" xml:space="preserve">
+    <value>نمایش منوی برنامه نویس</value>
+  </data>
+  <data name="DesktopPicture.Description" xml:space="preserve">
+    <value>Set a picture of animated wallpaper as desktop wallpaper.</value>
+  </data>
+  <data name="DisplayPauseRule.Description" xml:space="preserve">
+    <value>Per: مکث تصویر زمینه فقط در صفحه ای که برنامه در آن متمرکز / تمام صفحه است.
+All: مکث تصوير زمينه در همه ي صفحه(ها) اگر هر برنامه اي متمرکز / تمام صفحه است.</value>
+  </data>
+  <data name="ExportLogs.Description" xml:space="preserve">
+    <value>ساختن فايل گزارش.</value>
+  </data>
+  <data name="GifPlayer.Description" xml:space="preserve">
+    <value>انتخاب پخش کننده استفاده شده براي تصوير زمينه گيف.</value>
+  </data>
+  <data name="TipLivelySetupOnClose" xml:space="preserve">
+    <value>براي ادامه مقدمه چینی را کامل کنيد.</value>
+  </data>
+  <data name="LockscreenPicture.Description" xml:space="preserve">
+    <value>Set a picture of animated wallpaper as lockscreen wallpaper.</value>
+  </data>
+  <data name="PauseAlgorithm.Description" xml:space="preserve">
+    <value>پس زمینه: سبک ، فقط فرایند واحدی را که در پس زمینه است بررسی می کند تا رفتار پخش تصویر زمینه را تعیین کند.
+همه ي پردازش ها: سنگین تر ، برای تعیین رفتار پخش ، تمام پردازش را اسکن می کند.</value>
+  </data>
+  <data name="PowerSavingModePower.Description" xml:space="preserve">
+    <value>هنگامی که حالت ذخیره انرژی ویندوز فعال است، پخش را تغییر بده</value>
+  </data>
+  <data name="RemoteDesktopPower.Description" xml:space="preserve">
+    <value>هنگام اجرای یک جلسه دسکتاپ از راه دور، پخش را تغییر بده</value>
+  </data>
+  <data name="TipScreensaver" xml:space="preserve">
+    <value>After the selected inactivity period use the current wallpaper as your screensaver.</value>
+  </data>
+  <data name="StreamWallpaperDetect.Description" xml:space="preserve">
+    <value>در صورت شناسایی لينک ویدیوی پشتیبانی شده، به جای بارگیری صفحه وب، از پخش کننده ویدیو استفاده کند.</value>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Description" xml:space="preserve">
+    <value>کيفيت مورد نظر براي پخش آنلاين ويديو را انتخاب کنيد.</value>
+  </data>
+  <data name="TipSwitchSoftwareBranch" xml:space="preserve">
+    <value>Change software release from beta to stable or vice versa.</value>
+  </data>
+  <data name="TaskbarTheme.Description" xml:space="preserve">
+    <value>Change system taskbar appearance.</value>
+  </data>
+  <data name="TipTileSize" xml:space="preserve">
+    <value>اندازه کاشي هاي پس زمینه در کتابخانه.</value>
+  </data>
+  <data name="TipUIMode" xml:space="preserve">
+    <value>براي سيستم هاي ضعيف حالت سبک را انتخاب کنيد.</value>
+  </data>
+  <data name="VideoHardwareDecode.Description" xml:space="preserve">
+    <value>در صورت امکان از شتاب سخت افزاری استفاده کند.</value>
+  </data>
+  <data name="VideoPlayer.Description" xml:space="preserve">
+    <value>پخش کننده ويديو استفاده شده براي پيش زمينه ويديويي راانتخاب کنيد.</value>
+  </data>
+  <data name="WallpaperDir.Description" xml:space="preserve">
+    <value>مسير انتخاب شده براي ذخيره فايل هاي پيش زمينه.</value>
+  </data>
+  <data name="WallpaperFit.Description" xml:space="preserve">
+    <value>الگوريتم افزايش مقياس پس زمينه.</value>
+  </data>
+  <data name="WallpaperInput.Description" xml:space="preserve">
+    <value>روش هاي انجام عمل روي پس زمينه را انتخاب کنيد.</value>
+  </data>
+  <data name="WallpaperLayout.Description" xml:space="preserve">
+    <value>چگونه پس زمينه بر مانيتور هاي متصل نمايش داده ميشود.</value>
+  </data>
+  <data name="TipWallpaperPlayback" xml:space="preserve">
+    <value>در صورت از دست رفتن تمرکز از دسکتاپ پخش پس زمينه را متوقف کند.</value>
+  </data>
+  <data name="WebBrowserDiskCache.Description" xml:space="preserve">
+    <value>فايل هاي موقت را به جاي دخيره روي رم، روي حافظه اصلي ذخيره کند. زمانيکه مرورگر دوباره اجرا ميشود تنظيمات بر ميگردد.</value>
+  </data>
+  <data name="WebBrowser.Description" xml:space="preserve">
+    <value>CEF(Chromium Embedded Framework) is a lightweight chromium engine.
+Edge is the built in webview of windows 10.</value>
+  </data>
+  <data name="About.Label" xml:space="preserve">
+    <value>درباره برنامه</value>
+  </data>
+  <data name="AddWallpaper.Label" xml:space="preserve">
+    <value>اضافه کردن پس زمینه</value>
+  </data>
+  <data name="AppFocus.Header" xml:space="preserve">
+    <value>برنامه های تحت تمرکز</value>
+  </data>
+  <data name="AppFullScreen.Header" xml:space="preserve">
+    <value>برنامه های تمام صفحه</value>
+  </data>
+  <data name="TitleAppName" xml:space="preserve">
+    <value>پس زمینه لایولی</value>
+  </data>
+  <data name="AppRules.Header" xml:space="preserve">
+    <value>قوانین برنامه ها</value>
+  </data>
+  <data name="AppTheme.Header" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="TitleAudioPlayOnScreen" xml:space="preserve">
+    <value>پخش صدا روی صفحه</value>
+  </data>
+  <data name="BatteryPower.Header" xml:space="preserve">
+    <value>وقتی که دخیره باطری فعال است</value>
+  </data>
+  <data name="TitleBrowseFile" xml:space="preserve">
+    <value>مرور فايل ها براي پيدا کردن ويديو، گيف، صفحه وب و... براي تنظيم به عنوان پس زمينه</value>
+  </data>
+  <data name="BrowserDebuggingPort.Header" xml:space="preserve">
+    <value>درگاه اشکال زدایی</value>
+  </data>
+  <data name="TitleChangelog" xml:space="preserve">
+    <value>تغییرات</value>
+  </data>
+  <data name="Community.Header" xml:space="preserve">
+    <value>انجمن</value>
+  </data>
+  <data name="Debug.Header" xml:space="preserve">
+    <value>اشکال زدایی</value>
+  </data>
+  <data name="TitleDeleteConfirmation" xml:space="preserve">
+    <value>تایید حذف</value>
+  </data>
+  <data name="DesktopPicture.Header" xml:space="preserve">
+    <value>Desktop Picture</value>
+  </data>
+  <data name="DisplayPauseRule.Header" xml:space="preserve">
+    <value>نشان دادن قوانين مکث کردن</value>
+  </data>
+  <data name="Documentation.Header" xml:space="preserve">
+    <value>مدارک (اطلاعات بيشتر)</value>
+  </data>
+  <data name="EnterUrl.Header" xml:space="preserve">
+    <value>لینک را وارد کنید</value>
+  </data>
+  <data name="ExportLogs.Header" xml:space="preserve">
+    <value>فایل گذارش</value>
+  </data>
+  <data name="TitleGeneral" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="GifPlayer.Header" xml:space="preserve">
+    <value>پخش کننده گیف</value>
+  </data>
+  <data name="Help.Label" xml:space="preserve">
+    <value>کمک</value>
+  </data>
+  <data name="TitleInteraction" xml:space="preserve">
+    <value>اثر متقابل</value>
+  </data>
+  <data name="TitleLibrary" xml:space="preserve">
+    <value>کتابخانه</value>
+  </data>
+  <data name="TitleLivelySetup" xml:space="preserve">
+    <value>تنظیم لایولی</value>
+  </data>
+  <data name="TitleLocation" xml:space="preserve">
+    <value>مکان</value>
+  </data>
+  <data name="LockscreenPicture.Header" xml:space="preserve">
+    <value>تصویر صفحه قفل</value>
+  </data>
+  <data name="TitleMisc" xml:space="preserve">
+    <value>غیره</value>
+  </data>
+  <data name="TitleMute" xml:space="preserve">
+    <value>صامت کردن</value>
+  </data>
+  <data name="PauseAlgorithm.Header" xml:space="preserve">
+    <value>توقف الگو</value>
+  </data>
+  <data name="TitlePerformance" xml:space="preserve">
+    <value>کارایی</value>
+  </data>
+  <data name="TitlePlaylist" xml:space="preserve">
+    <value>لیست پخش</value>
+  </data>
+  <data name="PleaseWait.Text" xml:space="preserve">
+    <value>لطفا صبر کنید</value>
+  </data>
+  <data name="PowerSavingModePower.Header" xml:space="preserve">
+    <value>وقتی که بهینه‌ساز باتری فعال است</value>
+  </data>
+  <data name="RemoteDesktopPower.Header" xml:space="preserve">
+    <value>وقتی روی دسکتاپ از راه دور هستید</value>
+  </data>
+  <data name="ReportBug.Header" xml:space="preserve">
+    <value>گزارش اشکال</value>
+  </data>
+  <data name="TitleScalingFit" xml:space="preserve">
+    <value>مقیاس/پر کردن</value>
+  </data>
+  <data name="ControlPanel.Title" xml:space="preserve">
+    <value>صفحه کنترل</value>
+  </data>
+  <data name="TitleScreensaver.Content" xml:space="preserve">
+    <value>محافظ صفحه‌نمایش</value>
+  </data>
+  <data name="TitleSelectFile" xml:space="preserve">
+    <value>انتخاب فایل</value>
+  </data>
+  <data name="TitleSettings" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="TitleSkipConfirm" xml:space="preserve">
+    <value>رد شدن از تایید</value>
+  </data>
+  <data name="SourceCode.Header" xml:space="preserve">
+    <value>کد منبع</value>
+  </data>
+  <data name="Store.Header" xml:space="preserve">
+    <value>فروشگاه</value>
+    <comment>For different version of Lively, example: Microsoft Store</comment>
+  </data>
+  <data name="StreamWallpaperVideoQuality.Header" xml:space="preserve">
+    <value>پخش آنلاین</value>
+  </data>
+  <data name="StreamWallpaperDetect.Header" xml:space="preserve">
+    <value>تشخیص پخش های آنلاین</value>
+  </data>
+  <data name="TitleStreamWallpaperVideoQuality" xml:space="preserve">
+    <value>کیفیت ویدیو</value>
+  </data>
+  <data name="System.Text" xml:space="preserve">
+    <value>سیستم</value>
+  </data>
+  <data name="TaskbarTheme.Header" xml:space="preserve">
+    <value>تم نوار وظیفه</value>
+  </data>
+  <data name="TitleTileSize" xml:space="preserve">
+    <value>اندازه کاشی</value>
+  </data>
+  <data name="TitleUIMode" xml:space="preserve">
+    <value>رابط کاربر</value>
+  </data>
+  <data name="TitleUpdates" xml:space="preserve">
+    <value>به‌روزرسانی‌ها</value>
+  </data>
+  <data name="TitleVideo" xml:space="preserve">
+    <value>ویدیو</value>
+  </data>
+  <data name="VideoHardwareDecode.Header" xml:space="preserve">
+    <value>رمزگشایی GPU</value>
+  </data>
+  <data name="TitleWallpaper.Content" xml:space="preserve">
+    <value>پس زمینه</value>
+  </data>
+  <data name="TitleCustomise.Content" xml:space="preserve">
+    <value>سفارشی‌سازی</value>
+  </data>
+  <data name="WallpaperDir.Header" xml:space="preserve">
+    <value>مسیر پس زمینه</value>
+  </data>
+  <data name="WallpaperDirMoveExisting.Content" xml:space="preserve">
+    <value>انتقال پس زمينه هاي موجود به پوشه جديد</value>
+  </data>
+  <data name="WallpaperFit.Header" xml:space="preserve">
+    <value>انتخاب روش پر کردن</value>
+  </data>
+  <data name="WallpaperInput.Header" xml:space="preserve">
+    <value>ورودی پس زمينه</value>
+  </data>
+  <data name="WallpaperLayout.Header" xml:space="preserve">
+    <value>روش قرار دادن</value>
+  </data>
+  <data name="WallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>پخش پس زمینه</value>
+  </data>
+  <data name="TitleWarning" xml:space="preserve">
+    <value>اخطار</value>
+  </data>
+  <data name="WebBrowser.Header" xml:space="preserve">
+    <value>مرورگر وب</value>
+  </data>
+  <data name="WebBrowserDiskCache.Header" xml:space="preserve">
+    <value>حافظه نهان</value>
+  </data>
+  <data name="TitleWebBrowserEngine" xml:space="preserve">
+    <value>موتور</value>
+  </data>
+  <data name="TitleWebpageLoad" xml:space="preserve">
+    <value>بارگیری صفحه وب</value>
+  </data>
+  <data name="FastUI.Description" xml:space="preserve">
+    <value>برای راه‌اندازی سریعتر، رابط کاربری را در حال اجرا نگه دار</value>
+  </data>
+  <data name="FastUI.Header" xml:space="preserve">
+    <value>راه‌اندازی سریع</value>
+  </data>
+  <data name="WallpaperDirGroup.Text" xml:space="preserve">
+    <value>فایل</value>
+  </data>
+  <data name="AppThemeDark.Content" xml:space="preserve">
+    <value>تیره</value>
+  </data>
+  <data name="AppThemeLight.Content" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="AppThemeSystem.Content" xml:space="preserve">
+    <value>سیستم</value>
+  </data>
+  <data name="WindowsSettingsColor.Content" xml:space="preserve">
+    <value>تنظیمات رنگ ویندوز</value>
+  </data>
+  <data name="LaptopWallpaperPlaybackGroup.Text" xml:space="preserve">
+    <value>لپ‌تاپ</value>
+  </data>
+  <data name="DeveloperGroup.Text" xml:space="preserve">
+    <value>توسعه‌دهنده</value>
+  </data>
+  <data name="AppearanceBehaviour.Text" xml:space="preserve">
+    <value>ظاهر و رفتار</value>
+  </data>
+  <data name="ActiveWallpapers.Label" xml:space="preserve">
+    <value>والپیپر های فعال</value>
+  </data>
+  <data name="TitleGallery" xml:space="preserve">
+    <value>گالری</value>
+  </data>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>سلام، من دنی جان هستم که با نام rocksdanister نیز شناخته می شود. من Lively یک برنامه تصویر زمینه رایگان و منبع باز (FOSS) را توسعه دادم. ممنون از اینکه وقت گذاشتید و به کارهای من نگاه کردید.</value>
+  </data>
+  <data name="LicenseLink.Content" xml:space="preserve">
+    <value>گواهی نامه نرم افزار</value>
+  </data>
+  <data name="AttributionLink.Content" xml:space="preserve">
+    <value>اطلاعیه شخص ثالث نرم‌افزار</value>
+  </data>
+  <data name="PrivacyPolicyLink.Content" xml:space="preserve">
+    <value>خط‌مشی جمع‌آوری داده</value>
+  </data>
+  <data name="AddWallpaperDrop.Text" xml:space="preserve">
+    <value>اضافه کردن پس زمینه</value>
+  </data>
+  <data name="ComingSoon.Text" xml:space="preserve">
+    <value>به زودی</value>
+  </data>
+  <data name="AboutMenu.Text" xml:space="preserve">
+    <value>درباره برنامه</value>
+  </data>
+  <data name="SourceWebsite.Text" xml:space="preserve">
+    <value>وبسایت</value>
+  </data>
+  <data name="TextOpen.Content" xml:space="preserve">
+    <value>باز کردن</value>
+  </data>
+  <data name="TextSave.Content" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="UIMode.Description" xml:space="preserve">
+    <value>جلوه ظاهری رابط کاربری و انیمیشن ها</value>
+  </data>
+  <data name="UIMode.Header" xml:space="preserve">
+    <value>رابط کاربری</value>
+  </data>
+  <data name="UIModeLite.Content" xml:space="preserve">
+    <value>سبک</value>
+  </data>
+  <data name="UIModeNormal.Content" xml:space="preserve">
+    <value>عادی</value>
+  </data>
+  <data name="Screensaver.Description" xml:space="preserve">
+    <value>نحوه اعمال محافظ صفحه برای اتصال به دستگاه های نمایشگر</value>
+  </data>
+  <data name="Screensaver.Header" xml:space="preserve">
+    <value>نوع محافظ صفحه‌نمایش</value>
+  </data>
+  <data name="ScreensaverModeDifferentWallpaper.Text" xml:space="preserve">
+    <value>سفارشی</value>
+  </data>
+  <data name="ScreensaverModeSameWallpaper.Text" xml:space="preserve">
+    <value>کاغذ دیواری آینه</value>
+  </data>
+  <data name="ScreensaverPlugin.Title" xml:space="preserve">
+    <value>پلاگین لازم است</value>
+  </data>
+  <data name="ScreensaverPluginMessage.Text" xml:space="preserve">
+    <value>برای اجرای محافظ صفحه‌نمایش یک بار راه‌اندازی لازم است</value>
+  </data>
+  <data name="WallpaperLayoutScreenPicker.Content" xml:space="preserve">
+    <value>هنگام انتخاب تصویر زمینه، همیشه صفحه‌نمایش را انتخاب کن</value>
+  </data>
+  <data name="GalleryAccount.Text" xml:space="preserve">
+    <value>حساب کاربری</value>
+  </data>
+  <data name="GalleryAccountDelete.Content" xml:space="preserve">
+    <value>حذف حساب</value>
+  </data>
+  <data name="GalleryAccountExport.Content" xml:space="preserve">
+    <value>استخراج داده</value>
+  </data>
+  <data name="GalleryAccountLogin.Content" xml:space="preserve">
+    <value>ورود به حساب</value>
+  </data>
+  <data name="GalleryAccountLogout.Content" xml:space="preserve">
+    <value>خروج از حساب</value>
+  </data>
+  <data name="GalleryPageCollection.Content" xml:space="preserve">
+    <value>مجموعه</value>
+  </data>
+  <data name="GalleryPageHome.Content" xml:space="preserve">
+    <value>خانه</value>
+  </data>
+  <data name="GalleryPageManage.Content" xml:space="preserve">
+    <value>مدیریت</value>
+  </data>
+  <data name="GalleryPageProfile.Content" xml:space="preserve">
+    <value>پروفایل</value>
+  </data>
+  <data name="GalleryPleaseLogin.Text" xml:space="preserve">
+    <value>لطفا برای ادامه وارد سیستم شوید</value>
+  </data>
+  <data name="GalleryWelcomeMessage.Text" xml:space="preserve">
+    <value>سلام</value>
+  </data>
+  <data name="RestoreWallpaper.Text" xml:space="preserve">
+    <value>ما این تصویر زمینه ها را از حساب شما پیدا کردیم</value>
+  </data>
+  <data name="TextDownloadNow.Content" xml:space="preserve">
+    <value>هم اکنون دانلود کنید</value>
+  </data>
+  <data name="TextMaybeLater.Content" xml:space="preserve">
+    <value>شاید بعدا</value>
+  </data>
+  <data name="TextSelectAll.Content" xml:space="preserve">
+    <value>انتخاب همه</value>
+  </data>
+  <data name="TextSelectNone.Content" xml:space="preserve">
+    <value>انتخاب هیچ‌کدام</value>
+  </data>
+  <data name="TitleWelcomeback.Text" xml:space="preserve">
+    <value>خوش آمدید!</value>
+  </data>
+  <data name="ReportWallpaper.Header" xml:space="preserve">
+    <value>دلایل</value>
+  </data>
+  <data name="ReportWallpaperCopyright.Content" xml:space="preserve">
+    <value>نقض حق تکثیر</value>
+  </data>
+  <data name="ReportWallpaperMisleading.Content" xml:space="preserve">
+    <value>اطلاعات گمراه کننده</value>
+  </data>
+  <data name="ReportWallpaperOther.Content" xml:space="preserve">
+    <value>دیگر</value>
+  </data>
+  <data name="ReportWallpaperSpam.Content" xml:space="preserve">
+    <value>هرزنامه</value>
+  </data>
+  <data name="ReportWallpaperViolence.Content" xml:space="preserve">
+    <value>برهنگی یا خشونت</value>
+  </data>
+  <data name="TextAdditionalNotes.Text" xml:space="preserve">
+    <value>یادداشت های اضافه</value>
+  </data>
+  <data name="TextReportWallpaper.Text" xml:space="preserve">
+    <value>گزارش</value>
+  </data>
+  <data name="TitleReportWallpaper.Text" xml:space="preserve">
+    <value>گزارش والپیپر</value>
+  </data>
+  <data name="Send.Content" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="GalleryAccountDeleteConfirm.Text" xml:space="preserve">
+    <value>لطفا این عمل رو تایید کنید زیرا امکان برگرداندن آن وجود ندارد</value>
+  </data>
+  <data name="GalleryAccountDeleteFail.Text" xml:space="preserve">
+    <value>حذف حساب کاربری ناموفق بود، لطفا دوباره امتحان کنید</value>
+  </data>
+  <data name="TextConfirmCancel.Text" xml:space="preserve">
+    <value>کنسل میکنید؟</value>
+  </data>
+  <data name="TextWait.Text" xml:space="preserve">
+    <value>صبر کردن</value>
+  </data>
+  <data name="TitleDownloadProgress.Text" xml:space="preserve">
+    <value>دانلود در حال انجام است</value>
+  </data>
+  <data name="TextContributors.Text" xml:space="preserve">
+    <value>مشارکت کنندگان</value>
+  </data>
+  <data name="TextShare.Text" xml:space="preserve">
+    <value>اشتراک‌گذاری</value>
+  </data>
+  <data name="TitleShareWallpaper.Text" xml:space="preserve">
+    <value>به اشتراک گذاری والپیپر</value>
+  </data>
+  <data name="ExportWallpaperGallery.Text" xml:space="preserve">
+    <value>آپلود به گالری</value>
+  </data>
+  <data name="ExportWallpaperLink.Text" xml:space="preserve">
+    <value>کپی کردن لینک</value>
+  </data>
+  <data name="TextCustomiseWallpaper" xml:space="preserve">
+    <value>شخصي سازي کاغذ ديواري</value>
+  </data>
+  <data name="TextCloseWallpapers" xml:space="preserve">
+    <value>بستن کاغذ ديواري ها</value>
+  </data>
+  <data name="TitleChooseApplication.Text" xml:space="preserve">
+    <value>انتخاب برنامه‌</value>
+  </data>
+  <data name="WallpaperInstallSize.Text" xml:space="preserve">
+    <value>اندازه‌</value>
+  </data>
+  <data name="PluginNotFound.Message" xml:space="preserve">
+    <value>لطفا افزونه مورد نیاز را نصب کنید</value>
+  </data>
+  <data name="PluginNotFound.Title" xml:space="preserve">
+    <value>افزونه پیدا نشد</value>
+  </data>
+  <data name="UpdateCompleted.Text" xml:space="preserve">
+    <value>به‌روزرسانی کامل شد</value>
+  </data>
+  <data name="UpdateWhatsNew.Text" xml:space="preserve">
+    <value>بررسی کنید چه چیزی جدید است</value>
+  </data>
+  <data name="AppThemeColor.Header" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="DescriptionDefault.Text" xml:space="preserve">
+    <value>از سیستم پیش‌فرض استفاده کن</value>
+  </data>
+  <data name="DescriptionDynamicTheme.Text" xml:space="preserve">
+    <value>با تصویر زمینه سازگار شو</value>
+  </data>
+  <data name="TextDefault.Text" xml:space="preserve">
+    <value>پیش‌فرض</value>
+  </data>
+  <data name="TextDynamicTheme.Text" xml:space="preserve">
+    <value>پویا</value>
+  </data>
+  <data name="Theme.Label" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="IconsHidden.Message" xml:space="preserve">
+    <value>برای جلوگیری از انتخاب اشتباهی آیکون های دسکتاپ ، آیکون ها پنهان شدند.</value>
+  </data>
+  <data name="IconsHidden.Title" xml:space="preserve">
+    <value>آیکون های دسکتاپ</value>
+  </data>
+  <data name="TextEndOfItems.Text" xml:space="preserve">
+    <value>تموم شد.</value>
+  </data>
+  <data name="DevelopmentOnHold.Message" xml:space="preserve">
+    <value>این قابلیت نگه داشته شده است</value>
+  </data>
+  <data name="WallpaperPluginGroup.Text" xml:space="preserve">
+    <value>پلاگین‌‌ها</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Description" xml:space="preserve">
+    <value>ساخت یک تصویر پس زمینه متحرک</value>
+  </data>
+  <data name="AddWallpaperAdvanced.Header" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="DescriptionDepthApprox.Content" xml:space="preserve">
+    <value>عمق تقریبی..</value>
+  </data>
+  <data name="DescriptionDepthWallpaperItem.Content" xml:space="preserve">
+    <value>با استفاده از هوش مصنوعی عکس ها را 3 بعدی کنید</value>
+  </data>
+  <data name="TextContinue.Content" xml:space="preserve">
+    <value>ادامه</value>
+  </data>
+  <data name="TitleCreateWallpaperOpenItem.Description" xml:space="preserve">
+    <value>ساخت یک تصویر پس زمینه ساده</value>
+  </data>
+  <data name="TitleDepthWallpaper.Content" xml:space="preserve">
+    <value>پس زمینه عمق دار با استفاده از هوش مصنوعی</value>
+  </data>
+  <data name="TitleDepthWallpaperItem.Content" xml:space="preserve">
+    <value>تصویر زمینه عمق دار</value>
+  </data>
+  <data name="DescriptionDepthWallpaperTemplate.Content" xml:space="preserve">
+    <value>پس زمینه عمق دار ساخته شده توسط هوش مصنوعی</value>
+  </data>
+  <data name="TitleCreateWallpaper.Content" xml:space="preserve">
+    <value>ساخت پس‌زمینه</value>
+  </data>
+  <data name="RunningAsAdminWarning.Message" xml:space="preserve">
+    <value>برخی از قابلیت ها ممکن است هنگام اجرا به عنوان administrator قابل دسترسی نباشند</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>برای فعال سازی این قابلیت باید ابتدا فایل های آن را دانلود کنید</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>دانلود الزامی است</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>دانلود</value>
+  </data>
+  <data name="TextBecomePatreonMember.Content" xml:space="preserve">
+    <value>یک حامی در Patreon شوید</value>
+  </data>
+  <data name="TextPatreonMembersThankYou.Text" xml:space="preserve">
+    <value>با تشکر از همه اعضایی که از این پروژه حمایت می کنند.</value>
+  </data>
+  <data name="TitlePatreon.Text" xml:space="preserve">
+    <value>حامیان Patreon</value>
+  </data>
+  <data name="SelectScreensaverCustomMode.Text" xml:space="preserve">
+    <value>انتخاب محافظ صفحه نمایش</value>
+  </data>
+  <data name="WebViewRequired.Message" xml:space="preserve">
+    <value>Microsoft WebView2 برای مشاهده این محتوا مورد نیاز است</value>
+  </data>
+  <data name="WebViewRequired.Title" xml:space="preserve">
+    <value>افزونه مورد نیاز است</value>
+  </data>
+  <data name="AppMusicExclusion.Description" xml:space="preserve">
+    <value>انتخاب برنامه ها تا از نمایش جزئیات موسیقی حذف شوند</value>
+  </data>
+  <data name="AppMusicExclusion.Header" xml:space="preserve">
+    <value>استثناء برنامه</value>
+  </data>
+  <data name="RestartCommand.Content" xml:space="preserve">
+    <value>راه اندازی مجدد</value>
+  </data>
+  <data name="WallpaperMusicGroup.Text" xml:space="preserve">
+    <value>موسیقی</value>
+  </data>
+  <data name="WallpaperRestartRequiredNotify.Message" xml:space="preserve">
+    <value>برای اعمال تنظیمات نیاز به راه اندازی مجدد کاغذ دیواری است</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>مشابۀ تظیمات سیستم</value>
+  </data>
+  <data name="InfoSettingsRestartRequest.Message" xml:space="preserve">
+    <value>لطفاً برنامه را مجدداً راه‌ اندازی کنید تا تنظیمات اعمال شوند.</value>
+  </data>
+  <data name="ScreensaverLockOnResume.Header" xml:space="preserve">
+    <value>هنگام ادامه‌دادن، صفحه ورود به سیستم را نمایش بده</value>
+  </data>
+  <data name="ScreensaverFadeIn.Header" xml:space="preserve">
+    <value>Fade to black before start</value>
+  </data>
+  <data name="VideoLetWindowsManageColor.Header" xml:space="preserve">
+    <value>Let Windows manage colors</value>
+  </data>
+  <data name="ScreensaverWindowsSettings.Header" xml:space="preserve">
+    <value>Windows Settings</value>
+  </data>
+  <data name="DescriptionConfirmProjectDirectory.Text" xml:space="preserve">
+    <value>Confirm project structure?</value>
+  </data>
+</root>
