@@ -132,6 +132,4 @@ Financially support Lively by become a patreon member and get your name listed i
 
 Star this repository, leave a Microsoft store review or tell your friend.. any help is welcome :)
 
-## License
 
-Lively is licensed under [GPL-v3.](https://github.com/rocksdanister/lively/blob/core-separation/LICENSE)
